@@ -399,7 +399,7 @@ template {
    Base styles: opinionated defaults
    ========================================================================== */
 html {
-  color: #222;
+  color: #222 !important;
   font-size: 1em;
   line-height: 1.4;
   font-family: 'Arimo', sans-serif; }
@@ -641,8 +641,8 @@ textarea {
 .hamburger.is-active .hamburger-inner,
 .hamburger.is-active .hamburger-inner::before,
 .hamburger.is-active .hamburger-inner::after {
-  /* background-color: #000;*/
-  background-color: #FFFFFF; }
+  background-color: #000;
+  /* background-color: #FFFFFF; */ }
 
 .hamburger-box {
   width: 40px;
@@ -658,8 +658,8 @@ textarea {
 .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
   width: 35px;
   height: 2px;
-  background-color: #FFFFFF;
-  /* background-color: #000; */
+  /* background-color: #FFFFFF; */
+  background-color: #000;
   border-radius: 0px;
   position: absolute;
   transition-property: transform;
