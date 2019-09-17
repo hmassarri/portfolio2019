@@ -1,0 +1,163 @@
+$white: #FFFFFF;
+$black: #000000;
+$red: #FF0000;
+$lightgreen: lightgreen;
+$tomato: tomato;
+$blue: deepskyblue;
+
+
+html, body {
+  font-family: 'Roboto', 'Open Sans', 'Darker Grotesque', sans-serif;
+  font-size: 14px;
+  margin: 0;
+
+  //Full height 2 column Layout
+  height: 100%;
+  box-sizing: border-box;
+  background: lighten($black, 90%);
+}
+
+
+.navigation {
+  list-style: none;
+  margin: 0;
+  background: deepskyblue;
+
+  display: flex;
+  flex-flow: row wrap;
+  //Flex-end means to to the end - in this case it is to the right
+  justify-content: flex-end;
+}
+
+.navigation a {
+  text-decoration: none;
+  display: block;
+  padding: 1em;
+  color: white;
+}
+
+.navigation a:hover {
+  background: darken(deepskyblue, 10%);
+}
+
+//ON medium sized screens we are center it by distributing the empty space around items
+@media all and (max-width: 992px) {
+  .navigation {
+    justify-content: space-around;
+  }
+}
+
+//for small screens
+@media all and (max-width: 767px) {
+  .navigation {
+    flex-flow: column wrap;
+    padding: 0;
+  }
+  .navigation a {
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid rgba(255,255,255,0.3);
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+  }
+  navigation li:last-of-type a {
+    border-bottom: none;
+  }
+}
+
+
+//Example Responsive Website Layout - 2 column
+
+* {
+  box-sizing: border-box;
+}
+
+//Column Container
+.row {
+  display: flex;
+  /* flex-wrap: wrap; */
+  align-items: stretch;
+  margin: 0 20px;
+}
+
+.header {
+  padding: 60px;
+  text-align: center;
+  background: $blue;
+  color: $white;
+}
+
+.navbar {
+  display: flex;
+  background: lighten($black, 30%);
+  justify-content: center;
+}
+.navbar a {
+  width: 100%;
+  color: $white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+.navbar a:hover {
+  background: lighten($black, 50%);
+  color: $black;
+}
+
+
+
+//Create two unequal columns that sit next to each other 'Sidebar / Main'
+//sideBar
+.sideBar {
+  flex: 20%;
+  background: $white;
+  padding: 20px;
+  box-shadow: 1px 2px $black 5px;
+  flex-shrink: 0;
+  flex-direction: column;
+  flex-grow: 1;
+  overflow-y: auto;
+}
+
+//Main
+.main {
+  flex: 80%;
+  padding: 20px;
+  height: auto;
+}
+
+//imgplaceholder
+.fake-img {
+  background: darken($blue, 20%);
+  width: 100%;
+  padding: 20px;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: lighten($black, 25%);
+}
+
+//Responsive queries @ 767px
+// WHen the screen is less than 767px wide, make the two columns stack
+@media all and (max-width: 767px) {
+  .row, .navbar {
+    flex-direction: column; //Makes the columns stack
+  }
+}
+
+////Full height 2 column layout with header
+.container-1 {
+  height: 100%;
+  display: box;
+}
+
+.nav-1 {
+  background: $tomato;
+  box-flex: 0;
+}
+
+.main-1 {
+  background: $blue;
+  box-flex: 1;
+}
