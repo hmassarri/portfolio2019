@@ -1,0 +1,312 @@
+html, body {
+  font-family: 'Roboto', 'Open Sans', 'Darker Grotesque', sans-serif;
+  font-size: 14px;
+  margin: 0;
+  height: 100%;
+  box-sizing: border-box;
+  background: #e6e6e6; }
+
+.navigation {
+  list-style: none;
+  margin: 0;
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-end; }
+
+.navigation a {
+  display: block;
+  margin-bottom: 20px;
+  padding: 1em;
+  text-decoration: none;
+  color: #000000;
+  font-size: 1.1rem;
+  background: #e6e6e6; }
+
+.navigation a:hover {
+  background: #0099cc; }
+
+@media all and (max-width: 992px) {
+  .navigation {
+    flex-flow: column wrap;
+    padding: 0;
+    justify-content: space-around; }
+
+  .navigation a {
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
+
+  navigation li:last-of-type a {
+    border-bottom: none; } }
+* {
+  box-sizing: border-box; }
+
+.row {
+  display: flex;
+  /* flex-wrap: wrap; */
+  align-items: stretch;
+  margin: 0 20px; }
+
+.header {
+  padding: 60px;
+  text-align: center;
+  background: deepskyblue;
+  color: #FFFFFF; }
+
+.navbar {
+  display: flex;
+  background: #4d4d4d;
+  justify-content: center; }
+
+.navbar a {
+  width: 100%;
+  color: #FFFFFF;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center; }
+
+.navbar a:hover {
+  background: gray;
+  color: #000000; }
+
+.sideBar {
+  flex: 10%;
+  background: #FFFFFF;
+  padding: 20px;
+  box-shadow: 1px 2px #000000 5px;
+  flex-shrink: 0;
+  flex-direction: column;
+  flex-grow: 1;
+  overflow-y: auto; }
+
+.main {
+  flex: 90%;
+  padding: 20px;
+  height: auto; }
+
+.fake-img {
+  margin: 0 0 20px 0;
+  background: black;
+  width: 100%;
+  padding: 20px; }
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #404040; }
+
+@media all and (max-width: 992px) {
+  .row, .navbar {
+    flex-direction: column; } }
+.container-1 {
+  height: 100%;
+  display: box; }
+
+.nav-1 {
+  background: tomato;
+  box-flex: 0; }
+
+.main-1 {
+  background: deepskyblue;
+  box-flex: 1; }
+
+.card {
+  margin: 40px 0 10px 0;
+  padding: 60px;
+  min-height: 400px; }
+  .card h2 {
+    margin: 0px 0 10px 0;
+    font-size: 2.4rem;
+    font-weight: bold; }
+  .card h4 {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: bold; }
+  .card p {
+    margin: 40px 0 0 0;
+    font-size: 1.2rem;
+    font-weight: bold; }
+
+@media all and (max-width: 992px) {
+  .main {
+    padding: 0; }
+
+  .card {
+    padding: 20px; }
+
+  .row {
+    margin: 0 5px; } }
+.one {
+  background: #90d2ec; }
+  .one h2 {
+    color: #FFFFFF; }
+  .one h4 {
+    color: #1f8dba; }
+  .one p {
+    color: #4f4f4f; }
+
+.two {
+  background: indianred; }
+  .two h2 {
+    color: #FFFFFF; }
+  .two h4 {
+    color: #822828; }
+  .two p {
+    color: #f2d49c; }
+
+.three {
+  background: mediumpurple; }
+  .three p {
+    color: darkslateblue; }
+
+.four {
+  background: #ffc966; }
+
+.five {
+  background: #4d4d4d; }
+
+.six {
+  background: deepskyblue; }
+
+* {
+  box-sizing: border-box; }
+
+@media only screen and (max-width: 600px) {
+  [class*="col-"] {
+    width: 100%; } }
+@media only screen and (orientation: portrait) {
+  body {
+    background-color: lightblue; } }
+@media only screen and (min-width: 600px) {
+  [class*="col-"] {
+    width: 100%; } }
+@media (min-width: 992px) {
+  .col-tablet-1 {
+    width: 8.33%; }
+
+  .col-tablet-2 {
+    width: 16.66%; }
+
+  .col-tablet-3 {
+    width: 25%; }
+
+  .col-tablet-4 {
+    width: 33.33%; }
+
+  .col-tablet-5 {
+    width: 41.66%; }
+
+  .col-tablet-6 {
+    width: 50%; }
+
+  .col-tablet-7 {
+    width: 58.33%; }
+
+  .col-tablet-8 {
+    width: 66.66%; }
+
+  .col-tablet-9 {
+    width: 75%; }
+
+  .col-tablet-10 {
+    width: 83.33%; }
+
+  .col-tablet-11 {
+    width: 91.66%; }
+
+  .col-tablet-12 {
+    width: 100%; } }
+@media (min-width: 1200px) {
+  .col-desktop-1 {
+    width: 8.33%; }
+
+  .col-desktop-2 {
+    width: 16.66%; }
+
+  .col-desktop-3 {
+    width: 25%; }
+
+  .col-desktop-4 {
+    width: 33.33%; }
+
+  .col-desktop-5 {
+    width: 41.66%; }
+
+  .col-desktop-6 {
+    width: 50%; }
+
+  .col-desktop-7 {
+    width: 58.33%; }
+
+  .col-desktop-8 {
+    width: 66.66%; }
+
+  .col-desktop-9 {
+    width: 75%; }
+
+  .col-desktop-10 {
+    width: 83.33%; }
+
+  .col-desktop-11 {
+    width: 91.66%; }
+
+  .col-desktop-12 {
+    width: 100%; } }
+[class*="col-"] {
+  float: left;
+  padding: 15px; }
+
+.row:after {
+  content: "";
+  clear: both;
+  display: table; }
+
+/*
+//All columns float left and have a padding of 15px which will create a 30px gutter for columns 2-11
+$pad: 20px;
+
+.grid {
+  background: $white;
+  margin: 0 0 $pad 0;
+
+  &:after {
+    /* Or extend clearfix
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+/*
+[class*="col-"] {
+  float: left;
+  padding-right: $pad;
+  .grid &:last-of-type {
+    padding-right: 0;
+  }
+}
+
+.grid-pad {
+  padding: $pad 0 $pad $pad;
+  [class*='col-']:last-of-type {
+    padding-right: $pad;
+  }
+}
+
+//Clear the flow or the columns will just nest left out of the flow of the page
+.row:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+@media all and (max-width: 992px) {
+  [class*='col-'] {
+    padding-right: 0;
+  }
+}
+*/
+
+/*# sourceMappingURL=site.css.map */

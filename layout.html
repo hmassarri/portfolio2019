@@ -12,8 +12,7 @@
   <!-- Place favicon.ico in the root directory -->
 
   <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/flexbox.css">
+  <link rel="stylesheet" href="css/site.css">
 
   <meta name="theme-color" content="#fafafa">
 
@@ -29,24 +28,15 @@
   <!-- Start here -->
   <div class="row">
     <div class="sideBar">
-      <h2>About Me</h2>
-      <h5>Photo of someone:</h5>
-      <img src="#" alt="" class="fake-img" style="height: 200px;">
-      <p>Some text that goes here in culpa qui officia deserunt mollit anim...</p>
-      <h3>More Text</h3>
-      <p>Lorem ipsum dolo sit ame.</p>
-      <div class="fake-img" style="height: 100px">Image</div><br />
-      <div class="fake-img" style="height: 100px">Image</div><br />
-      <div class="fake-img" style="height: 100px">Image</div><br />
-      <div class="fake-img" style="height: 100px">Image</div><br />
-      <div class="fake-img" style="height: 100px">Image</div><br />
-      <div class="fake-img" style="height: 100px">Image</div><br />
-      <div class="fake-img" style="height: 100px">Image</div><br />
-      <div class="fake-img" style="height: 100px">Image</div><br />
-      <div class="fake-img" style="height: 100px">Image</div><br />
-      <div class="fake-img" style="height: 100px">Image</div><br />
-      <div class="fake-img" style="height: 100px">Image</div><br />
-      <div class="fake-img" style="height: 100px">Image</div>
+      <div class="fake-img" style="height: 150px;"></div>
+
+      <div class="navigation">
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+      </div>
     </div>
 
     <!--
@@ -63,30 +53,86 @@
       <a href="#">Link</a>
     </div>
   -->
-  
+
     <div class="main">
-      <h2>TITLE HEADING</h2>
-      <h5>Title description, July 24, 2019</h5>
-      <div class="fake-img" style="height: 200px;">Image</div>
-      <p>Some text</p>
-      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-      <br>
-      <h2>TITLE HEADING</h2>
-      <h5>Title description, Sep 2, 2017</h5>
-      <div class="fake-img" style="height:200px;">Image</div>
-      <p>Some text..</p>
-      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+      <div class="row">
+
+        <div class="col-tablet-1 col-desktop-4">
+          <div class="card one">
+            <h2>SUBMISSION FORM</h2>
+            <h4>AUTHOR WEBSITE FOOTER</h4>
+            <p>UI | UX | Web Design | Responsive Web | Feature Research</p>
+          </div>
+          <p>Friend and author requested an email list submission form to be placed on his website where he could attract and manage leads.</p>
+        </div>
+
+        <div class="col-tablet-1 col-desktop-4">
+          <div class="card two">
+            <h2>THEME MANAGER</h2>
+            <h4>FOR COURSE CREATION TOOL</h4>
+            <p>UI | UX | Interface Design | Feature ReDesign | App Workflow</p>
+          </div>
+          <p>Theme manager for course creation tool that lets the users create and style themes for their courses.</p>
+        </div>
+
+        <div class="col-tablet-1 col-desktop-4">
+          <div class="card three">
+            <h2>TITLE HEADING</h2>
+            <h4>Title description, Sep 2, 2017</h4>
+            <p>THIS | THAT | THE OTHER | SOMETHING | THAT THING</p>
+          </div>
+          <p>Some text that will go here to describe what this card is about. Some text that will go here to describe what this card is about.</p>
+        </div>
+
+      </div>
+
+      <div class="row">
+
+        <div class="col-tablet-1 col-desktop-4">
+          <div class="card four">
+            <h2>TITLE HEADING</h2>
+            <h4>Title description, Sep 2, 2017</h4>
+            <p>THIS | THAT | THE OTHER | SOMETHING | THAT THING</p>
+          </div>
+          <p>Some text that will go here to describe what this card is about. Some text that will go here to describe what this card is about.</p>
+        </div>
+
+        <div class="col-tablet-1 col-desktop-4">
+          <div class="card five">
+            <h2>TITLE HEADING</h2>
+            <h4>Title description, Sep 2, 2017</h4>
+            <p>THIS | THAT | THE OTHER | SOMETHING | THAT THING</p>
+          </div>
+          <p>Some text that will go here to describe what this card is about. Some text that will go here to describe what this card is about.</p>
+        </div>
+
+        <div class="col-tablet-1 col-desktop-4">
+          <div class="card six">
+            <h2>TITLE HEADING</h2>
+            <h4>Title description, Sep 2, 2017</h4>
+            <p>THIS | THAT | THE OTHER | SOMETHING | THAT THING</p>
+          </div>
+          <p>Some text that will go here to describe what this card is about. Some text that will go here to describe what this card is about.</p>
+        </div>
+
+      </div>
     </div>
+
+
   </div>
 
+  <!--
   <div class="footer">
     <h2>Footer</h2>
   </div>
+  -->
 
   <!-- JS dependencies -->
   <script src="js/vendor/modernizr-3.7.1.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
+  <script>
+    window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')
+  </script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
 

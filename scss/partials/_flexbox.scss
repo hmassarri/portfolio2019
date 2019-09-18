@@ -1,11 +1,3 @@
-$white: #FFFFFF;
-$black: #000000;
-$red: #FF0000;
-$lightgreen: lightgreen;
-$tomato: tomato;
-$blue: deepskyblue;
-
-
 html, body {
   font-family: 'Roboto', 'Open Sans', 'Darker Grotesque', sans-serif;
   font-size: 14px;
@@ -21,37 +13,33 @@ html, body {
 .navigation {
   list-style: none;
   margin: 0;
-  background: deepskyblue;
-
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: column;
   //Flex-end means to to the end - in this case it is to the right
   justify-content: flex-end;
 }
 
 .navigation a {
-  text-decoration: none;
   display: block;
+  margin-bottom: 20px;
   padding: 1em;
-  color: white;
+  text-decoration: none;
+  color: $black;
+  font-size: 1.1rem;
+  background: lighten($black, 90%);
 }
 
 .navigation a:hover {
   background: darken(deepskyblue, 10%);
 }
 
+//for small screens
 //ON medium sized screens we are center it by distributing the empty space around items
 @media all and (max-width: 992px) {
   .navigation {
-    justify-content: space-around;
-  }
-}
-
-//for small screens
-@media all and (max-width: 767px) {
-  .navigation {
     flex-flow: column wrap;
     padding: 0;
+    justify-content: space-around;
   }
   .navigation a {
     text-align: center;
@@ -82,7 +70,7 @@ html, body {
 .header {
   padding: 60px;
   text-align: center;
-  background: $blue;
+  background: $deepskyblue;
   color: $white;
 }
 
@@ -108,7 +96,7 @@ html, body {
 //Create two unequal columns that sit next to each other 'Sidebar / Main'
 //sideBar
 .sideBar {
-  flex: 20%;
+  flex: 10%;
   background: $white;
   padding: 20px;
   box-shadow: 1px 2px $black 5px;
@@ -117,17 +105,26 @@ html, body {
   flex-grow: 1;
   overflow-y: auto;
 }
+@media all and (max-width: 992px) {
+  .sideBar {
+
+  }
+}
+
+
+
 
 //Main
 .main {
-  flex: 80%;
+  flex: 90%;
   padding: 20px;
   height: auto;
 }
 
 //imgplaceholder
 .fake-img {
-  background: darken($blue, 20%);
+  margin: 0 0 20px 0;
+  background: darken($deepskyblue, 50%);
   width: 100%;
   padding: 20px;
 }
@@ -138,9 +135,9 @@ html, body {
   background: lighten($black, 25%);
 }
 
-//Responsive queries @ 767px
-// WHen the screen is less than 767px wide, make the two columns stack
-@media all and (max-width: 767px) {
+//Responsive queries @ 992px
+// WHen the screen is less than 992px wide, make the two columns stack
+@media all and (max-width: 992px) {
   .row, .navbar {
     flex-direction: column; //Makes the columns stack
   }
@@ -158,6 +155,85 @@ html, body {
 }
 
 .main-1 {
-  background: $blue;
+  background: $deepskyblue;
   box-flex: 1;
+}
+
+
+
+//Cards
+.card {
+  margin: 40px 0 10px 0;
+  padding: 60px;
+  min-height: 400px;
+
+  h2 {
+    margin: 0px 0 10px 0;
+    font-size: 2.4rem;
+    font-weight: bold;
+
+  }
+  h4 {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  p {
+    margin: 40px 0 0 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+}
+
+@media all and (max-width: 992px) {
+  .main {
+    padding: 0;
+  }
+  .card {
+    padding: 20px;
+  }
+  .row {
+    margin: 0 5px;
+  }
+
+}
+
+.one {
+  background: lighten($skyblue, 2%);
+  h2 {
+    color: $white;
+  }
+  h4 {
+    color: darken($skyblue, 30%);
+  }
+  p {
+    color: lighten($black, 31%);
+  }
+}
+.two {
+  background: $indianred;
+  h2 {
+    color: $white;
+  }
+  h4 {
+    color: darken($indianred, 25%);
+  }
+  p {
+    color: darken($wheat, 5%);
+  }
+}
+.three {
+  background: $mediumpurple;
+  p {
+    color: $darkslateblue;
+  }
+}
+.four {
+  background: lighten($orange, 20%);
+}
+.five {
+  background: lighten($black, 30%);
+}
+.six {
+  background: $deepskyblue;
 }
