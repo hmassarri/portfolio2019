@@ -14,17 +14,27 @@ html, body {
   justify-content: flex-end; }
 
 .navigation a {
+  position: relative;
   display: block;
   margin-bottom: 20px;
-  padding: 1em;
+  padding: 1rem .5rem;
   text-decoration: none;
   color: #000000;
   font-size: 1.1rem;
   font-weight: 400;
-  background: #e6e6e6; }
-
-.navigation a:hover {
-  background: deepskyblue; }
+  background: #FFFFFF; }
+  .navigation a::after {
+    border-top: 0.1rem solid orange;
+    content: " ";
+    position: absolute;
+    right: 100%;
+    bottom: .1rem;
+    left: 0;
+    transition: right 1s cubic-bezier(0, 0.5, 0, 1); }
+  .navigation a:hover::after {
+    right: 0; }
+  .navigation a:hover {
+    text-decoration: none; }
 
 @media all and (max-width: 992px) {
   .navigation {
@@ -133,75 +143,8 @@ html, body {
   height: 100%;
   display: box; }
 
-.nav-1 {
-  background: tomato;
-  box-flex: 0; }
-
-.main-1 {
-  background: deepskyblue;
-  box-flex: 1; }
-
-.card {
-  margin: 40px 0 10px 0;
-  padding: 60px;
-  min-height: 400px; }
-  .card h2 {
-    margin: 0px 0 30px 0;
-    font-size: 2.4rem;
-    font-weight: 400; }
-  .card h4 {
-    margin: 0 50px 40px 0;
-    font-size: 2rem;
-    font-weight: 400; }
-  .card p {
-    margin: 0;
-    font-size: 1.2rem;
-    font-weight: 700; }
-
-@media all and (max-width: 992px) {
-  .main {
-    padding: 0; }
-
-  .card {
-    padding: 20px;
-    min-height: 250px; }
-    .card h2, .card h4, .card p {
-      margin: 30px 0 0 0;
-      text-align: center; }
-
-  .row {
-    margin: 0 5px; } }
-.one {
-  background: #90d2ec; }
-  .one h2 {
-    color: #FFFFFF; }
-  .one h4 {
-    color: #1f8dba; }
-  .one p {
-    color: #4f4f4f; }
-
-.two {
-  background: indianred; }
-  .two h2 {
-    color: #FFFFFF; }
-  .two h4 {
-    color: #822828; }
-  .two p {
-    color: #f2d49c; }
-
-.three {
-  background: mediumpurple; }
-  .three p {
-    color: darkslateblue; }
-
-.four {
-  background: #ffc966; }
-
-.five {
-  background: #4d4d4d; }
-
-.six {
-  background: deepskyblue; }
+.copyright {
+  padding: 30px 0; }
 
 * {
   box-sizing: border-box; }
@@ -342,5 +285,86 @@ $pad: 20px;
   }
 }
 */
+.card {
+  margin: 40px 0 10px 0;
+  padding: 60px;
+  min-height: 400px; }
+  .card h2 {
+    margin: 0px 0 30px 0;
+    font-size: 2.4rem;
+    font-weight: 400; }
+  .card h4 {
+    margin: 0 50px 40px 0;
+    font-size: 2rem;
+    font-weight: 400; }
+  .card p {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: 700; }
+  .card .card-icon {
+    margin: 50px 0 0 0;
+    float: right;
+    color: #FFFFFF; }
+
+.material-icons.md-18 {
+  font-size: 18px; }
+
+.material-icons.md-24 {
+  font-size: 24px; }
+
+.material-icons.md-36 {
+  font-size: 36px; }
+
+.material-icons.md-48 {
+  font-size: 48px; }
+
+@media all and (max-width: 992px) {
+  .main {
+    padding: 0; }
+
+  .card {
+    padding: 20px;
+    min-height: 250px; }
+    .card h2, .card h4, .card p {
+      margin: 30px 0 0 0;
+      text-align: center; }
+    .card .card-icon {
+      float: none;
+      margin: 40px 0 10px 0;
+      text-align: center; }
+
+  .row {
+    margin: 0 5px; } }
+.one {
+  background: #90d2ec; }
+  .one h2 {
+    color: #FFFFFF; }
+  .one h4 {
+    color: #1f8dba; }
+  .one p {
+    color: #4f4f4f; }
+
+.two {
+  background: indianred; }
+  .two h2 {
+    color: #FFFFFF; }
+  .two h4 {
+    color: #822828; }
+  .two p {
+    color: #f2d49c; }
+
+.three {
+  background: mediumpurple; }
+  .three p {
+    color: darkslateblue; }
+
+.four {
+  background: #ffc966; }
+
+.five {
+  background: #4d4d4d; }
+
+.six {
+  background: deepskyblue; }
 
 /*# sourceMappingURL=site.css.map */
