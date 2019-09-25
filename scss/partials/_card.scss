@@ -1,8 +1,9 @@
 //Cards
 .card {
-  margin: 40px 0 10px 0;
+  margin: 0;
   padding: 60px;
   min-height: 400px;
+  position: relative;
 
   h2 {
     margin: 0px 0 30px 0;
@@ -26,7 +27,14 @@
     float: right;
     color: $white;
   }
+
+  .active {
+    -ms-transform: scale(2, 4);
+    -webkit-transform: scale(2, 4);
+    transform: scale(2, 4);
+  }
 }
+
 
 
 //Material Icons sizing
@@ -97,4 +105,10 @@
 }
 .six {
   background: $deepskyblue;
+}
+
+
+.transition {
+  text-decoration: none;
+  color: $black;
 }

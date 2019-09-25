@@ -7,9 +7,19 @@ html, body {
   height: 100%;
   box-sizing: border-box;
   background: lighten($black, 90%);
+
 }
 
-
+.main-title {
+  color: lighten($black, 40%);
+  margin: 0;
+  padding: 0 140px;
+  text-align: center;
+  h1 {
+    margin: 0 0 20px 0;
+    font-size: 3rem;
+  }
+}
 .navigation {
   list-style: none;
   margin: 0;
@@ -116,10 +126,7 @@ html, body {
   background: $white;
   padding: 20px;
   box-shadow: 0px 1px 8px 0px lighten($black, 55%);
-  flex-shrink: 0;
-  flex-direction: column;
-  flex-grow: 1;
-  overflow-y: auto;
+  overflow: auto;
 
   //imgplaceholder
   .logo {
