@@ -16,7 +16,7 @@
   }
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 600px) {ˇ
   [class*="col-"] {
     width: 100%;
   }
@@ -61,6 +61,11 @@
 [class*="col-"] {
   float: left;
   padding: 15px;
+  background-color: #DDD;
+  /*
+  border-top: 1px solid #0066CC;
+  border-right: 1px solid green;
+  */
 }
 
 //Clear the flow or the columns will just nest left out of the flow of the page
@@ -69,51 +74,3 @@
   clear: both;
   display: table;
 }
-
-
-/*
-//All columns float left and have a padding of 15px which will create a 30px gutter for columns 2-11
-$pad: 20px;
-
-.grid {
-  background: $white;
-  margin: 0 0 $pad 0;
-
-  &:after {
-    /* Or extend clearfix
-    content: "";
-    display: table;
-    clear: both;
-  }
-}
-
-/*
-[class*="col-"] {
-  float: left;
-  padding-right: $pad;
-  .grid &:last-of-type {
-    padding-right: 0;
-  }
-}
-
-.grid-pad {
-  padding: $pad 0 $pad $pad;
-  [class*='col-']:last-of-type {
-    padding-right: $pad;
-  }
-}
-
-//Clear the flow or the columns will just nest left out of the flow of the page
-.row:after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-
-@media all and (max-width: 992px) {
-  [class*='col-'] {
-    padding-right: 0;
-  }
-}
-*/

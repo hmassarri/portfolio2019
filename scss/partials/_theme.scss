@@ -1,0 +1,70 @@
+$primary: rgba(0, 0, 0, 100);
+$text-on-primary: #FF77A9;
+
+$secondary: rgba(0, 0, 0, .05);
+$text-on-secondary: #FFFFFF;
+
+$surface: #FFFFFF;
+$text-on-surface: #000000;
+
+$error: #A61C1C;
+$text-on-error: #FFFFFF;
+
+.text-on-primary {
+  color: $text-on-primary;
+}
+.primary-group {
+  background-color: $primary !important;
+  color: $text-on-primary !important;
+}
+.text-on-secondary {
+  color: $text-on-secondary;
+}
+.secondary-group {
+  background-color: $secondary !important;
+  color: $text-on-secondary !important;
+}
+.text-on-surface {
+  color: $text-on-surface;
+}
+.surface-group {
+  background-color: $surface;
+  color: $text-on-surface;
+}
+
+
+/* =Header
+------------------------------ */
+.mdl-layout__header {
+  background-color: $primary;
+  color: $text-on-primary;
+  box-shadow: none;
+}
+.mdl-button--theme:hover {
+  background-color: lighten($primary, 4%);
+}
+
+
+/* =Grid
+------------------------------ */
+.mdl-cell {
+  background-color: $surface;
+  color: $primary;
+}
+
+
+/* =Drawer
+------------------------------ */
+.mdl-layout__drawer {
+  border-right: 1px solid $text-on-primary;
+}
+.mdl-navigation__link {
+  font-size: 1.2rem;
+}
+.mdl-layout__header .mdl-layout__drawer-button {
+  color: $text-on-primary;
+}
+.mdl-layout__drawer .mdl-navigation .mdl-navigation__link:hover {
+  background-color: lighten($primary, 25%);
+  color: $text-on-primary;
+}
