@@ -1,3 +1,15 @@
+@media only screen and (orientation: portrait) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .mdl-layout__title {
+    font-size: 0px !important;
+
+  }
+}
 @media only screen and (max-width: 1024px) {
   .mdl-card__title-text {
     font-size: 20px;
