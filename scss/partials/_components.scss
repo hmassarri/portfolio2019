@@ -1,9 +1,14 @@
 @import 'theme.scss';
 
 .center {
-  margin: 0 auto;
+  margin: 0 auto !important;
+  text-align: center !important;
 }
 
+.img-responsive {
+  width: 100%;
+  height: auto;
+}
 
 /* =Header
 ------------------------------ */

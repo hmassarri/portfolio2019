@@ -220,6 +220,15 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+@media only screen and (orientation: portrait) {
+  body {
+    background-color: lightblue; } }
+@media only screen and (max-width: 414px) {
+  .header-primary .mdl-layout__title {
+    font-size: 0px; } }
+@media only screen and (max-width: 1024px) {
+  .mdl-card__title-text {
+    font-size: 20px; } }
 * {
   box-sizing: border-box; }
 
@@ -319,19 +328,21 @@ textarea {
   clear: both;
   display: table; }
 
+/* Color Palette
+------------------------------ */
 .text-on-primary {
   color: #FF77A9; }
 
 .primary-group {
-  background-color: black !important;
+  background-color: #000000 !important;
   color: #FF77A9 !important; }
 
 .text-on-secondary {
-  color: #FFFFFF; }
+  color: #000000; }
 
 .secondary-group {
-  background-color: rgba(0, 0, 0, 0.05) !important;
-  color: #FFFFFF !important; }
+  background-color: #bfbfbf !important;
+  color: #000000 !important; }
 
 .text-on-surface {
   color: #000000; }
@@ -340,11 +351,65 @@ textarea {
   background-color: #FFFFFF;
   color: #000000; }
 
+/* Header Styles
+------------------------------ */
+.header-primary .mdl-layout__header {
+  background-color: #000000;
+  color: #FF77A9; }
+.header-primary .mdl-layout__drawer-button {
+  color: #FF77A9; }
+.header-primary .mdl-layout__drawer {
+  background-color: #FF77A9;
+  color: #000000;
+  border-right: 5px solid #000000; }
+.header-primary .mdl-layout__title {
+  color: #FF77A9; }
+.header-primary .mdl-layout__drawer .mdl-navigation .mdl-navigation__link {
+  color: #000000;
+  font-size: 1rem; }
+.header-primary .mdl-layout__drawer .mdl-navigation .mdl-navigation__link:hover {
+  background-color: #000000;
+  color: #FF77A9; }
+
+.header-secondary .mdl-layout__header {
+  background-color: #FF77A9;
+  color: #000000; }
+.header-secondary .mdl-layout__drawer-button {
+  color: #000000; }
+.header-secondary .mdl-layout__drawer {
+  background-color: #000000;
+  color: #FF77A9;
+  border-right: 5px solid #FF77A9; }
+.header-secondary .mdl-layout__title {
+  color: #000000; }
+.header-secondary .mdl-layout__drawer .mdl-navigation .mdl-navigation__link {
+  color: #FF77A9;
+  font-size: 1rem; }
+.header-secondary .mdl-layout__drawer .mdl-navigation .mdl-navigation__link:hover {
+  background-color: #FF77A9;
+  color: #000000; }
+
+.header-tertiary .mdl-layout__header {
+  background-color: #3F51B5;
+  color: #FFEDBA; }
+.header-tertiary .mdl-layout__drawer-button {
+  color: #FFEDBA; }
+.header-tertiary .mdl-layout__drawer {
+  background-color: #FFEDBA;
+  color: #000000;
+  border-right: 5px solid #000000; }
+.header-tertiary .mdl-layout__title {
+  color: #FFEDBA; }
+.header-tertiary .mdl-layout__drawer .mdl-navigation .mdl-navigation__link {
+  color: #000000;
+  font-size: 1rem; }
+.header-tertiary .mdl-layout__drawer .mdl-navigation .mdl-navigation__link:hover {
+  background-color: #3F51B5;
+  color: #FFEDBA; }
+
 /* =Header
 ------------------------------ */
 .mdl-layout__header {
-  background-color: black;
-  color: #FF77A9;
   box-shadow: none; }
 
 .mdl-button--theme:hover {
@@ -354,25 +419,15 @@ textarea {
 ------------------------------ */
 .mdl-cell {
   background-color: #FFFFFF;
-  color: black; }
-
-/* =Drawer
------------------------------- */
-.mdl-layout__drawer {
-  border-right: 1px solid #FF77A9; }
-
-.mdl-navigation__link {
-  font-size: 1.2rem; }
-
-.mdl-layout__header .mdl-layout__drawer-button {
-  color: #FF77A9; }
-
-.mdl-layout__drawer .mdl-navigation .mdl-navigation__link:hover {
-  background-color: #404040;
-  color: #FF77A9; }
+  color: #000000; }
 
 .center {
-  margin: 0 auto; }
+  margin: 0 auto !important;
+  text-align: center !important; }
+
+.img-responsive {
+  width: 100%;
+  height: auto; }
 
 /* =Header
 ------------------------------ */
@@ -384,7 +439,7 @@ textarea {
 .hm-project-card {
   width: 100%;
   height: 420px;
-  background-color: rgba(0, 0, 0, 0.05); }
+  background-color: #bfbfbf; }
   .hm-project-card .mdl-card__title {
     font-size: 20px;
     font-weight: 500;
@@ -415,7 +470,7 @@ textarea {
   .hm-project-card .mdl-card__supporting-text {
     font-size: 14px;
     font-weight: 300;
-    color: black;
+    color: #000000;
     padding: 20px !important; }
   .hm-project-card .mdl-card__image {
     width: 100%;
@@ -426,33 +481,26 @@ textarea {
     left: 16px;
     top: 16px; }
   .hm-project-card .mdl-button {
-    color: black; }
+    color: #000000; }
   .hm-project-card .mdl-button:hover {
     background-color: #404040;
-    color: #FFFFFF; }
+    color: #000000; }
 
-@media only screen and (orientation: portrait) {
-  body {
-    background-color: lightblue; } }
-@media only screen and (max-width: 414px) {
-  .mdl-layout__title {
-    font-size: 0px !important; } }
-@media only screen and (max-width: 1024px) {
-  .mdl-card__title-text {
-    font-size: 20px; } }
+/* Color Palette
+------------------------------ */
 .text-on-primary {
   color: #FF77A9; }
 
 .primary-group {
-  background-color: black !important;
+  background-color: #000000 !important;
   color: #FF77A9 !important; }
 
 .text-on-secondary {
-  color: #FFFFFF; }
+  color: #000000; }
 
 .secondary-group {
-  background-color: rgba(0, 0, 0, 0.05) !important;
-  color: #FFFFFF !important; }
+  background-color: #bfbfbf !important;
+  color: #000000 !important; }
 
 .text-on-surface {
   color: #000000; }
@@ -461,11 +509,65 @@ textarea {
   background-color: #FFFFFF;
   color: #000000; }
 
+/* Header Styles
+------------------------------ */
+.header-primary .mdl-layout__header {
+  background-color: #000000;
+  color: #FF77A9; }
+.header-primary .mdl-layout__drawer-button {
+  color: #FF77A9; }
+.header-primary .mdl-layout__drawer {
+  background-color: #FF77A9;
+  color: #000000;
+  border-right: 5px solid #000000; }
+.header-primary .mdl-layout__title {
+  color: #FF77A9; }
+.header-primary .mdl-layout__drawer .mdl-navigation .mdl-navigation__link {
+  color: #000000;
+  font-size: 1rem; }
+.header-primary .mdl-layout__drawer .mdl-navigation .mdl-navigation__link:hover {
+  background-color: #000000;
+  color: #FF77A9; }
+
+.header-secondary .mdl-layout__header {
+  background-color: #FF77A9;
+  color: #000000; }
+.header-secondary .mdl-layout__drawer-button {
+  color: #000000; }
+.header-secondary .mdl-layout__drawer {
+  background-color: #000000;
+  color: #FF77A9;
+  border-right: 5px solid #FF77A9; }
+.header-secondary .mdl-layout__title {
+  color: #000000; }
+.header-secondary .mdl-layout__drawer .mdl-navigation .mdl-navigation__link {
+  color: #FF77A9;
+  font-size: 1rem; }
+.header-secondary .mdl-layout__drawer .mdl-navigation .mdl-navigation__link:hover {
+  background-color: #FF77A9;
+  color: #000000; }
+
+.header-tertiary .mdl-layout__header {
+  background-color: #3F51B5;
+  color: #FFEDBA; }
+.header-tertiary .mdl-layout__drawer-button {
+  color: #FFEDBA; }
+.header-tertiary .mdl-layout__drawer {
+  background-color: #FFEDBA;
+  color: #000000;
+  border-right: 5px solid #000000; }
+.header-tertiary .mdl-layout__title {
+  color: #FFEDBA; }
+.header-tertiary .mdl-layout__drawer .mdl-navigation .mdl-navigation__link {
+  color: #000000;
+  font-size: 1rem; }
+.header-tertiary .mdl-layout__drawer .mdl-navigation .mdl-navigation__link:hover {
+  background-color: #3F51B5;
+  color: #FFEDBA; }
+
 /* =Header
 ------------------------------ */
 .mdl-layout__header {
-  background-color: black;
-  color: #FF77A9;
   box-shadow: none; }
 
 .mdl-button--theme:hover {
@@ -475,21 +577,6 @@ textarea {
 ------------------------------ */
 .mdl-cell {
   background-color: #FFFFFF;
-  color: black; }
-
-/* =Drawer
------------------------------- */
-.mdl-layout__drawer {
-  border-right: 1px solid #FF77A9; }
-
-.mdl-navigation__link {
-  font-size: 1.2rem; }
-
-.mdl-layout__header .mdl-layout__drawer-button {
-  color: #FF77A9; }
-
-.mdl-layout__drawer .mdl-navigation .mdl-navigation__link:hover {
-  background-color: #404040;
-  color: #FF77A9; }
+  color: #000000; }
 
 /*# sourceMappingURL=main.css.map */

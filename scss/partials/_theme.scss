@@ -1,14 +1,24 @@
-$primary: rgba(0, 0, 0, 100);
-$text-on-primary: #FF77A9;
+/* Color Palette
+------------------------------ */
+$buttercream: #FFEDBA;
+$blue-purple: #3F51B5;
+$white: #FFFFFF;
+$black: #000000;
+$pink: #FF77A9;
+$red: #A61C1C;
 
-$secondary: rgba(0, 0, 0, .05);
-$text-on-secondary: #FFFFFF;
 
-$surface: #FFFFFF;
-$text-on-surface: #000000;
+$primary: $black;
+$text-on-primary: $pink;
 
-$error: #A61C1C;
-$text-on-error: #FFFFFF;
+$secondary: lighten($black, 75%);
+$text-on-secondary: $black;
+
+$surface: $white;
+$text-on-surface: $black;
+
+$error: $red;
+$text-on-error: $white;
 
 .text-on-primary {
   color: $text-on-primary;
@@ -33,11 +43,96 @@ $text-on-error: #FFFFFF;
 }
 
 
+
+/* Header Styles
+------------------------------ */
+.header-primary {
+
+  .mdl-layout__header {
+  background-color: $primary;
+  color: $text-on-primary;
+  }
+  .mdl-layout__drawer-button {
+    color: $text-on-primary;
+  }
+  .mdl-layout__drawer {
+    background-color: $text-on-primary;
+    color: $primary;
+    border-right: 5px solid $primary;
+  }
+  .mdl-layout__title {
+    color: $text-on-primary;
+  }
+  .mdl-layout__drawer .mdl-navigation .mdl-navigation__link {
+    color: $primary;
+    font-size: 1rem;
+  }
+  .mdl-layout__drawer .mdl-navigation .mdl-navigation__link:hover {
+    background-color: $primary;
+    color: $text-on-primary;
+  }
+}
+
+.header-secondary {
+
+  .mdl-layout__header {
+  background-color: $text-on-primary;
+  color: $primary;
+  }
+  .mdl-layout__drawer-button {
+    color: $primary;
+  }
+  .mdl-layout__drawer {
+    background-color: $primary;
+    color: $text-on-primary;
+    border-right: 5px solid $text-on-primary;
+  }
+  .mdl-layout__title {
+    color: $primary;
+  }
+  .mdl-layout__drawer .mdl-navigation .mdl-navigation__link {
+    color: $text-on-primary;
+    font-size: 1rem;
+  }
+  .mdl-layout__drawer .mdl-navigation .mdl-navigation__link:hover {
+    background-color: $text-on-primary;
+    color: $primary;
+  }
+
+}
+
+.header-tertiary {
+
+  .mdl-layout__header {
+  background-color: $blue-purple;
+  color: $buttercream;
+  }
+  .mdl-layout__drawer-button {
+    color: $buttercream;
+  }
+  .mdl-layout__drawer {
+    background-color: $buttercream;
+    color: $primary;
+    border-right: 5px solid $primary;
+  }
+  .mdl-layout__title {
+    color: $buttercream;
+  }
+  .mdl-layout__drawer .mdl-navigation .mdl-navigation__link {
+    color: $primary;
+    font-size: 1rem;
+  }
+  .mdl-layout__drawer .mdl-navigation .mdl-navigation__link:hover {
+    background-color: $blue-purple;
+    color: $buttercream;
+  }
+
+}
+
+
 /* =Header
 ------------------------------ */
 .mdl-layout__header {
-  background-color: $primary;
-  color: $text-on-primary;
   box-shadow: none;
 }
 .mdl-button--theme:hover {
@@ -50,21 +145,4 @@ $text-on-error: #FFFFFF;
 .mdl-cell {
   background-color: $surface;
   color: $primary;
-}
-
-
-/* =Drawer
------------------------------- */
-.mdl-layout__drawer {
-  border-right: 1px solid $text-on-primary;
-}
-.mdl-navigation__link {
-  font-size: 1.2rem;
-}
-.mdl-layout__header .mdl-layout__drawer-button {
-  color: $text-on-primary;
-}
-.mdl-layout__drawer .mdl-navigation .mdl-navigation__link:hover {
-  background-color: lighten($primary, 25%);
-  color: $text-on-primary;
 }

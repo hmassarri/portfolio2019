@@ -5,9 +5,8 @@
 }
 
 @media only screen and (max-width: 414px) {
-  .mdl-layout__title {
-    font-size: 0px !important;
-
+  .header-primary .mdl-layout__title {
+    font-size: 0px;
   }
 }
 @media only screen and (max-width: 1024px) {
