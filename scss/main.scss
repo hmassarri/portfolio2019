@@ -261,6 +261,7 @@ textarea {
    Author's custom styles
    ========================================================================== */
   @import 'partials/mediaqueries.scss';
-  @import 'partials/grid.scss';
+  /* @import 'partials/grid.scss'; */
   @import 'partials/components.scss';
+  @import 'partials/utilities.scss';
   @import 'partials/theme.scss';

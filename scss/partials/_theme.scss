@@ -6,6 +6,7 @@ $white: #FFFFFF;
 $black: #000000;
 $pink: #FF77A9;
 $red: #A61C1C;
+$teal: lighten(#00BCD4, 20%);
 
 
 $primary: $black;
@@ -44,10 +45,31 @@ $text-on-error: $white;
 
 
 
-/* Header Styles
+/* =Header
 ------------------------------ */
-.header-primary {
+.mdl-layout__header {
+  box-shadow: none;
+}
+.mdl-button--theme:hover {
+  background-color: lighten($primary, 4%);
+}
 
+
+/* Theme-Styles
+------------------------------ */
+.theme-primary {
+
+  body {
+    background-color: lighten($black, 0%);
+  }
+
+  h2 {
+    font-weight: 100;
+  }
+
+  .mdl-grid {
+    background-color: lighten($black, 60%);
+  }
   .mdl-layout__header {
   background-color: $primary;
   color: $text-on-primary;
@@ -56,12 +78,21 @@ $text-on-error: $white;
     color: $text-on-primary;
   }
   .mdl-layout__drawer {
-    background-color: $text-on-primary;
-    color: $primary;
+    background-color: lighten($text-on-primary, 8%);
+    color: lighten($primary, 20%);
     border-right: 5px solid $primary;
-  }
-  .mdl-layout__drawer .lastname {
-    color: $white;
+    font-weight: 100;
+
+    .lastname {
+      color: $white;
+      font-weight: 100;
+    }
+
+    .mdl-layout-title {
+      background: url("../img/logo-primary.png") no-repeat;
+      width: 50%;
+      height: 100px;
+    }
   }
   .mdl-layout__title {
     color: $text-on-primary;
@@ -72,18 +103,67 @@ $text-on-error: $white;
   .mdl-layout__title .lastname {
     color: $white;
   }
+  .mdl-layout__subtitle {
+    text-align: right;
+  }
   .mdl-layout__drawer .mdl-navigation .mdl-navigation__link {
     color: $primary;
     font-size: 1rem;
   }
   .mdl-layout__drawer .mdl-navigation .mdl-navigation__link:hover {
     background-color: $primary;
-    color: $text-on-primary;
+    color: $white;
   }
-}
 
-.header-secondary {
 
+  /* Card Theme Styles
+  ------------------------------ */
+  .card-teal {
+
+      background-color: $teal;
+
+      .mdl-card {
+        background: $teal !important;
+      }
+
+      .mdl-card__title-text {
+        color: $white;
+        font-size: 30px;
+        font-weight: 900;
+        margin: 0;
+      }
+
+      .mdl-card__subtitle {
+        font-size: 14px;
+        font-weight: 300;
+      }
+
+      .mdl-card__supporting-text {
+        font-size: 14px;
+        font-weight: 300;
+        color: $primary;
+      }
+
+      .mdl-card__image {
+        background: url('../img/welcome_card.jpg') center / cover;
+      }
+
+      .mdl-button {
+        color: inherit;
+      }
+
+      .mdl-button:hover {
+        background-color: inherit;
+        color: inherit;
+      }
+    }
+  }
+
+.theme-secondary {
+
+  h2 {
+    font-weight: 100;
+  }
   .mdl-layout__header {
   background-color: $text-on-primary;
   color: $primary;
@@ -105,6 +185,9 @@ $text-on-error: $white;
     width: 50%;
     height: 100px;
   }
+  .mdl-layout__subtitle {
+    text-align: right;
+  }
   .mdl-layout__drawer .mdl-navigation .mdl-navigation__link {
     color: $text-on-primary;
     font-size: 1rem;
@@ -116,8 +199,11 @@ $text-on-error: $white;
 
 }
 
-.header-tertiary {
+.theme-tertiary {
 
+  h2 {
+    font-weight: 100;
+  }
   .mdl-layout__header {
   background-color: $blue-purple;
   color: $white;
@@ -126,9 +212,9 @@ $text-on-error: $white;
     color: $white;
   }
   .mdl-layout__drawer {
-    background-color: $white;
+    background-color: $buttercream;
     color: $primary;
-    border-right: 5px solid $primary;
+    border-right: 5px solid $blue-purple;
   }
   .mdl-layout__drawer .lastname {
     color: $text-on-primary;
@@ -140,6 +226,10 @@ $text-on-error: $white;
     width: 50%;
     height: 100px;
   }
+  .mdl-layout__subtitle {
+    text-align: right;
+    color: $buttercream;
+  }
   .mdl-layout__drawer .mdl-navigation .mdl-navigation__link {
     color: $primary;
     font-size: 1rem;
@@ -149,22 +239,4 @@ $text-on-error: $white;
     color: $white;
   }
 
-}
-
-
-/* =Header
------------------------------- */
-.mdl-layout__header {
-  box-shadow: none;
-}
-.mdl-button--theme:hover {
-  background-color: lighten($primary, 4%);
-}
-
-
-/* =Grid
------------------------------- */
-.mdl-cell {
-  background-color: $surface;
-  color: $primary;
 }
