@@ -224,8 +224,11 @@ textarea {
   body {
     background-color: lightblue; } }
 @media only screen and (max-width: 414px) {
-  .header-primary .mdl-layout__title {
-    font-size: 0px; } }
+  .header-primary .mdl-layout__title, .header-secondary .mdl-layout__title, .header-tertiary .mdl-layout__title {
+    font-size: 0px; }
+
+  .header-primary h2, .header-secondary h2, .header-tertiary h2 {
+    font-size: 26px; } }
 @media only screen and (max-width: 1024px) {
   .mdl-card__title-text {
     font-size: 20px; } }
