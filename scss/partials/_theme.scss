@@ -1,13 +1,16 @@
 /* Color Palette
 ------------------------------ */
 $buttercream: #FFEDBA;
+$blue: #0091FF;
 $blue-purple: #3F51B5;
-$white: #FFFFFF;
-$black: #000000;
+$purple: darken(#6236FF, 3%);
+$teal: lighten(#00BCD4, 3%);
+
 $pink: #FF77A9;
 $red: #A61C1C;
-$teal: lighten(#00BCD4, 20%);
 
+$white: #FFFFFF;
+$black: #000000;
 
 $primary: $black;
 $text-on-primary: $pink;
@@ -59,8 +62,8 @@ $text-on-error: $white;
 ------------------------------ */
 .theme-primary {
 
-  body {
-    background-color: lighten($black, 0%);
+  html, body {
+    background: $pink !important;
   }
 
   h2 {
@@ -95,8 +98,8 @@ $text-on-error: $white;
     }
   }
   .mdl-layout__title {
-    color: $text-on-primary;
     background: url("../img/logo-primary.png") no-repeat;
+    color: $text-on-primary;
     width: 50%;
     height: 100px;
   }
@@ -114,50 +117,10 @@ $text-on-error: $white;
     background-color: $primary;
     color: $white;
   }
-
-
   /* Card Theme Styles
   ------------------------------ */
-  .card-teal {
-
-      background-color: $teal;
-
-      .mdl-card {
-        background: $teal !important;
-      }
-
-      .mdl-card__title-text {
-        color: $white;
-        font-size: 30px;
-        font-weight: 900;
-        margin: 0;
-      }
-
-      .mdl-card__subtitle {
-        font-size: 14px;
-        font-weight: 300;
-      }
-
-      .mdl-card__supporting-text {
-        font-size: 14px;
-        font-weight: 300;
-        color: $primary;
-      }
-
-      .mdl-card__image {
-        background: url('../img/welcome_card.jpg') center / cover;
-      }
-
-      .mdl-button {
-        color: inherit;
-      }
-
-      .mdl-button:hover {
-        background-color: inherit;
-        color: inherit;
-      }
-    }
-  }
+  @import "card_theme.scss";
+}
 
 .theme-secondary {
 
@@ -196,7 +159,9 @@ $text-on-error: $white;
     background-color: $text-on-primary;
     color: $primary;
   }
-
+  /* Card Theme Styles
+  ------------------------------ */
+  @import "card_theme.scss";
 }
 
 .theme-tertiary {
@@ -238,5 +203,7 @@ $text-on-error: $white;
     background-color: $blue-purple;
     color: $white;
   }
-
+  /* Card Theme Styles
+  ------------------------------ */
+  @import "card_theme.scss";
 }

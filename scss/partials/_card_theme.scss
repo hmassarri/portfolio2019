@@ -1,0 +1,236 @@
+.card-teal {
+  background-color: $teal;
+  .mdl-card {
+    background: $teal !important;
+  }
+  .mdl-card__menu .material-icons {
+    color: $pink;
+    font-size: 25px;
+  }
+  .mdl-button {
+    color: $black;
+    background-color: lighten($teal, 11%);
+    font-weight: 500;
+  }
+  .mdl-card__title-text {
+    color: $black;
+    font-size: 30px;
+    font-weight: 300;
+    margin: 0;
+  }
+  .mdl-card__subtitle p {
+    color: $black;
+    font-size: 14px;
+    font-weight: 900;
+  }
+  .mdl-card__supporting-text {
+    font-size: 14px;
+    font-weight: 300;
+    color: $primary;
+  }
+  .mdl-card__image {
+    background: url('../img/welcome_card.jpg') center / cover;
+  }
+  .mdl-button:hover {
+    background-color: darken($teal, 20%);
+    color: $black;
+  }
+}
+
+.card-pink {
+  background-color: $pink;
+  .mdl-card {
+    background: $pink !important;
+  }
+  .mdl-card__menu .material-icons {
+    color: $teal;
+    font-size: 25px;
+  }
+  .mdl-button {
+    color: $black;
+    background-color: lighten($pink, 8%);
+    font-weight: 500;
+  }
+  .mdl-card__title-text {
+    color: $black;
+    font-size: 30px;
+    font-weight: 300;
+    margin: 0;
+  }
+  .mdl-card__subtitle p {
+    color: $black;
+    font-size: 14px;
+    font-weight: 900;
+  }
+  .mdl-card__supporting-text {
+    font-size: 14px;
+    font-weight: 300;
+    color: $primary;
+  }
+  .mdl-card__image {
+    background: url('../img/welcome_card.jpg') center / cover;
+  }
+  .mdl-button:hover {
+    background-color: lighten($pink, 20%);
+    color: inherit;
+  }
+}
+
+.card-purple {
+  background-color: $purple;
+  .mdl-card {
+    background: $purple !important;
+  }
+  .mdl-card__menu .material-icons {
+    color: $white;
+    font-size: 25px;
+  }
+  .mdl-button {
+    color: $white;
+    background-color: lighten($purple, 8%);
+    font-weight: 500;
+  }
+  .mdl-card__title-text {
+    color: $white;
+    font-size: 30px;
+    font-weight: 300;
+    margin: 0;
+  }
+  .mdl-card__subtitle p {
+    color: $white;
+    font-size: 14px;
+    font-weight: 900;
+  }
+  .mdl-card__supporting-text {
+    font-size: 14px;
+    font-weight: 300;
+    color: $white;
+  }
+  .mdl-card__image {
+    background: url('../img/welcome_card.jpg') center / cover;
+  }
+  .mdl-button:hover {
+    background-color: lighten($purple, 20%);
+    color: inherit;
+  }
+}
+
+
+.card-buttercream {
+  background-color: $buttercream;
+  .mdl-card {
+    background: $buttercream !important;
+  }
+  .mdl-card__menu .material-icons {
+    color: $black;
+    font-size: 25px;
+  }
+  .mdl-button {
+    color: $black;
+    background-color: lighten($pink, 8%);
+    font-weight: 500;
+  }
+  .mdl-card__title-text {
+    color: $black;
+    font-size: 30px;
+    font-weight: 300;
+    margin: 0;
+  }
+  .mdl-card__subtitle p {
+    color: $black;
+    font-size: 14px;
+    font-weight: 900;
+  }
+  .mdl-card__supporting-text {
+    font-size: 14px;
+    font-weight: 300;
+    color: $black;
+  }
+  .mdl-card__image {
+    background: url('../img/welcome_card.jpg') center / cover;
+  }
+  .mdl-button:hover {
+    background-color: lighten($buttercream, 8%);
+    color: inherit;
+  }
+}
+
+
+.card-black {
+  background-color: lighten($black, 13%);
+  .mdl-card {
+    background: $black !important;
+  }
+  .mdl-card__menu .material-icons {
+    color: $pink;
+    font-size: 25px;
+  }
+  .mdl-button {
+    color: $white;
+    background-color: $black;
+    font-weight: 500;
+  }
+  .mdl-card__title-text {
+    color: $white;
+    font-size: 30px;
+    font-weight: 300;
+    margin: 0;
+  }
+  .mdl-card__subtitle p {
+    color: $white;
+    font-size: 14px;
+    font-weight: 900;
+  }
+  .mdl-card__supporting-text {
+    font-size: 14px;
+    font-weight: 300;
+    color: $white;
+  }
+  .mdl-card__image {
+    background: url('../img/welcome_card.jpg') center / cover;
+  }
+  .mdl-button:hover {
+    background-color: lighten($black, 17%);
+    color: $pink;
+  }
+}
+
+
+.card-blue {
+  background-color: lighten($blue, 11%);
+  .mdl-card {
+    background: $blue !important;
+  }
+  .mdl-card__menu .material-icons {
+    color: $pink;
+    font-size: 25px;
+  }
+  .mdl-button {
+    color: $black;
+    background-color: lighten($blue, 25%);
+    font-weight: 500;
+  }
+  .mdl-card__title-text {
+    color: $black;
+    font-size: 30px;
+    font-weight: 300;
+    margin: 0;
+  }
+  .mdl-card__subtitle p {
+    color: $black;
+    font-size: 14px;
+    font-weight: 900;
+  }
+  .mdl-card__supporting-text {
+    font-size: 14px;
+    font-weight: 300;
+    color: $black;
+  }
+  .mdl-card__image {
+    background: url('../img/welcome_card.jpg') center / cover;
+  }
+  .mdl-button:hover {
+    background-color: lighten($blue, 40%);
+    color: $black;
+  }
+}
