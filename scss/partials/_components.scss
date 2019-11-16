@@ -3,8 +3,8 @@
 /* =Header
 ------------------------------ */
 .mdl-layout__header {
-  padding-top: 20px;
-  min-height: 180px;
+  padding-top: 15px;
+  min-height: 85px;
 }
 
 
@@ -80,4 +80,12 @@
     height: 50px;
   }
 
+}
+
+
+/* =Footer
+---------------------------- */
+.mdl-mini-footer {
+  padding: 5px;
+  font-size: 12px;
 }

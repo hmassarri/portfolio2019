@@ -219,20 +219,26 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-@media only screen and (orientation: portrait) {
-  body {
-    background-color: lightblue; } }
 @media only screen and (max-width: 414px) {
-  .theme-primary .mdl-layout__title, .theme-secondary .mdl-layout__title, .theme-tertiary .mdl-layout__title {
-    background: none !important; }
+  .mdl-layout__header {
+    max-height: 56px; }
 
-  .theme-primary h2, .theme-secondary h2, .theme-tertiary h2 {
+  .theme-primary .mdl-layout__title,
+  .theme-primary .theme-secondary .mdl-layout__title,
+  .theme-primary .theme-tertiary .mdl-layout__title {
+    background: none !important; }
+  .theme-primary .theme-secondary h2,
+  .theme-primary .theme-tertiary h2,
+  .theme-primary h2 {
     font-size: 26px;
     font-weight: 100;
     margin-top: 0; }
-
-  .theme-primary .card-teal .mdl-card__title-text + {
-    font-size: 20px; } }
+  .theme-primary .card-teal .mdl-card__title-text, .theme-primary .card-pink .mdl-card__title-text, .theme-primary .card-purple .mdl-card__title-text, .theme-primary .card-buttercream .mdl-card__title-text, .theme-primary .card-black .mdl-card__title-text, .theme-primary .card-blue .mdl-card__title-text {
+    font-size: 20px !important; }
+  .theme-primary .mdl-card__actions.mdl-card--border {
+    text-align: center; }
+  .theme-primary .mdl-mini-footer .mdl-mini-footer__left-section .mdl-mini-footer__link-list {
+    font-size: 13px !important; } }
 @media only screen and (max-width: 1024px) {
   .mdl-card__title-text {
     font-size: 20px; } }
@@ -273,12 +279,12 @@ textarea {
 .theme-primary {
   /* Card Theme Styles
   ------------------------------ */ }
-  .theme-primary html, .theme-primary body {
-    background: #FF77A9 !important; }
+  .theme-primary main {
+    background: #e0e0e0; }
   .theme-primary h2 {
     font-weight: 100; }
   .theme-primary .mdl-grid {
-    background-color: #999999; }
+    background-color: none; }
   .theme-primary .mdl-layout__header {
     background-color: #000000;
     color: #FF77A9; }
@@ -293,11 +299,11 @@ textarea {
       color: #FFFFFF;
       font-weight: 100; }
     .theme-primary .mdl-layout__drawer .mdl-layout-title {
-      background: url("../img/logo-primary.png") no-repeat;
+      background: url("../img/logo-test.svg") no-repeat;
       width: 50%;
       height: 100px; }
   .theme-primary .mdl-layout__title {
-    background: url("../img/logo-primary.png") no-repeat;
+    background: url("../img/logo-test.svg") no-repeat;
     color: #FF77A9;
     width: 50%;
     height: 100px; }
@@ -311,6 +317,16 @@ textarea {
   .theme-primary .mdl-layout__drawer .mdl-navigation .mdl-navigation__link:hover {
     background-color: #000000;
     color: #FFFFFF; }
+  .theme-primary .mdl-mini-footer {
+    background-color: #000000; }
+  .theme-primary .mini-footer__left-section {
+    background-color: #FF77A9; }
+  .theme-primary .mdl-logo {
+    background: url("../img/logo-test.svg") no-repeat;
+    width: 20%;
+    height: 30px; }
+  .theme-primary .mdl-mini-footer__link-list li {
+    color: #FF77A9; }
   .theme-primary .card-teal {
     background-color: #00cae3; }
     .theme-primary .card-teal .mdl-card {
@@ -899,8 +915,8 @@ textarea {
 /* =Header
 ------------------------------ */
 .mdl-layout__header {
-  padding-top: 20px;
-  min-height: 180px; }
+  padding-top: 15px;
+  min-height: 85px; }
 
 /* =Cards
 ------------------------------ */
@@ -953,6 +969,12 @@ textarea {
   width: 50px;
   height: 50px; }
 
+/* =Footer
+---------------------------- */
+.mdl-mini-footer {
+  padding: 5px;
+  font-size: 12px; }
+
 .center {
   margin: 0 auto !important; }
 
@@ -962,6 +984,153 @@ textarea {
 .img-responsive {
   width: 100%;
   height: auto; }
+
+/* =Margin
+---------------------------- */
+.mx-1 {
+  margin: 0 10px; }
+.mx-2 {
+  margin: 0 20px; }
+.mx-3 {
+  margin: 0 30px; }
+.mx-4 {
+  margin: 0 40px; }
+.mx-5 {
+  margin: 0 50px; }
+
+.ml-1 {
+  margin-left: 10px; }
+.ml-2 {
+  margin-left: 20px; }
+.ml-3 {
+  margin-left: 30px; }
+.ml-4 {
+  margin-left: 40px; }
+.ml-5 {
+  margin-left: 50px; }
+
+.mr-1 {
+  margin-right: 10px; }
+.mr-2 {
+  margin-right: 20px; }
+.mr-3 {
+  margin-right: 30px; }
+.mr-4 {
+  margin-right: 40px; }
+.mr-5 {
+  margin-right: 50px; }
+
+.my-1 {
+  margin: 10px 0; }
+.my-2 {
+  margin: 20px 0; }
+.my-3 {
+  margin: 30px 0; }
+.my-4 {
+  margin: 40px 0; }
+.my-5 {
+  margin: 50px 0; }
+
+.mt-1 {
+  margin-top: 10px; }
+.mt-2 {
+  margin-top: 20px; }
+.mt-3 {
+  margin-top: 30px; }
+.mt-4 {
+  margin-top: 40px; }
+.mt-5 {
+  margin-top: 50px; }
+
+.mb-1 {
+  margin-bottom: 10px; }
+.mb-2 {
+  margin-bottom: 20px; }
+.mb-3 {
+  margin-bottom: 30px; }
+.mb-4 {
+  margin-bottom: 40px; }
+.mb-5 {
+  margin-bottom: 50px; }
+
+/* =Padding
+---------------------------- */
+.px-1 {
+  padding: 0 10px; }
+.px-2 {
+  padding: 0 20px; }
+.px-3 {
+  padding: 0 30px; }
+.px-4 {
+  padding: 0 40px; }
+.px-5 {
+  padding: 0 50px; }
+
+.pl-1 {
+  padding-left: 10px; }
+.pl-2 {
+  padding-left: 20px; }
+.pl-3 {
+  padding-left: 30px; }
+.pl-4 {
+  padding-left: 40px; }
+.pl-5 {
+  padding-left: 50px; }
+
+.pr-1 {
+  padding-right: 10px; }
+.pr-2 {
+  padding-right: 20px; }
+.pr-3 {
+  padding-right: 30px; }
+.pr-4 {
+  padding-right: 40px; }
+.pr-5 {
+  padding-right: 50px; }
+
+.py-1 {
+  padding: 10px 0; }
+.py-2 {
+  padding: 20px 0; }
+.py-3 {
+  padding: 30px 0; }
+.py-4 {
+  padding: 40px 0; }
+.py-5 {
+  padding: 50px 0; }
+
+.pt-1 {
+  padding-top: 10px; }
+.pt-2 {
+  padding-top: 20px; }
+.pt-3 {
+  padding-top: 30px; }
+.pt-4 {
+  padding-top: 40px; }
+.pt-5 {
+  padding-top: 50px; }
+
+.pb-1 {
+  padding-bottom: 10px; }
+.pb-2 {
+  padding-bottom: 20px; }
+.pb-3 {
+  padding-bottom: 30px; }
+.pb-4 {
+  padding-bottom: 40px; }
+.pb-5 {
+  padding-bottom: 50px; }
+
+/* =VH
+---------------------------- */
+.vh-5 {
+  height: 5vh; }
+.vh-10 {
+  height: 10vh; }
+.vh-15 {
+  height: 15vh; }
+.vh-20 {
+  height: 20vh; }
 
 /* Color Palette
 ------------------------------ */
@@ -999,12 +1168,12 @@ textarea {
 .theme-primary {
   /* Card Theme Styles
   ------------------------------ */ }
-  .theme-primary html, .theme-primary body {
-    background: #FF77A9 !important; }
+  .theme-primary main {
+    background: #e0e0e0; }
   .theme-primary h2 {
     font-weight: 100; }
   .theme-primary .mdl-grid {
-    background-color: #999999; }
+    background-color: none; }
   .theme-primary .mdl-layout__header {
     background-color: #000000;
     color: #FF77A9; }
@@ -1019,11 +1188,11 @@ textarea {
       color: #FFFFFF;
       font-weight: 100; }
     .theme-primary .mdl-layout__drawer .mdl-layout-title {
-      background: url("../img/logo-primary.png") no-repeat;
+      background: url("../img/logo-test.svg") no-repeat;
       width: 50%;
       height: 100px; }
   .theme-primary .mdl-layout__title {
-    background: url("../img/logo-primary.png") no-repeat;
+    background: url("../img/logo-test.svg") no-repeat;
     color: #FF77A9;
     width: 50%;
     height: 100px; }
@@ -1037,6 +1206,16 @@ textarea {
   .theme-primary .mdl-layout__drawer .mdl-navigation .mdl-navigation__link:hover {
     background-color: #000000;
     color: #FFFFFF; }
+  .theme-primary .mdl-mini-footer {
+    background-color: #000000; }
+  .theme-primary .mini-footer__left-section {
+    background-color: #FF77A9; }
+  .theme-primary .mdl-logo {
+    background: url("../img/logo-test.svg") no-repeat;
+    width: 20%;
+    height: 30px; }
+  .theme-primary .mdl-mini-footer__link-list li {
+    color: #FF77A9; }
   .theme-primary .card-teal {
     background-color: #00cae3; }
     .theme-primary .card-teal .mdl-card {
