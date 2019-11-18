@@ -295,17 +295,15 @@ textarea {
     color: #333333;
     border-right: 5px solid #000000;
     font-weight: 100; }
-    .theme-primary .mdl-layout__drawer .lastname {
-      color: #FFFFFF;
-      font-weight: 100; }
     .theme-primary .mdl-layout__drawer .mdl-layout-title {
-      background: url("../img/logo-test.svg") no-repeat;
+      margin: 30px auto;
+      background: url("../img/logo-secondary.svg") no-repeat;
       width: 50%;
       height: 100px; }
   .theme-primary .mdl-layout__title {
-    background: url("../img/logo-test.svg") no-repeat;
+    margin-top: 30px;
+    background: url("../img/logo-primary.svg") no-repeat;
     color: #FF77A9;
-    background: url("../img/logo-test.svg") no-repeat;
     width: 50%;
     height: 100px; }
   .theme-primary .mdl-layout__title .lastname {
@@ -323,9 +321,9 @@ textarea {
   .theme-primary .mini-footer__left-section {
     background-color: #FF77A9; }
   .theme-primary .mdl-logo {
-    background: url("../img/logo-test.svg") no-repeat;
-    width: 20%;
-    height: 30px; }
+    background: url("../img/footer-1.svg") no-repeat center;
+    width: 60%;
+    height: 100px; }
   .theme-primary .mdl-mini-footer__link-list li {
     color: #FF77A9; }
   .theme-primary .card-teal {
@@ -517,11 +515,15 @@ textarea {
     background-color: #000000;
     color: #FF77A9;
     border-right: 5px solid #FF77A9; }
-  .theme-secondary .mdl-layout__drawer .lastname {
-    color: #FFEDBA; }
+    .theme-secondary .mdl-layout__drawer .mdl-layout-title {
+      margin: 30px auto;
+      background: url("../img/logo-primary.svg") no-repeat;
+      width: 50%;
+      height: 100px; }
   .theme-secondary .mdl-layout__title {
+    margin-top: 30px;
+    background: url("../img/logo-secondary.svg") no-repeat;
     color: #000000;
-    background: url("../img/logo-secondary.png") no-repeat;
     width: 50%;
     height: 100px; }
   .theme-secondary .mdl-layout__subtitle {
@@ -719,25 +721,28 @@ textarea {
     color: #FFFFFF; }
   .theme-tertiary .mdl-layout__drawer {
     background-color: #FFEDBA;
-    color: #000000;
+    color: #3F51B5;
     border-right: 5px solid #3F51B5; }
-  .theme-tertiary .mdl-layout__drawer .lastname {
-    color: #FF77A9;
-    font-weight: 300px; }
+    .theme-tertiary .mdl-layout__drawer .mdl-layout-title {
+      margin: 30px auto;
+      background: url("../img/logo-quad.svg") no-repeat;
+      width: 50%;
+      height: 100px; }
   .theme-tertiary .mdl-layout__title {
+    margin-top: 30px;
+    background: url("../img/logo-tertiary.svg") no-repeat;
     color: #FFFFFF;
-    background: url("../img/logo-tertiary.png") no-repeat;
     width: 50%;
     height: 100px; }
   .theme-tertiary .mdl-layout__subtitle {
     text-align: right;
     color: #FFEDBA; }
   .theme-tertiary .mdl-layout__drawer .mdl-navigation .mdl-navigation__link {
-    color: #000000;
+    color: #3F51B5;
     font-size: 1rem; }
   .theme-tertiary .mdl-layout__drawer .mdl-navigation .mdl-navigation__link:hover {
     background-color: #3F51B5;
-    color: #FFFFFF; }
+    color: #FF77A9; }
   .theme-tertiary .card-teal {
     background-color: #00cae3; }
     .theme-tertiary .card-teal .mdl-card {
@@ -1185,17 +1190,15 @@ textarea {
     color: #333333;
     border-right: 5px solid #000000;
     font-weight: 100; }
-    .theme-primary .mdl-layout__drawer .lastname {
-      color: #FFFFFF;
-      font-weight: 100; }
     .theme-primary .mdl-layout__drawer .mdl-layout-title {
-      background: url("../img/logo-test.svg") no-repeat;
+      margin: 30px auto;
+      background: url("../img/logo-secondary.svg") no-repeat;
       width: 50%;
       height: 100px; }
   .theme-primary .mdl-layout__title {
-    background: url("../img/logo-test.svg") no-repeat;
+    margin-top: 30px;
+    background: url("../img/logo-primary.svg") no-repeat;
     color: #FF77A9;
-    background: url("../img/logo-test.svg") no-repeat;
     width: 50%;
     height: 100px; }
   .theme-primary .mdl-layout__title .lastname {
@@ -1213,9 +1216,9 @@ textarea {
   .theme-primary .mini-footer__left-section {
     background-color: #FF77A9; }
   .theme-primary .mdl-logo {
-    background: url("../img/logo-test.svg") no-repeat;
-    width: 20%;
-    height: 30px; }
+    background: url("../img/footer-1.svg") no-repeat center;
+    width: 60%;
+    height: 100px; }
   .theme-primary .mdl-mini-footer__link-list li {
     color: #FF77A9; }
   .theme-primary .card-teal {
@@ -1407,11 +1410,15 @@ textarea {
     background-color: #000000;
     color: #FF77A9;
     border-right: 5px solid #FF77A9; }
-  .theme-secondary .mdl-layout__drawer .lastname {
-    color: #FFEDBA; }
+    .theme-secondary .mdl-layout__drawer .mdl-layout-title {
+      margin: 30px auto;
+      background: url("../img/logo-primary.svg") no-repeat;
+      width: 50%;
+      height: 100px; }
   .theme-secondary .mdl-layout__title {
+    margin-top: 30px;
+    background: url("../img/logo-secondary.svg") no-repeat;
     color: #000000;
-    background: url("../img/logo-secondary.png") no-repeat;
     width: 50%;
     height: 100px; }
   .theme-secondary .mdl-layout__subtitle {
@@ -1609,25 +1616,28 @@ textarea {
     color: #FFFFFF; }
   .theme-tertiary .mdl-layout__drawer {
     background-color: #FFEDBA;
-    color: #000000;
+    color: #3F51B5;
     border-right: 5px solid #3F51B5; }
-  .theme-tertiary .mdl-layout__drawer .lastname {
-    color: #FF77A9;
-    font-weight: 300px; }
+    .theme-tertiary .mdl-layout__drawer .mdl-layout-title {
+      margin: 30px auto;
+      background: url("../img/logo-quad.svg") no-repeat;
+      width: 50%;
+      height: 100px; }
   .theme-tertiary .mdl-layout__title {
+    margin-top: 30px;
+    background: url("../img/logo-tertiary.svg") no-repeat;
     color: #FFFFFF;
-    background: url("../img/logo-tertiary.png") no-repeat;
     width: 50%;
     height: 100px; }
   .theme-tertiary .mdl-layout__subtitle {
     text-align: right;
     color: #FFEDBA; }
   .theme-tertiary .mdl-layout__drawer .mdl-navigation .mdl-navigation__link {
-    color: #000000;
+    color: #3F51B5;
     font-size: 1rem; }
   .theme-tertiary .mdl-layout__drawer .mdl-navigation .mdl-navigation__link:hover {
     background-color: #3F51B5;
-    color: #FFFFFF; }
+    color: #FF77A9; }
   .theme-tertiary .card-teal {
     background-color: #00cae3; }
     .theme-tertiary .card-teal .mdl-card {
