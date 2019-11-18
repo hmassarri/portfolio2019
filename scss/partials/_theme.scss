@@ -1,13 +1,16 @@
 /* Color Palette
 ------------------------------ */
 $buttercream: #FFEDBA;
+$blue: #0091FF;
 $blue-purple: #3F51B5;
-$white: #FFFFFF;
-$black: #000000;
+$purple: darken(#6236FF, 3%);
+$teal: lighten(#00BCD4, 3%);
+
 $pink: #FF77A9;
 $red: #A61C1C;
-$teal: lighten(#00BCD4, 20%);
 
+$white: #FFFFFF;
+$black: #000000;
 
 $primary: $black;
 $text-on-primary: $pink;
@@ -59,8 +62,8 @@ $text-on-error: $white;
 ------------------------------ */
 .theme-primary {
 
-  body {
-    background-color: lighten($black, 0%);
+  main {
+    background: lighten($black, 88%);
   }
 
   h2 {
@@ -68,7 +71,7 @@ $text-on-error: $white;
   }
 
   .mdl-grid {
-    background-color: lighten($black, 60%);
+    background-color: none;
   }
   .mdl-layout__header {
   background-color: $primary;
@@ -95,8 +98,12 @@ $text-on-error: $white;
     }
   }
   .mdl-layout__title {
-    color: $text-on-primary;
     background: url("../img/logo-test.svg") no-repeat;
+    color: $text-on-primary;
+<<<<<<< HEAD
+    background: url("../img/logo-test.svg") no-repeat;
+=======
+>>>>>>> d980001a357312df8da23110ff0b4bd4fa1bef9e
     width: 50%;
     height: 100px;
   }
@@ -114,50 +121,26 @@ $text-on-error: $white;
     background-color: $primary;
     color: $white;
   }
+  .mdl-mini-footer {
+    background-color: $primary;
+  }
+  .mini-footer__left-section {
+    background-color: $pink;
+  }
+  .mdl-logo {
+    background: url("../img/logo-test.svg") no-repeat;
+    width: 20%;
+    height: 30px;
+  }
+  .mdl-mini-footer__link-list li {
+    color: $pink;
+  }
 
 
   /* Card Theme Styles
   ------------------------------ */
-  .card-teal {
-
-      background-color: $teal;
-
-      .mdl-card {
-        background: $teal !important;
-      }
-
-      .mdl-card__title-text {
-        color: $white;
-        font-size: 30px;
-        font-weight: 900;
-        margin: 0;
-      }
-
-      .mdl-card__subtitle {
-        font-size: 14px;
-        font-weight: 300;
-      }
-
-      .mdl-card__supporting-text {
-        font-size: 14px;
-        font-weight: 300;
-        color: $primary;
-      }
-
-      .mdl-card__image {
-        background: url('../img/welcome_card.jpg') center / cover;
-      }
-
-      .mdl-button {
-        color: inherit;
-      }
-
-      .mdl-button:hover {
-        background-color: inherit;
-        color: inherit;
-      }
-    }
-  }
+  @import "card_theme.scss";
+}
 
 .theme-secondary {
 
@@ -196,7 +179,9 @@ $text-on-error: $white;
     background-color: $text-on-primary;
     color: $primary;
   }
-
+  /* Card Theme Styles
+  ------------------------------ */
+  @import "card_theme.scss";
 }
 
 .theme-tertiary {
@@ -238,5 +223,7 @@ $text-on-error: $white;
     background-color: $blue-purple;
     color: $white;
   }
-
+  /* Card Theme Styles
+  ------------------------------ */
+  @import "card_theme.scss";
 }

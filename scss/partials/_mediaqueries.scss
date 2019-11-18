@@ -1,21 +1,37 @@
 @media only screen and (orientation: portrait) {
-  body {
-    background-color: lightblue;
-  }
+
 }
-
 @media only screen and (max-width: 414px) {
-  .theme-primary .mdl-layout__title, .theme-secondary .mdl-layout__title, .theme-tertiary .mdl-layout__title {
-    background: none !important;
-  }
-  .theme-primary h2, .theme-secondary h2, .theme-tertiary h2 {
-    font-size: 26px;
-    font-weight: 100;
-    margin-top: 0;
+  .mdl-layout__header {
+    max-height: 56px;
   }
 
-  .theme-primary .card-teal .mdl-card__title-text+ {
-    font-size: 20px;
+  .theme-primary {
+    .mdl-layout__title,
+    .theme-secondary .mdl-layout__title,
+    .theme-tertiary .mdl-layout__title {
+      background: none !important;
+    }
+
+    .theme-secondary h2,
+    .theme-tertiary h2,
+    h2 {
+      font-size: 26px;
+      font-weight: 100;
+      margin-top: 0;
+    }
+
+    .card-teal .mdl-card__title-text, .card-pink .mdl-card__title-text, .card-purple .mdl-card__title-text, .card-buttercream .mdl-card__title-text, .card-black .mdl-card__title-text, .card-blue .mdl-card__title-text {
+      font-size: 20px !important;
+    }
+
+    .mdl-card__actions.mdl-card--border {
+      text-align: center;
+    }
+
+    .mdl-mini-footer .mdl-mini-footer__left-section .mdl-mini-footer__link-list {
+      font-size: 13px !important;
+    }
   }
 }
 @media only screen and (max-width: 1024px) {

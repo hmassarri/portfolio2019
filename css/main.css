@@ -219,20 +219,26 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-@media only screen and (orientation: portrait) {
-  body {
-    background-color: lightblue; } }
 @media only screen and (max-width: 414px) {
-  .theme-primary .mdl-layout__title, .theme-secondary .mdl-layout__title, .theme-tertiary .mdl-layout__title {
-    background: none !important; }
+  .mdl-layout__header {
+    max-height: 56px; }
 
-  .theme-primary h2, .theme-secondary h2, .theme-tertiary h2 {
+  .theme-primary .mdl-layout__title,
+  .theme-primary .theme-secondary .mdl-layout__title,
+  .theme-primary .theme-tertiary .mdl-layout__title {
+    background: none !important; }
+  .theme-primary .theme-secondary h2,
+  .theme-primary .theme-tertiary h2,
+  .theme-primary h2 {
     font-size: 26px;
     font-weight: 100;
     margin-top: 0; }
-
-  .theme-primary .card-teal .mdl-card__title-text + {
-    font-size: 20px; } }
+  .theme-primary .card-teal .mdl-card__title-text, .theme-primary .card-pink .mdl-card__title-text, .theme-primary .card-purple .mdl-card__title-text, .theme-primary .card-buttercream .mdl-card__title-text, .theme-primary .card-black .mdl-card__title-text, .theme-primary .card-blue .mdl-card__title-text {
+    font-size: 20px !important; }
+  .theme-primary .mdl-card__actions.mdl-card--border {
+    text-align: center; }
+  .theme-primary .mdl-mini-footer .mdl-mini-footer__left-section .mdl-mini-footer__link-list {
+    font-size: 13px !important; } }
 @media only screen and (max-width: 1024px) {
   .mdl-card__title-text {
     font-size: 20px; } }
@@ -273,12 +279,12 @@ textarea {
 .theme-primary {
   /* Card Theme Styles
   ------------------------------ */ }
-  .theme-primary body {
-    background-color: black; }
+  .theme-primary main {
+    background: #e0e0e0; }
   .theme-primary h2 {
     font-weight: 100; }
   .theme-primary .mdl-grid {
-    background-color: #999999; }
+    background-color: none; }
   .theme-primary .mdl-layout__header {
     background-color: #000000;
     color: #FF77A9; }
@@ -297,8 +303,12 @@ textarea {
       width: 50%;
       height: 100px; }
   .theme-primary .mdl-layout__title {
-    color: #FF77A9;
     background: url("../img/logo-test.svg") no-repeat;
+    color: #FF77A9;
+<<<<<<< HEAD
+    background: url("../img/logo-test.svg") no-repeat;
+=======
+>>>>>>> d980001a357312df8da23110ff0b4bd4fa1bef9e
     width: 50%;
     height: 100px; }
   .theme-primary .mdl-layout__title .lastname {
@@ -311,91 +321,606 @@ textarea {
   .theme-primary .mdl-layout__drawer .mdl-navigation .mdl-navigation__link:hover {
     background-color: #000000;
     color: #FFFFFF; }
+  .theme-primary .mdl-mini-footer {
+    background-color: #000000; }
+  .theme-primary .mini-footer__left-section {
+    background-color: #FF77A9; }
+  .theme-primary .mdl-logo {
+    background: url("../img/logo-test.svg") no-repeat;
+    width: 20%;
+    height: 30px; }
+  .theme-primary .mdl-mini-footer__link-list li {
+    color: #FF77A9; }
   .theme-primary .card-teal {
-    background-color: #3be9ff; }
+    background-color: #00cae3; }
     .theme-primary .card-teal .mdl-card {
-      background: #3be9ff !important; }
+      background: #00cae3 !important; }
+    .theme-primary .card-teal .mdl-card__menu .material-icons {
+      color: #FF77A9;
+      font-size: 25px; }
+    .theme-primary .card-teal .mdl-button {
+      color: #000000;
+      background-color: #1ce5ff;
+      font-weight: 500; }
     .theme-primary .card-teal .mdl-card__title-text {
-      color: #FFFFFF;
+      color: #000000;
       font-size: 30px;
-      font-weight: 900;
+      font-weight: 300;
       margin: 0; }
-    .theme-primary .card-teal .mdl-card__subtitle {
+    .theme-primary .card-teal .mdl-card__subtitle p {
+      color: #000000;
       font-size: 14px;
-      font-weight: 300; }
+      font-weight: 900; }
     .theme-primary .card-teal .mdl-card__supporting-text {
       font-size: 14px;
       font-weight: 300;
       color: #000000; }
     .theme-primary .card-teal .mdl-card__image {
       background: url("../img/welcome_card.jpg") center/cover; }
-    .theme-primary .card-teal .mdl-button {
-      color: inherit; }
     .theme-primary .card-teal .mdl-button:hover {
-      background-color: inherit;
+      background-color: #006f7d;
+      color: #000000; }
+  .theme-primary .card-pink {
+    background-color: #FF77A9; }
+    .theme-primary .card-pink .mdl-card {
+      background: #FF77A9 !important; }
+    .theme-primary .card-pink .mdl-card__menu .material-icons {
+      color: #00cae3;
+      font-size: 25px; }
+    .theme-primary .card-pink .mdl-button {
+      color: #000000;
+      background-color: #ffa0c3;
+      font-weight: 500; }
+    .theme-primary .card-pink .mdl-card__title-text {
+      color: #000000;
+      font-size: 30px;
+      font-weight: 300;
+      margin: 0; }
+    .theme-primary .card-pink .mdl-card__subtitle p {
+      color: #000000;
+      font-size: 14px;
+      font-weight: 900; }
+    .theme-primary .card-pink .mdl-card__supporting-text {
+      font-size: 14px;
+      font-weight: 300;
+      color: #000000; }
+    .theme-primary .card-pink .mdl-card__image {
+      background: url("../img/welcome_card.jpg") center/cover; }
+    .theme-primary .card-pink .mdl-button:hover {
+      background-color: #ffddea;
       color: inherit; }
+  .theme-primary .card-purple {
+    background-color: #5627ff; }
+    .theme-primary .card-purple .mdl-card {
+      background: #5627ff !important; }
+    .theme-primary .card-purple .mdl-card__menu .material-icons {
+      color: #FFFFFF;
+      font-size: 25px; }
+    .theme-primary .card-purple .mdl-button {
+      color: #FFFFFF;
+      background-color: #7650ff;
+      font-weight: 500; }
+    .theme-primary .card-purple .mdl-card__title-text {
+      color: #FFFFFF;
+      font-size: 30px;
+      font-weight: 300;
+      margin: 0; }
+    .theme-primary .card-purple .mdl-card__subtitle p {
+      color: #FFFFFF;
+      font-size: 14px;
+      font-weight: 900; }
+    .theme-primary .card-purple .mdl-card__supporting-text {
+      font-size: 14px;
+      font-weight: 300;
+      color: #FFFFFF; }
+    .theme-primary .card-purple .mdl-card__image {
+      background: url("../img/welcome_card.jpg") center/cover; }
+    .theme-primary .card-purple .mdl-button:hover {
+      background-color: #a68dff;
+      color: inherit; }
+  .theme-primary .card-buttercream {
+    background-color: #FFEDBA; }
+    .theme-primary .card-buttercream .mdl-card {
+      background: #FFEDBA !important; }
+    .theme-primary .card-buttercream .mdl-card__menu .material-icons {
+      color: #000000;
+      font-size: 25px; }
+    .theme-primary .card-buttercream .mdl-button {
+      color: #000000;
+      background-color: #ffa0c3;
+      font-weight: 500; }
+    .theme-primary .card-buttercream .mdl-card__title-text {
+      color: #000000;
+      font-size: 30px;
+      font-weight: 300;
+      margin: 0; }
+    .theme-primary .card-buttercream .mdl-card__subtitle p {
+      color: #000000;
+      font-size: 14px;
+      font-weight: 900; }
+    .theme-primary .card-buttercream .mdl-card__supporting-text {
+      font-size: 14px;
+      font-weight: 300;
+      color: #000000; }
+    .theme-primary .card-buttercream .mdl-card__image {
+      background: url("../img/welcome_card.jpg") center/cover; }
+    .theme-primary .card-buttercream .mdl-button:hover {
+      background-color: #fff8e3;
+      color: inherit; }
+  .theme-primary .card-black {
+    background-color: #212121; }
+    .theme-primary .card-black .mdl-card {
+      background: #000000 !important; }
+    .theme-primary .card-black .mdl-card__menu .material-icons {
+      color: #FF77A9;
+      font-size: 25px; }
+    .theme-primary .card-black .mdl-button {
+      color: #FFFFFF;
+      background-color: #000000;
+      font-weight: 500; }
+    .theme-primary .card-black .mdl-card__title-text {
+      color: #FFFFFF;
+      font-size: 30px;
+      font-weight: 300;
+      margin: 0; }
+    .theme-primary .card-black .mdl-card__subtitle p {
+      color: #FFFFFF;
+      font-size: 14px;
+      font-weight: 900; }
+    .theme-primary .card-black .mdl-card__supporting-text {
+      font-size: 14px;
+      font-weight: 300;
+      color: #FFFFFF; }
+    .theme-primary .card-black .mdl-card__image {
+      background: url("../img/welcome_card.jpg") center/cover; }
+    .theme-primary .card-black .mdl-button:hover {
+      background-color: #2b2b2b;
+      color: #FF77A9; }
+  .theme-primary .card-blue {
+    background-color: #38a9ff; }
+    .theme-primary .card-blue .mdl-card {
+      background: #0091FF !important; }
+    .theme-primary .card-blue .mdl-card__menu .material-icons {
+      color: #FF77A9;
+      font-size: 25px; }
+    .theme-primary .card-blue .mdl-button {
+      color: #000000;
+      background-color: #80c8ff;
+      font-weight: 500; }
+    .theme-primary .card-blue .mdl-card__title-text {
+      color: #000000;
+      font-size: 30px;
+      font-weight: 300;
+      margin: 0; }
+    .theme-primary .card-blue .mdl-card__subtitle p {
+      color: #000000;
+      font-size: 14px;
+      font-weight: 900; }
+    .theme-primary .card-blue .mdl-card__supporting-text {
+      font-size: 14px;
+      font-weight: 300;
+      color: #000000; }
+    .theme-primary .card-blue .mdl-card__image {
+      background: url("../img/welcome_card.jpg") center/cover; }
+    .theme-primary .card-blue .mdl-button:hover {
+      background-color: #cce9ff;
+      color: #000000; }
 
-.theme-secondary h2 {
-  font-weight: 100; }
-.theme-secondary .mdl-layout__header {
-  background-color: #FF77A9;
-  color: #000000; }
-.theme-secondary .mdl-layout__drawer-button {
-  color: #000000; }
-.theme-secondary .mdl-layout__drawer {
-  background-color: #000000;
-  color: #FF77A9;
-  border-right: 5px solid #FF77A9; }
-.theme-secondary .mdl-layout__drawer .lastname {
-  color: #FFEDBA; }
-.theme-secondary .mdl-layout__title {
-  color: #000000;
-  background: url("../img/logo-secondary.png") no-repeat;
-  width: 50%;
-  height: 100px; }
-.theme-secondary .mdl-layout__subtitle {
-  text-align: right; }
-.theme-secondary .mdl-layout__drawer .mdl-navigation .mdl-navigation__link {
-  color: #FF77A9;
-  font-size: 1rem; }
-.theme-secondary .mdl-layout__drawer .mdl-navigation .mdl-navigation__link:hover {
-  background-color: #FF77A9;
-  color: #000000; }
+.theme-secondary {
+  /* Card Theme Styles
+  ------------------------------ */ }
+  .theme-secondary h2 {
+    font-weight: 100; }
+  .theme-secondary .mdl-layout__header {
+    background-color: #FF77A9;
+    color: #000000; }
+  .theme-secondary .mdl-layout__drawer-button {
+    color: #000000; }
+  .theme-secondary .mdl-layout__drawer {
+    background-color: #000000;
+    color: #FF77A9;
+    border-right: 5px solid #FF77A9; }
+  .theme-secondary .mdl-layout__drawer .lastname {
+    color: #FFEDBA; }
+  .theme-secondary .mdl-layout__title {
+    color: #000000;
+    background: url("../img/logo-secondary.png") no-repeat;
+    width: 50%;
+    height: 100px; }
+  .theme-secondary .mdl-layout__subtitle {
+    text-align: right; }
+  .theme-secondary .mdl-layout__drawer .mdl-navigation .mdl-navigation__link {
+    color: #FF77A9;
+    font-size: 1rem; }
+  .theme-secondary .mdl-layout__drawer .mdl-navigation .mdl-navigation__link:hover {
+    background-color: #FF77A9;
+    color: #000000; }
+  .theme-secondary .card-teal {
+    background-color: #00cae3; }
+    .theme-secondary .card-teal .mdl-card {
+      background: #00cae3 !important; }
+    .theme-secondary .card-teal .mdl-card__menu .material-icons {
+      color: #FF77A9;
+      font-size: 25px; }
+    .theme-secondary .card-teal .mdl-button {
+      color: #000000;
+      background-color: #1ce5ff;
+      font-weight: 500; }
+    .theme-secondary .card-teal .mdl-card__title-text {
+      color: #000000;
+      font-size: 30px;
+      font-weight: 300;
+      margin: 0; }
+    .theme-secondary .card-teal .mdl-card__subtitle p {
+      color: #000000;
+      font-size: 14px;
+      font-weight: 900; }
+    .theme-secondary .card-teal .mdl-card__supporting-text {
+      font-size: 14px;
+      font-weight: 300;
+      color: #000000; }
+    .theme-secondary .card-teal .mdl-card__image {
+      background: url("../img/welcome_card.jpg") center/cover; }
+    .theme-secondary .card-teal .mdl-button:hover {
+      background-color: #006f7d;
+      color: #000000; }
+  .theme-secondary .card-pink {
+    background-color: #FF77A9; }
+    .theme-secondary .card-pink .mdl-card {
+      background: #FF77A9 !important; }
+    .theme-secondary .card-pink .mdl-card__menu .material-icons {
+      color: #00cae3;
+      font-size: 25px; }
+    .theme-secondary .card-pink .mdl-button {
+      color: #000000;
+      background-color: #ffa0c3;
+      font-weight: 500; }
+    .theme-secondary .card-pink .mdl-card__title-text {
+      color: #000000;
+      font-size: 30px;
+      font-weight: 300;
+      margin: 0; }
+    .theme-secondary .card-pink .mdl-card__subtitle p {
+      color: #000000;
+      font-size: 14px;
+      font-weight: 900; }
+    .theme-secondary .card-pink .mdl-card__supporting-text {
+      font-size: 14px;
+      font-weight: 300;
+      color: #000000; }
+    .theme-secondary .card-pink .mdl-card__image {
+      background: url("../img/welcome_card.jpg") center/cover; }
+    .theme-secondary .card-pink .mdl-button:hover {
+      background-color: #ffddea;
+      color: inherit; }
+  .theme-secondary .card-purple {
+    background-color: #5627ff; }
+    .theme-secondary .card-purple .mdl-card {
+      background: #5627ff !important; }
+    .theme-secondary .card-purple .mdl-card__menu .material-icons {
+      color: #FFFFFF;
+      font-size: 25px; }
+    .theme-secondary .card-purple .mdl-button {
+      color: #FFFFFF;
+      background-color: #7650ff;
+      font-weight: 500; }
+    .theme-secondary .card-purple .mdl-card__title-text {
+      color: #FFFFFF;
+      font-size: 30px;
+      font-weight: 300;
+      margin: 0; }
+    .theme-secondary .card-purple .mdl-card__subtitle p {
+      color: #FFFFFF;
+      font-size: 14px;
+      font-weight: 900; }
+    .theme-secondary .card-purple .mdl-card__supporting-text {
+      font-size: 14px;
+      font-weight: 300;
+      color: #FFFFFF; }
+    .theme-secondary .card-purple .mdl-card__image {
+      background: url("../img/welcome_card.jpg") center/cover; }
+    .theme-secondary .card-purple .mdl-button:hover {
+      background-color: #a68dff;
+      color: inherit; }
+  .theme-secondary .card-buttercream {
+    background-color: #FFEDBA; }
+    .theme-secondary .card-buttercream .mdl-card {
+      background: #FFEDBA !important; }
+    .theme-secondary .card-buttercream .mdl-card__menu .material-icons {
+      color: #000000;
+      font-size: 25px; }
+    .theme-secondary .card-buttercream .mdl-button {
+      color: #000000;
+      background-color: #ffa0c3;
+      font-weight: 500; }
+    .theme-secondary .card-buttercream .mdl-card__title-text {
+      color: #000000;
+      font-size: 30px;
+      font-weight: 300;
+      margin: 0; }
+    .theme-secondary .card-buttercream .mdl-card__subtitle p {
+      color: #000000;
+      font-size: 14px;
+      font-weight: 900; }
+    .theme-secondary .card-buttercream .mdl-card__supporting-text {
+      font-size: 14px;
+      font-weight: 300;
+      color: #000000; }
+    .theme-secondary .card-buttercream .mdl-card__image {
+      background: url("../img/welcome_card.jpg") center/cover; }
+    .theme-secondary .card-buttercream .mdl-button:hover {
+      background-color: #fff8e3;
+      color: inherit; }
+  .theme-secondary .card-black {
+    background-color: #212121; }
+    .theme-secondary .card-black .mdl-card {
+      background: #000000 !important; }
+    .theme-secondary .card-black .mdl-card__menu .material-icons {
+      color: #FF77A9;
+      font-size: 25px; }
+    .theme-secondary .card-black .mdl-button {
+      color: #FFFFFF;
+      background-color: #000000;
+      font-weight: 500; }
+    .theme-secondary .card-black .mdl-card__title-text {
+      color: #FFFFFF;
+      font-size: 30px;
+      font-weight: 300;
+      margin: 0; }
+    .theme-secondary .card-black .mdl-card__subtitle p {
+      color: #FFFFFF;
+      font-size: 14px;
+      font-weight: 900; }
+    .theme-secondary .card-black .mdl-card__supporting-text {
+      font-size: 14px;
+      font-weight: 300;
+      color: #FFFFFF; }
+    .theme-secondary .card-black .mdl-card__image {
+      background: url("../img/welcome_card.jpg") center/cover; }
+    .theme-secondary .card-black .mdl-button:hover {
+      background-color: #2b2b2b;
+      color: #FF77A9; }
+  .theme-secondary .card-blue {
+    background-color: #38a9ff; }
+    .theme-secondary .card-blue .mdl-card {
+      background: #0091FF !important; }
+    .theme-secondary .card-blue .mdl-card__menu .material-icons {
+      color: #FF77A9;
+      font-size: 25px; }
+    .theme-secondary .card-blue .mdl-button {
+      color: #000000;
+      background-color: #80c8ff;
+      font-weight: 500; }
+    .theme-secondary .card-blue .mdl-card__title-text {
+      color: #000000;
+      font-size: 30px;
+      font-weight: 300;
+      margin: 0; }
+    .theme-secondary .card-blue .mdl-card__subtitle p {
+      color: #000000;
+      font-size: 14px;
+      font-weight: 900; }
+    .theme-secondary .card-blue .mdl-card__supporting-text {
+      font-size: 14px;
+      font-weight: 300;
+      color: #000000; }
+    .theme-secondary .card-blue .mdl-card__image {
+      background: url("../img/welcome_card.jpg") center/cover; }
+    .theme-secondary .card-blue .mdl-button:hover {
+      background-color: #cce9ff;
+      color: #000000; }
 
-.theme-tertiary h2 {
-  font-weight: 100; }
-.theme-tertiary .mdl-layout__header {
-  background-color: #3F51B5;
-  color: #FFFFFF; }
-.theme-tertiary .mdl-layout__drawer-button {
-  color: #FFFFFF; }
-.theme-tertiary .mdl-layout__drawer {
-  background-color: #FFEDBA;
-  color: #000000;
-  border-right: 5px solid #3F51B5; }
-.theme-tertiary .mdl-layout__drawer .lastname {
-  color: #FF77A9;
-  font-weight: 300px; }
-.theme-tertiary .mdl-layout__title {
-  color: #FFFFFF;
-  background: url("../img/logo-tertiary.png") no-repeat;
-  width: 50%;
-  height: 100px; }
-.theme-tertiary .mdl-layout__subtitle {
-  text-align: right;
-  color: #FFEDBA; }
-.theme-tertiary .mdl-layout__drawer .mdl-navigation .mdl-navigation__link {
-  color: #000000;
-  font-size: 1rem; }
-.theme-tertiary .mdl-layout__drawer .mdl-navigation .mdl-navigation__link:hover {
-  background-color: #3F51B5;
-  color: #FFFFFF; }
+.theme-tertiary {
+  /* Card Theme Styles
+  ------------------------------ */ }
+  .theme-tertiary h2 {
+    font-weight: 100; }
+  .theme-tertiary .mdl-layout__header {
+    background-color: #3F51B5;
+    color: #FFFFFF; }
+  .theme-tertiary .mdl-layout__drawer-button {
+    color: #FFFFFF; }
+  .theme-tertiary .mdl-layout__drawer {
+    background-color: #FFEDBA;
+    color: #000000;
+    border-right: 5px solid #3F51B5; }
+  .theme-tertiary .mdl-layout__drawer .lastname {
+    color: #FF77A9;
+    font-weight: 300px; }
+  .theme-tertiary .mdl-layout__title {
+    color: #FFFFFF;
+    background: url("../img/logo-tertiary.png") no-repeat;
+    width: 50%;
+    height: 100px; }
+  .theme-tertiary .mdl-layout__subtitle {
+    text-align: right;
+    color: #FFEDBA; }
+  .theme-tertiary .mdl-layout__drawer .mdl-navigation .mdl-navigation__link {
+    color: #000000;
+    font-size: 1rem; }
+  .theme-tertiary .mdl-layout__drawer .mdl-navigation .mdl-navigation__link:hover {
+    background-color: #3F51B5;
+    color: #FFFFFF; }
+  .theme-tertiary .card-teal {
+    background-color: #00cae3; }
+    .theme-tertiary .card-teal .mdl-card {
+      background: #00cae3 !important; }
+    .theme-tertiary .card-teal .mdl-card__menu .material-icons {
+      color: #FF77A9;
+      font-size: 25px; }
+    .theme-tertiary .card-teal .mdl-button {
+      color: #000000;
+      background-color: #1ce5ff;
+      font-weight: 500; }
+    .theme-tertiary .card-teal .mdl-card__title-text {
+      color: #000000;
+      font-size: 30px;
+      font-weight: 300;
+      margin: 0; }
+    .theme-tertiary .card-teal .mdl-card__subtitle p {
+      color: #000000;
+      font-size: 14px;
+      font-weight: 900; }
+    .theme-tertiary .card-teal .mdl-card__supporting-text {
+      font-size: 14px;
+      font-weight: 300;
+      color: #000000; }
+    .theme-tertiary .card-teal .mdl-card__image {
+      background: url("../img/welcome_card.jpg") center/cover; }
+    .theme-tertiary .card-teal .mdl-button:hover {
+      background-color: #006f7d;
+      color: #000000; }
+  .theme-tertiary .card-pink {
+    background-color: #FF77A9; }
+    .theme-tertiary .card-pink .mdl-card {
+      background: #FF77A9 !important; }
+    .theme-tertiary .card-pink .mdl-card__menu .material-icons {
+      color: #00cae3;
+      font-size: 25px; }
+    .theme-tertiary .card-pink .mdl-button {
+      color: #000000;
+      background-color: #ffa0c3;
+      font-weight: 500; }
+    .theme-tertiary .card-pink .mdl-card__title-text {
+      color: #000000;
+      font-size: 30px;
+      font-weight: 300;
+      margin: 0; }
+    .theme-tertiary .card-pink .mdl-card__subtitle p {
+      color: #000000;
+      font-size: 14px;
+      font-weight: 900; }
+    .theme-tertiary .card-pink .mdl-card__supporting-text {
+      font-size: 14px;
+      font-weight: 300;
+      color: #000000; }
+    .theme-tertiary .card-pink .mdl-card__image {
+      background: url("../img/welcome_card.jpg") center/cover; }
+    .theme-tertiary .card-pink .mdl-button:hover {
+      background-color: #ffddea;
+      color: inherit; }
+  .theme-tertiary .card-purple {
+    background-color: #5627ff; }
+    .theme-tertiary .card-purple .mdl-card {
+      background: #5627ff !important; }
+    .theme-tertiary .card-purple .mdl-card__menu .material-icons {
+      color: #FFFFFF;
+      font-size: 25px; }
+    .theme-tertiary .card-purple .mdl-button {
+      color: #FFFFFF;
+      background-color: #7650ff;
+      font-weight: 500; }
+    .theme-tertiary .card-purple .mdl-card__title-text {
+      color: #FFFFFF;
+      font-size: 30px;
+      font-weight: 300;
+      margin: 0; }
+    .theme-tertiary .card-purple .mdl-card__subtitle p {
+      color: #FFFFFF;
+      font-size: 14px;
+      font-weight: 900; }
+    .theme-tertiary .card-purple .mdl-card__supporting-text {
+      font-size: 14px;
+      font-weight: 300;
+      color: #FFFFFF; }
+    .theme-tertiary .card-purple .mdl-card__image {
+      background: url("../img/welcome_card.jpg") center/cover; }
+    .theme-tertiary .card-purple .mdl-button:hover {
+      background-color: #a68dff;
+      color: inherit; }
+  .theme-tertiary .card-buttercream {
+    background-color: #FFEDBA; }
+    .theme-tertiary .card-buttercream .mdl-card {
+      background: #FFEDBA !important; }
+    .theme-tertiary .card-buttercream .mdl-card__menu .material-icons {
+      color: #000000;
+      font-size: 25px; }
+    .theme-tertiary .card-buttercream .mdl-button {
+      color: #000000;
+      background-color: #ffa0c3;
+      font-weight: 500; }
+    .theme-tertiary .card-buttercream .mdl-card__title-text {
+      color: #000000;
+      font-size: 30px;
+      font-weight: 300;
+      margin: 0; }
+    .theme-tertiary .card-buttercream .mdl-card__subtitle p {
+      color: #000000;
+      font-size: 14px;
+      font-weight: 900; }
+    .theme-tertiary .card-buttercream .mdl-card__supporting-text {
+      font-size: 14px;
+      font-weight: 300;
+      color: #000000; }
+    .theme-tertiary .card-buttercream .mdl-card__image {
+      background: url("../img/welcome_card.jpg") center/cover; }
+    .theme-tertiary .card-buttercream .mdl-button:hover {
+      background-color: #fff8e3;
+      color: inherit; }
+  .theme-tertiary .card-black {
+    background-color: #212121; }
+    .theme-tertiary .card-black .mdl-card {
+      background: #000000 !important; }
+    .theme-tertiary .card-black .mdl-card__menu .material-icons {
+      color: #FF77A9;
+      font-size: 25px; }
+    .theme-tertiary .card-black .mdl-button {
+      color: #FFFFFF;
+      background-color: #000000;
+      font-weight: 500; }
+    .theme-tertiary .card-black .mdl-card__title-text {
+      color: #FFFFFF;
+      font-size: 30px;
+      font-weight: 300;
+      margin: 0; }
+    .theme-tertiary .card-black .mdl-card__subtitle p {
+      color: #FFFFFF;
+      font-size: 14px;
+      font-weight: 900; }
+    .theme-tertiary .card-black .mdl-card__supporting-text {
+      font-size: 14px;
+      font-weight: 300;
+      color: #FFFFFF; }
+    .theme-tertiary .card-black .mdl-card__image {
+      background: url("../img/welcome_card.jpg") center/cover; }
+    .theme-tertiary .card-black .mdl-button:hover {
+      background-color: #2b2b2b;
+      color: #FF77A9; }
+  .theme-tertiary .card-blue {
+    background-color: #38a9ff; }
+    .theme-tertiary .card-blue .mdl-card {
+      background: #0091FF !important; }
+    .theme-tertiary .card-blue .mdl-card__menu .material-icons {
+      color: #FF77A9;
+      font-size: 25px; }
+    .theme-tertiary .card-blue .mdl-button {
+      color: #000000;
+      background-color: #80c8ff;
+      font-weight: 500; }
+    .theme-tertiary .card-blue .mdl-card__title-text {
+      color: #000000;
+      font-size: 30px;
+      font-weight: 300;
+      margin: 0; }
+    .theme-tertiary .card-blue .mdl-card__subtitle p {
+      color: #000000;
+      font-size: 14px;
+      font-weight: 900; }
+    .theme-tertiary .card-blue .mdl-card__supporting-text {
+      font-size: 14px;
+      font-weight: 300;
+      color: #000000; }
+    .theme-tertiary .card-blue .mdl-card__image {
+      background: url("../img/welcome_card.jpg") center/cover; }
+    .theme-tertiary .card-blue .mdl-button:hover {
+      background-color: #cce9ff;
+      color: #000000; }
 
 /* =Header
 ------------------------------ */
 .mdl-layout__header {
-  padding-top: 20px;
-  min-height: 180px; }
+  padding-top: 15px;
+  min-height: 85px; }
 
 /* =Cards
 ------------------------------ */
@@ -430,21 +955,29 @@ textarea {
 .hm-card .mdl-card__supporting-text {
   font-size: 14px;
   font-weight: 300;
-  color: #000000;
+  color: inherit;
   padding: 20px !important; }
 .hm-card .mdl-card__image {
   width: 100%;
-  height: 200px;
-  background: url("../img/welcome_card.jpg") center/cover; }
+  height: 200px; }
 .hm-card .mdl-card__menu {
   position: absolute;
   left: 16px;
   top: 16px; }
 .hm-card .mdl-button {
-  color: #000000; }
+  color: inherit; }
 .hm-card .mdl-button:hover {
-  background-color: #404040;
-  color: #000000; }
+  background-color: inherit;
+  color: inherit; }
+.hm-card .mdl-button--icon {
+  width: 50px;
+  height: 50px; }
+
+/* =Footer
+---------------------------- */
+.mdl-mini-footer {
+  padding: 5px;
+  font-size: 12px; }
 
 .center {
   margin: 0 auto !important; }
@@ -455,6 +988,153 @@ textarea {
 .img-responsive {
   width: 100%;
   height: auto; }
+
+/* =Margin
+---------------------------- */
+.mx-1 {
+  margin: 0 10px; }
+.mx-2 {
+  margin: 0 20px; }
+.mx-3 {
+  margin: 0 30px; }
+.mx-4 {
+  margin: 0 40px; }
+.mx-5 {
+  margin: 0 50px; }
+
+.ml-1 {
+  margin-left: 10px; }
+.ml-2 {
+  margin-left: 20px; }
+.ml-3 {
+  margin-left: 30px; }
+.ml-4 {
+  margin-left: 40px; }
+.ml-5 {
+  margin-left: 50px; }
+
+.mr-1 {
+  margin-right: 10px; }
+.mr-2 {
+  margin-right: 20px; }
+.mr-3 {
+  margin-right: 30px; }
+.mr-4 {
+  margin-right: 40px; }
+.mr-5 {
+  margin-right: 50px; }
+
+.my-1 {
+  margin: 10px 0; }
+.my-2 {
+  margin: 20px 0; }
+.my-3 {
+  margin: 30px 0; }
+.my-4 {
+  margin: 40px 0; }
+.my-5 {
+  margin: 50px 0; }
+
+.mt-1 {
+  margin-top: 10px; }
+.mt-2 {
+  margin-top: 20px; }
+.mt-3 {
+  margin-top: 30px; }
+.mt-4 {
+  margin-top: 40px; }
+.mt-5 {
+  margin-top: 50px; }
+
+.mb-1 {
+  margin-bottom: 10px; }
+.mb-2 {
+  margin-bottom: 20px; }
+.mb-3 {
+  margin-bottom: 30px; }
+.mb-4 {
+  margin-bottom: 40px; }
+.mb-5 {
+  margin-bottom: 50px; }
+
+/* =Padding
+---------------------------- */
+.px-1 {
+  padding: 0 10px; }
+.px-2 {
+  padding: 0 20px; }
+.px-3 {
+  padding: 0 30px; }
+.px-4 {
+  padding: 0 40px; }
+.px-5 {
+  padding: 0 50px; }
+
+.pl-1 {
+  padding-left: 10px; }
+.pl-2 {
+  padding-left: 20px; }
+.pl-3 {
+  padding-left: 30px; }
+.pl-4 {
+  padding-left: 40px; }
+.pl-5 {
+  padding-left: 50px; }
+
+.pr-1 {
+  padding-right: 10px; }
+.pr-2 {
+  padding-right: 20px; }
+.pr-3 {
+  padding-right: 30px; }
+.pr-4 {
+  padding-right: 40px; }
+.pr-5 {
+  padding-right: 50px; }
+
+.py-1 {
+  padding: 10px 0; }
+.py-2 {
+  padding: 20px 0; }
+.py-3 {
+  padding: 30px 0; }
+.py-4 {
+  padding: 40px 0; }
+.py-5 {
+  padding: 50px 0; }
+
+.pt-1 {
+  padding-top: 10px; }
+.pt-2 {
+  padding-top: 20px; }
+.pt-3 {
+  padding-top: 30px; }
+.pt-4 {
+  padding-top: 40px; }
+.pt-5 {
+  padding-top: 50px; }
+
+.pb-1 {
+  padding-bottom: 10px; }
+.pb-2 {
+  padding-bottom: 20px; }
+.pb-3 {
+  padding-bottom: 30px; }
+.pb-4 {
+  padding-bottom: 40px; }
+.pb-5 {
+  padding-bottom: 50px; }
+
+/* =VH
+---------------------------- */
+.vh-5 {
+  height: 5vh; }
+.vh-10 {
+  height: 10vh; }
+.vh-15 {
+  height: 15vh; }
+.vh-20 {
+  height: 20vh; }
 
 /* Color Palette
 ------------------------------ */
@@ -492,12 +1172,12 @@ textarea {
 .theme-primary {
   /* Card Theme Styles
   ------------------------------ */ }
-  .theme-primary body {
-    background-color: black; }
+  .theme-primary main {
+    background: #e0e0e0; }
   .theme-primary h2 {
     font-weight: 100; }
   .theme-primary .mdl-grid {
-    background-color: #999999; }
+    background-color: none; }
   .theme-primary .mdl-layout__header {
     background-color: #000000;
     color: #FF77A9; }
@@ -516,8 +1196,12 @@ textarea {
       width: 50%;
       height: 100px; }
   .theme-primary .mdl-layout__title {
-    color: #FF77A9;
     background: url("../img/logo-test.svg") no-repeat;
+    color: #FF77A9;
+<<<<<<< HEAD
+    background: url("../img/logo-test.svg") no-repeat;
+=======
+>>>>>>> d980001a357312df8da23110ff0b4bd4fa1bef9e
     width: 50%;
     height: 100px; }
   .theme-primary .mdl-layout__title .lastname {
@@ -530,84 +1214,599 @@ textarea {
   .theme-primary .mdl-layout__drawer .mdl-navigation .mdl-navigation__link:hover {
     background-color: #000000;
     color: #FFFFFF; }
+  .theme-primary .mdl-mini-footer {
+    background-color: #000000; }
+  .theme-primary .mini-footer__left-section {
+    background-color: #FF77A9; }
+  .theme-primary .mdl-logo {
+    background: url("../img/logo-test.svg") no-repeat;
+    width: 20%;
+    height: 30px; }
+  .theme-primary .mdl-mini-footer__link-list li {
+    color: #FF77A9; }
   .theme-primary .card-teal {
-    background-color: #3be9ff; }
+    background-color: #00cae3; }
     .theme-primary .card-teal .mdl-card {
-      background: #3be9ff !important; }
+      background: #00cae3 !important; }
+    .theme-primary .card-teal .mdl-card__menu .material-icons {
+      color: #FF77A9;
+      font-size: 25px; }
+    .theme-primary .card-teal .mdl-button {
+      color: #000000;
+      background-color: #1ce5ff;
+      font-weight: 500; }
     .theme-primary .card-teal .mdl-card__title-text {
-      color: #FFFFFF;
+      color: #000000;
       font-size: 30px;
-      font-weight: 900;
+      font-weight: 300;
       margin: 0; }
-    .theme-primary .card-teal .mdl-card__subtitle {
+    .theme-primary .card-teal .mdl-card__subtitle p {
+      color: #000000;
       font-size: 14px;
-      font-weight: 300; }
+      font-weight: 900; }
     .theme-primary .card-teal .mdl-card__supporting-text {
       font-size: 14px;
       font-weight: 300;
       color: #000000; }
     .theme-primary .card-teal .mdl-card__image {
       background: url("../img/welcome_card.jpg") center/cover; }
-    .theme-primary .card-teal .mdl-button {
-      color: inherit; }
     .theme-primary .card-teal .mdl-button:hover {
-      background-color: inherit;
+      background-color: #006f7d;
+      color: #000000; }
+  .theme-primary .card-pink {
+    background-color: #FF77A9; }
+    .theme-primary .card-pink .mdl-card {
+      background: #FF77A9 !important; }
+    .theme-primary .card-pink .mdl-card__menu .material-icons {
+      color: #00cae3;
+      font-size: 25px; }
+    .theme-primary .card-pink .mdl-button {
+      color: #000000;
+      background-color: #ffa0c3;
+      font-weight: 500; }
+    .theme-primary .card-pink .mdl-card__title-text {
+      color: #000000;
+      font-size: 30px;
+      font-weight: 300;
+      margin: 0; }
+    .theme-primary .card-pink .mdl-card__subtitle p {
+      color: #000000;
+      font-size: 14px;
+      font-weight: 900; }
+    .theme-primary .card-pink .mdl-card__supporting-text {
+      font-size: 14px;
+      font-weight: 300;
+      color: #000000; }
+    .theme-primary .card-pink .mdl-card__image {
+      background: url("../img/welcome_card.jpg") center/cover; }
+    .theme-primary .card-pink .mdl-button:hover {
+      background-color: #ffddea;
       color: inherit; }
+  .theme-primary .card-purple {
+    background-color: #5627ff; }
+    .theme-primary .card-purple .mdl-card {
+      background: #5627ff !important; }
+    .theme-primary .card-purple .mdl-card__menu .material-icons {
+      color: #FFFFFF;
+      font-size: 25px; }
+    .theme-primary .card-purple .mdl-button {
+      color: #FFFFFF;
+      background-color: #7650ff;
+      font-weight: 500; }
+    .theme-primary .card-purple .mdl-card__title-text {
+      color: #FFFFFF;
+      font-size: 30px;
+      font-weight: 300;
+      margin: 0; }
+    .theme-primary .card-purple .mdl-card__subtitle p {
+      color: #FFFFFF;
+      font-size: 14px;
+      font-weight: 900; }
+    .theme-primary .card-purple .mdl-card__supporting-text {
+      font-size: 14px;
+      font-weight: 300;
+      color: #FFFFFF; }
+    .theme-primary .card-purple .mdl-card__image {
+      background: url("../img/welcome_card.jpg") center/cover; }
+    .theme-primary .card-purple .mdl-button:hover {
+      background-color: #a68dff;
+      color: inherit; }
+  .theme-primary .card-buttercream {
+    background-color: #FFEDBA; }
+    .theme-primary .card-buttercream .mdl-card {
+      background: #FFEDBA !important; }
+    .theme-primary .card-buttercream .mdl-card__menu .material-icons {
+      color: #000000;
+      font-size: 25px; }
+    .theme-primary .card-buttercream .mdl-button {
+      color: #000000;
+      background-color: #ffa0c3;
+      font-weight: 500; }
+    .theme-primary .card-buttercream .mdl-card__title-text {
+      color: #000000;
+      font-size: 30px;
+      font-weight: 300;
+      margin: 0; }
+    .theme-primary .card-buttercream .mdl-card__subtitle p {
+      color: #000000;
+      font-size: 14px;
+      font-weight: 900; }
+    .theme-primary .card-buttercream .mdl-card__supporting-text {
+      font-size: 14px;
+      font-weight: 300;
+      color: #000000; }
+    .theme-primary .card-buttercream .mdl-card__image {
+      background: url("../img/welcome_card.jpg") center/cover; }
+    .theme-primary .card-buttercream .mdl-button:hover {
+      background-color: #fff8e3;
+      color: inherit; }
+  .theme-primary .card-black {
+    background-color: #212121; }
+    .theme-primary .card-black .mdl-card {
+      background: #000000 !important; }
+    .theme-primary .card-black .mdl-card__menu .material-icons {
+      color: #FF77A9;
+      font-size: 25px; }
+    .theme-primary .card-black .mdl-button {
+      color: #FFFFFF;
+      background-color: #000000;
+      font-weight: 500; }
+    .theme-primary .card-black .mdl-card__title-text {
+      color: #FFFFFF;
+      font-size: 30px;
+      font-weight: 300;
+      margin: 0; }
+    .theme-primary .card-black .mdl-card__subtitle p {
+      color: #FFFFFF;
+      font-size: 14px;
+      font-weight: 900; }
+    .theme-primary .card-black .mdl-card__supporting-text {
+      font-size: 14px;
+      font-weight: 300;
+      color: #FFFFFF; }
+    .theme-primary .card-black .mdl-card__image {
+      background: url("../img/welcome_card.jpg") center/cover; }
+    .theme-primary .card-black .mdl-button:hover {
+      background-color: #2b2b2b;
+      color: #FF77A9; }
+  .theme-primary .card-blue {
+    background-color: #38a9ff; }
+    .theme-primary .card-blue .mdl-card {
+      background: #0091FF !important; }
+    .theme-primary .card-blue .mdl-card__menu .material-icons {
+      color: #FF77A9;
+      font-size: 25px; }
+    .theme-primary .card-blue .mdl-button {
+      color: #000000;
+      background-color: #80c8ff;
+      font-weight: 500; }
+    .theme-primary .card-blue .mdl-card__title-text {
+      color: #000000;
+      font-size: 30px;
+      font-weight: 300;
+      margin: 0; }
+    .theme-primary .card-blue .mdl-card__subtitle p {
+      color: #000000;
+      font-size: 14px;
+      font-weight: 900; }
+    .theme-primary .card-blue .mdl-card__supporting-text {
+      font-size: 14px;
+      font-weight: 300;
+      color: #000000; }
+    .theme-primary .card-blue .mdl-card__image {
+      background: url("../img/welcome_card.jpg") center/cover; }
+    .theme-primary .card-blue .mdl-button:hover {
+      background-color: #cce9ff;
+      color: #000000; }
 
-.theme-secondary h2 {
-  font-weight: 100; }
-.theme-secondary .mdl-layout__header {
-  background-color: #FF77A9;
-  color: #000000; }
-.theme-secondary .mdl-layout__drawer-button {
-  color: #000000; }
-.theme-secondary .mdl-layout__drawer {
-  background-color: #000000;
-  color: #FF77A9;
-  border-right: 5px solid #FF77A9; }
-.theme-secondary .mdl-layout__drawer .lastname {
-  color: #FFEDBA; }
-.theme-secondary .mdl-layout__title {
-  color: #000000;
-  background: url("../img/logo-secondary.png") no-repeat;
-  width: 50%;
-  height: 100px; }
-.theme-secondary .mdl-layout__subtitle {
-  text-align: right; }
-.theme-secondary .mdl-layout__drawer .mdl-navigation .mdl-navigation__link {
-  color: #FF77A9;
-  font-size: 1rem; }
-.theme-secondary .mdl-layout__drawer .mdl-navigation .mdl-navigation__link:hover {
-  background-color: #FF77A9;
-  color: #000000; }
+.theme-secondary {
+  /* Card Theme Styles
+  ------------------------------ */ }
+  .theme-secondary h2 {
+    font-weight: 100; }
+  .theme-secondary .mdl-layout__header {
+    background-color: #FF77A9;
+    color: #000000; }
+  .theme-secondary .mdl-layout__drawer-button {
+    color: #000000; }
+  .theme-secondary .mdl-layout__drawer {
+    background-color: #000000;
+    color: #FF77A9;
+    border-right: 5px solid #FF77A9; }
+  .theme-secondary .mdl-layout__drawer .lastname {
+    color: #FFEDBA; }
+  .theme-secondary .mdl-layout__title {
+    color: #000000;
+    background: url("../img/logo-secondary.png") no-repeat;
+    width: 50%;
+    height: 100px; }
+  .theme-secondary .mdl-layout__subtitle {
+    text-align: right; }
+  .theme-secondary .mdl-layout__drawer .mdl-navigation .mdl-navigation__link {
+    color: #FF77A9;
+    font-size: 1rem; }
+  .theme-secondary .mdl-layout__drawer .mdl-navigation .mdl-navigation__link:hover {
+    background-color: #FF77A9;
+    color: #000000; }
+  .theme-secondary .card-teal {
+    background-color: #00cae3; }
+    .theme-secondary .card-teal .mdl-card {
+      background: #00cae3 !important; }
+    .theme-secondary .card-teal .mdl-card__menu .material-icons {
+      color: #FF77A9;
+      font-size: 25px; }
+    .theme-secondary .card-teal .mdl-button {
+      color: #000000;
+      background-color: #1ce5ff;
+      font-weight: 500; }
+    .theme-secondary .card-teal .mdl-card__title-text {
+      color: #000000;
+      font-size: 30px;
+      font-weight: 300;
+      margin: 0; }
+    .theme-secondary .card-teal .mdl-card__subtitle p {
+      color: #000000;
+      font-size: 14px;
+      font-weight: 900; }
+    .theme-secondary .card-teal .mdl-card__supporting-text {
+      font-size: 14px;
+      font-weight: 300;
+      color: #000000; }
+    .theme-secondary .card-teal .mdl-card__image {
+      background: url("../img/welcome_card.jpg") center/cover; }
+    .theme-secondary .card-teal .mdl-button:hover {
+      background-color: #006f7d;
+      color: #000000; }
+  .theme-secondary .card-pink {
+    background-color: #FF77A9; }
+    .theme-secondary .card-pink .mdl-card {
+      background: #FF77A9 !important; }
+    .theme-secondary .card-pink .mdl-card__menu .material-icons {
+      color: #00cae3;
+      font-size: 25px; }
+    .theme-secondary .card-pink .mdl-button {
+      color: #000000;
+      background-color: #ffa0c3;
+      font-weight: 500; }
+    .theme-secondary .card-pink .mdl-card__title-text {
+      color: #000000;
+      font-size: 30px;
+      font-weight: 300;
+      margin: 0; }
+    .theme-secondary .card-pink .mdl-card__subtitle p {
+      color: #000000;
+      font-size: 14px;
+      font-weight: 900; }
+    .theme-secondary .card-pink .mdl-card__supporting-text {
+      font-size: 14px;
+      font-weight: 300;
+      color: #000000; }
+    .theme-secondary .card-pink .mdl-card__image {
+      background: url("../img/welcome_card.jpg") center/cover; }
+    .theme-secondary .card-pink .mdl-button:hover {
+      background-color: #ffddea;
+      color: inherit; }
+  .theme-secondary .card-purple {
+    background-color: #5627ff; }
+    .theme-secondary .card-purple .mdl-card {
+      background: #5627ff !important; }
+    .theme-secondary .card-purple .mdl-card__menu .material-icons {
+      color: #FFFFFF;
+      font-size: 25px; }
+    .theme-secondary .card-purple .mdl-button {
+      color: #FFFFFF;
+      background-color: #7650ff;
+      font-weight: 500; }
+    .theme-secondary .card-purple .mdl-card__title-text {
+      color: #FFFFFF;
+      font-size: 30px;
+      font-weight: 300;
+      margin: 0; }
+    .theme-secondary .card-purple .mdl-card__subtitle p {
+      color: #FFFFFF;
+      font-size: 14px;
+      font-weight: 900; }
+    .theme-secondary .card-purple .mdl-card__supporting-text {
+      font-size: 14px;
+      font-weight: 300;
+      color: #FFFFFF; }
+    .theme-secondary .card-purple .mdl-card__image {
+      background: url("../img/welcome_card.jpg") center/cover; }
+    .theme-secondary .card-purple .mdl-button:hover {
+      background-color: #a68dff;
+      color: inherit; }
+  .theme-secondary .card-buttercream {
+    background-color: #FFEDBA; }
+    .theme-secondary .card-buttercream .mdl-card {
+      background: #FFEDBA !important; }
+    .theme-secondary .card-buttercream .mdl-card__menu .material-icons {
+      color: #000000;
+      font-size: 25px; }
+    .theme-secondary .card-buttercream .mdl-button {
+      color: #000000;
+      background-color: #ffa0c3;
+      font-weight: 500; }
+    .theme-secondary .card-buttercream .mdl-card__title-text {
+      color: #000000;
+      font-size: 30px;
+      font-weight: 300;
+      margin: 0; }
+    .theme-secondary .card-buttercream .mdl-card__subtitle p {
+      color: #000000;
+      font-size: 14px;
+      font-weight: 900; }
+    .theme-secondary .card-buttercream .mdl-card__supporting-text {
+      font-size: 14px;
+      font-weight: 300;
+      color: #000000; }
+    .theme-secondary .card-buttercream .mdl-card__image {
+      background: url("../img/welcome_card.jpg") center/cover; }
+    .theme-secondary .card-buttercream .mdl-button:hover {
+      background-color: #fff8e3;
+      color: inherit; }
+  .theme-secondary .card-black {
+    background-color: #212121; }
+    .theme-secondary .card-black .mdl-card {
+      background: #000000 !important; }
+    .theme-secondary .card-black .mdl-card__menu .material-icons {
+      color: #FF77A9;
+      font-size: 25px; }
+    .theme-secondary .card-black .mdl-button {
+      color: #FFFFFF;
+      background-color: #000000;
+      font-weight: 500; }
+    .theme-secondary .card-black .mdl-card__title-text {
+      color: #FFFFFF;
+      font-size: 30px;
+      font-weight: 300;
+      margin: 0; }
+    .theme-secondary .card-black .mdl-card__subtitle p {
+      color: #FFFFFF;
+      font-size: 14px;
+      font-weight: 900; }
+    .theme-secondary .card-black .mdl-card__supporting-text {
+      font-size: 14px;
+      font-weight: 300;
+      color: #FFFFFF; }
+    .theme-secondary .card-black .mdl-card__image {
+      background: url("../img/welcome_card.jpg") center/cover; }
+    .theme-secondary .card-black .mdl-button:hover {
+      background-color: #2b2b2b;
+      color: #FF77A9; }
+  .theme-secondary .card-blue {
+    background-color: #38a9ff; }
+    .theme-secondary .card-blue .mdl-card {
+      background: #0091FF !important; }
+    .theme-secondary .card-blue .mdl-card__menu .material-icons {
+      color: #FF77A9;
+      font-size: 25px; }
+    .theme-secondary .card-blue .mdl-button {
+      color: #000000;
+      background-color: #80c8ff;
+      font-weight: 500; }
+    .theme-secondary .card-blue .mdl-card__title-text {
+      color: #000000;
+      font-size: 30px;
+      font-weight: 300;
+      margin: 0; }
+    .theme-secondary .card-blue .mdl-card__subtitle p {
+      color: #000000;
+      font-size: 14px;
+      font-weight: 900; }
+    .theme-secondary .card-blue .mdl-card__supporting-text {
+      font-size: 14px;
+      font-weight: 300;
+      color: #000000; }
+    .theme-secondary .card-blue .mdl-card__image {
+      background: url("../img/welcome_card.jpg") center/cover; }
+    .theme-secondary .card-blue .mdl-button:hover {
+      background-color: #cce9ff;
+      color: #000000; }
 
-.theme-tertiary h2 {
-  font-weight: 100; }
-.theme-tertiary .mdl-layout__header {
-  background-color: #3F51B5;
-  color: #FFFFFF; }
-.theme-tertiary .mdl-layout__drawer-button {
-  color: #FFFFFF; }
-.theme-tertiary .mdl-layout__drawer {
-  background-color: #FFEDBA;
-  color: #000000;
-  border-right: 5px solid #3F51B5; }
-.theme-tertiary .mdl-layout__drawer .lastname {
-  color: #FF77A9;
-  font-weight: 300px; }
-.theme-tertiary .mdl-layout__title {
-  color: #FFFFFF;
-  background: url("../img/logo-tertiary.png") no-repeat;
-  width: 50%;
-  height: 100px; }
-.theme-tertiary .mdl-layout__subtitle {
-  text-align: right;
-  color: #FFEDBA; }
-.theme-tertiary .mdl-layout__drawer .mdl-navigation .mdl-navigation__link {
-  color: #000000;
-  font-size: 1rem; }
-.theme-tertiary .mdl-layout__drawer .mdl-navigation .mdl-navigation__link:hover {
-  background-color: #3F51B5;
-  color: #FFFFFF; }
+.theme-tertiary {
+  /* Card Theme Styles
+  ------------------------------ */ }
+  .theme-tertiary h2 {
+    font-weight: 100; }
+  .theme-tertiary .mdl-layout__header {
+    background-color: #3F51B5;
+    color: #FFFFFF; }
+  .theme-tertiary .mdl-layout__drawer-button {
+    color: #FFFFFF; }
+  .theme-tertiary .mdl-layout__drawer {
+    background-color: #FFEDBA;
+    color: #000000;
+    border-right: 5px solid #3F51B5; }
+  .theme-tertiary .mdl-layout__drawer .lastname {
+    color: #FF77A9;
+    font-weight: 300px; }
+  .theme-tertiary .mdl-layout__title {
+    color: #FFFFFF;
+    background: url("../img/logo-tertiary.png") no-repeat;
+    width: 50%;
+    height: 100px; }
+  .theme-tertiary .mdl-layout__subtitle {
+    text-align: right;
+    color: #FFEDBA; }
+  .theme-tertiary .mdl-layout__drawer .mdl-navigation .mdl-navigation__link {
+    color: #000000;
+    font-size: 1rem; }
+  .theme-tertiary .mdl-layout__drawer .mdl-navigation .mdl-navigation__link:hover {
+    background-color: #3F51B5;
+    color: #FFFFFF; }
+  .theme-tertiary .card-teal {
+    background-color: #00cae3; }
+    .theme-tertiary .card-teal .mdl-card {
+      background: #00cae3 !important; }
+    .theme-tertiary .card-teal .mdl-card__menu .material-icons {
+      color: #FF77A9;
+      font-size: 25px; }
+    .theme-tertiary .card-teal .mdl-button {
+      color: #000000;
+      background-color: #1ce5ff;
+      font-weight: 500; }
+    .theme-tertiary .card-teal .mdl-card__title-text {
+      color: #000000;
+      font-size: 30px;
+      font-weight: 300;
+      margin: 0; }
+    .theme-tertiary .card-teal .mdl-card__subtitle p {
+      color: #000000;
+      font-size: 14px;
+      font-weight: 900; }
+    .theme-tertiary .card-teal .mdl-card__supporting-text {
+      font-size: 14px;
+      font-weight: 300;
+      color: #000000; }
+    .theme-tertiary .card-teal .mdl-card__image {
+      background: url("../img/welcome_card.jpg") center/cover; }
+    .theme-tertiary .card-teal .mdl-button:hover {
+      background-color: #006f7d;
+      color: #000000; }
+  .theme-tertiary .card-pink {
+    background-color: #FF77A9; }
+    .theme-tertiary .card-pink .mdl-card {
+      background: #FF77A9 !important; }
+    .theme-tertiary .card-pink .mdl-card__menu .material-icons {
+      color: #00cae3;
+      font-size: 25px; }
+    .theme-tertiary .card-pink .mdl-button {
+      color: #000000;
+      background-color: #ffa0c3;
+      font-weight: 500; }
+    .theme-tertiary .card-pink .mdl-card__title-text {
+      color: #000000;
+      font-size: 30px;
+      font-weight: 300;
+      margin: 0; }
+    .theme-tertiary .card-pink .mdl-card__subtitle p {
+      color: #000000;
+      font-size: 14px;
+      font-weight: 900; }
+    .theme-tertiary .card-pink .mdl-card__supporting-text {
+      font-size: 14px;
+      font-weight: 300;
+      color: #000000; }
+    .theme-tertiary .card-pink .mdl-card__image {
+      background: url("../img/welcome_card.jpg") center/cover; }
+    .theme-tertiary .card-pink .mdl-button:hover {
+      background-color: #ffddea;
+      color: inherit; }
+  .theme-tertiary .card-purple {
+    background-color: #5627ff; }
+    .theme-tertiary .card-purple .mdl-card {
+      background: #5627ff !important; }
+    .theme-tertiary .card-purple .mdl-card__menu .material-icons {
+      color: #FFFFFF;
+      font-size: 25px; }
+    .theme-tertiary .card-purple .mdl-button {
+      color: #FFFFFF;
+      background-color: #7650ff;
+      font-weight: 500; }
+    .theme-tertiary .card-purple .mdl-card__title-text {
+      color: #FFFFFF;
+      font-size: 30px;
+      font-weight: 300;
+      margin: 0; }
+    .theme-tertiary .card-purple .mdl-card__subtitle p {
+      color: #FFFFFF;
+      font-size: 14px;
+      font-weight: 900; }
+    .theme-tertiary .card-purple .mdl-card__supporting-text {
+      font-size: 14px;
+      font-weight: 300;
+      color: #FFFFFF; }
+    .theme-tertiary .card-purple .mdl-card__image {
+      background: url("../img/welcome_card.jpg") center/cover; }
+    .theme-tertiary .card-purple .mdl-button:hover {
+      background-color: #a68dff;
+      color: inherit; }
+  .theme-tertiary .card-buttercream {
+    background-color: #FFEDBA; }
+    .theme-tertiary .card-buttercream .mdl-card {
+      background: #FFEDBA !important; }
+    .theme-tertiary .card-buttercream .mdl-card__menu .material-icons {
+      color: #000000;
+      font-size: 25px; }
+    .theme-tertiary .card-buttercream .mdl-button {
+      color: #000000;
+      background-color: #ffa0c3;
+      font-weight: 500; }
+    .theme-tertiary .card-buttercream .mdl-card__title-text {
+      color: #000000;
+      font-size: 30px;
+      font-weight: 300;
+      margin: 0; }
+    .theme-tertiary .card-buttercream .mdl-card__subtitle p {
+      color: #000000;
+      font-size: 14px;
+      font-weight: 900; }
+    .theme-tertiary .card-buttercream .mdl-card__supporting-text {
+      font-size: 14px;
+      font-weight: 300;
+      color: #000000; }
+    .theme-tertiary .card-buttercream .mdl-card__image {
+      background: url("../img/welcome_card.jpg") center/cover; }
+    .theme-tertiary .card-buttercream .mdl-button:hover {
+      background-color: #fff8e3;
+      color: inherit; }
+  .theme-tertiary .card-black {
+    background-color: #212121; }
+    .theme-tertiary .card-black .mdl-card {
+      background: #000000 !important; }
+    .theme-tertiary .card-black .mdl-card__menu .material-icons {
+      color: #FF77A9;
+      font-size: 25px; }
+    .theme-tertiary .card-black .mdl-button {
+      color: #FFFFFF;
+      background-color: #000000;
+      font-weight: 500; }
+    .theme-tertiary .card-black .mdl-card__title-text {
+      color: #FFFFFF;
+      font-size: 30px;
+      font-weight: 300;
+      margin: 0; }
+    .theme-tertiary .card-black .mdl-card__subtitle p {
+      color: #FFFFFF;
+      font-size: 14px;
+      font-weight: 900; }
+    .theme-tertiary .card-black .mdl-card__supporting-text {
+      font-size: 14px;
+      font-weight: 300;
+      color: #FFFFFF; }
+    .theme-tertiary .card-black .mdl-card__image {
+      background: url("../img/welcome_card.jpg") center/cover; }
+    .theme-tertiary .card-black .mdl-button:hover {
+      background-color: #2b2b2b;
+      color: #FF77A9; }
+  .theme-tertiary .card-blue {
+    background-color: #38a9ff; }
+    .theme-tertiary .card-blue .mdl-card {
+      background: #0091FF !important; }
+    .theme-tertiary .card-blue .mdl-card__menu .material-icons {
+      color: #FF77A9;
+      font-size: 25px; }
+    .theme-tertiary .card-blue .mdl-button {
+      color: #000000;
+      background-color: #80c8ff;
+      font-weight: 500; }
+    .theme-tertiary .card-blue .mdl-card__title-text {
+      color: #000000;
+      font-size: 30px;
+      font-weight: 300;
+      margin: 0; }
+    .theme-tertiary .card-blue .mdl-card__subtitle p {
+      color: #000000;
+      font-size: 14px;
+      font-weight: 900; }
+    .theme-tertiary .card-blue .mdl-card__supporting-text {
+      font-size: 14px;
+      font-weight: 300;
+      color: #000000; }
+    .theme-tertiary .card-blue .mdl-card__image {
+      background: url("../img/welcome_card.jpg") center/cover; }
+    .theme-tertiary .card-blue .mdl-button:hover {
+      background-color: #cce9ff;
+      color: #000000; }
 
 /*# sourceMappingURL=main.css.map */
