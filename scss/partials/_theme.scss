@@ -121,9 +121,10 @@ $text-on-error: $white;
     background-color: $pink;
   }
   .mdl-logo {
-    background: url("../img/footer-1.svg") no-repeat center;
-    width: 60%;
-    height: 100px;
+    background: url("../img/footer-white.svg") no-repeat center;
+    margin-top: 5px;
+    width: 50%;
+    height: 25px;
   }
   .mdl-mini-footer__link-list li {
     color: $pink;
@@ -139,6 +140,7 @@ $text-on-error: $white;
 
   h2 {
     font-weight: 100;
+    margin-top: 10px;
   }
   .mdl-layout__header {
   background-color: $text-on-primary;
@@ -155,16 +157,14 @@ $text-on-error: $white;
     .mdl-layout-title {
       margin: 30px auto;
       background: url("../img/logo-primary.svg") no-repeat;
-      width: 50%;
-      height: 100px;
+      width: 100%;
+      height: 50px;
     }
   }
   .mdl-layout__title {
-    margin-top: 30px;
     background: url("../img/logo-secondary.svg") no-repeat;
     color: $primary;
-    width: 50%;
-    height: 100px;
+    height: 80px;
   }
   .mdl-layout__subtitle {
     text-align: right;
@@ -176,6 +176,31 @@ $text-on-error: $white;
   .mdl-layout__drawer .mdl-navigation .mdl-navigation__link:hover {
     background-color: $text-on-primary;
     color: $primary;
+  }
+  .mdl-mini-footer {
+    background-color: $primary;
+  }
+  .mini-footer__left-section {
+    background-color: $pink;
+  }
+  .mdl-mini-footer {
+    display: inline;
+    padding: 0;
+    color: lighten($black, 65%);
+
+    .mdl-grid {
+      padding: 0;
+    }
+  }
+  .mdl-logo {
+    background: url("../img/footer-1.svg") no-repeat center;
+    margin: 0;
+    height: 25px;
+    line-height: 25px;
+    color: $pink;
+  }
+  .mdl-mini-footer__link-list li {
+    color: $pink;
   }
   /* Card Theme Styles
   ------------------------------ */
