@@ -987,6 +987,9 @@ textarea {
 
 /* =Margin
 ---------------------------- */
+.mx-0 {
+  margin-left: 0;
+  margin-right: 0; }
 .mx-1 {
   margin: 0 10px; }
 .mx-2 {
@@ -998,6 +1001,8 @@ textarea {
 .mx-5 {
   margin: 0 50px; }
 
+.ml-0 {
+  margin-left: 0; }
 .ml-1 {
   margin-left: 10px; }
 .ml-2 {
@@ -1009,6 +1014,8 @@ textarea {
 .ml-5 {
   margin-left: 50px; }
 
+.mr-0 {
+  margin-right: 0; }
 .mr-1 {
   margin-right: 10px; }
 .mr-2 {
@@ -1020,6 +1027,9 @@ textarea {
 .mr-5 {
   margin-right: 50px; }
 
+.my-0 {
+  margin-top: 0;
+  margin-bottom: 0; }
 .my-1 {
   margin: 10px 0; }
 .my-2 {
@@ -1031,6 +1041,8 @@ textarea {
 .my-5 {
   margin: 50px 0; }
 
+.mt-0 {
+  margin-top: 0; }
 .mt-1 {
   margin-top: 10px; }
 .mt-2 {
@@ -1042,6 +1054,8 @@ textarea {
 .mt-5 {
   margin-top: 50px; }
 
+.mb-0 {
+  margin-bottom: 0; }
 .mb-1 {
   margin-bottom: 10px; }
 .mb-2 {
@@ -1055,6 +1069,9 @@ textarea {
 
 /* =Padding
 ---------------------------- */
+.px-0 {
+  padding-left: 0;
+  padding-right: 0; }
 .px-1 {
   padding: 0 10px; }
 .px-2 {
@@ -1066,6 +1083,8 @@ textarea {
 .px-5 {
   padding: 0 50px; }
 
+.pl-0 {
+  padding-left: 0; }
 .pl-1 {
   padding-left: 10px; }
 .pl-2 {
@@ -1077,6 +1096,8 @@ textarea {
 .pl-5 {
   padding-left: 50px; }
 
+.pr-0 {
+  padding-right: 0; }
 .pr-1 {
   padding-right: 10px; }
 .pr-2 {
@@ -1088,6 +1109,9 @@ textarea {
 .pr-5 {
   padding-right: 50px; }
 
+.py-0 {
+  padding-top: 0;
+  padding-bottom: 0; }
 .py-1 {
   padding: 10px 0; }
 .py-2 {
@@ -1099,6 +1123,8 @@ textarea {
 .py-5 {
   padding: 50px 0; }
 
+.pt-0 {
+  padding-top: 0; }
 .pt-1 {
   padding-top: 10px; }
 .pt-2 {
@@ -1110,6 +1136,8 @@ textarea {
 .pt-5 {
   padding-top: 50px; }
 
+.pb-0 {
+  padding-bottom: 0; }
 .pb-1 {
   padding-bottom: 10px; }
 .pb-2 {
