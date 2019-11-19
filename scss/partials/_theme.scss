@@ -95,7 +95,7 @@ $text-on-error: $white;
   }
   .mdl-layout__title {
     margin-top: 30px;
-    background: url("../img/logo-primary.svg") no-repeat;
+    background: url("../img/round-logo-6.svg") no-repeat;
     color: $text-on-primary;
     width: 50%;
     height: 100px;
@@ -115,16 +115,23 @@ $text-on-error: $white;
     color: $white;
   }
   .mdl-mini-footer {
-    background-color: $primary;
-  }
-  .mini-footer__left-section {
     background-color: $pink;
   }
+  .mdl-mini-footer {
+    display: inline;
+    padding: 0;
+    color: lighten($black, 65%);
+
+    .mdl-grid {
+      padding: 0;
+    }
+  }
   .mdl-logo {
-    background: url("../img/footer-white.svg") no-repeat center;
-    margin-top: 5px;
-    width: 50%;
+    background: url("../img/footer-1.svg") no-repeat center;
+    margin: 0;
     height: 25px;
+    line-height: 25px;
+    color: $pink;
   }
   .mdl-mini-footer__link-list li {
     color: $pink;
