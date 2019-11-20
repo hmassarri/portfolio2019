@@ -115,7 +115,7 @@ $text-on-error: $white;
     color: $white;
   }
   .mdl-mini-footer {
-    background-color: $pink;
+    background-color: $black;
   }
   .mdl-mini-footer {
     display: inline;
@@ -125,16 +125,14 @@ $text-on-error: $white;
     .mdl-grid {
       padding: 0;
     }
-  }
-  .mdl-logo {
-    background: url("../img/footer-1.svg") no-repeat center;
-    margin: 0;
-    height: 25px;
-    line-height: 25px;
-    color: $pink;
-  }
-  .mdl-mini-footer__link-list li {
-    color: $pink;
+    .mdl-logo {
+      background: url("../img/logo-footer.png") no-repeat center;
+      margin: 0;
+      width: 100%;
+      height: 20px;
+      line-height: 25px;
+      color: $pink;
+    }
   }
 
 
