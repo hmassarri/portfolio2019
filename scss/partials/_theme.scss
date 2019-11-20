@@ -68,8 +68,12 @@ $text-on-error: $white;
 
   h2 {
     font-weight: 100;
+    margin-top: 0px;
   }
 
+  p {
+    margin-bottom: 16px;
+  }
   .mdl-grid {
     background-color: none;
   }
@@ -83,26 +87,30 @@ $text-on-error: $white;
   .mdl-layout__drawer {
     background-color: lighten($text-on-primary, 8%);
     color: lighten($primary, 20%);
-    border-right: 5px solid $primary;
+    border-right: 5px solid transparent;
+    border-image: url("../img/checkerboard-pink-small.png") 50;
     font-weight: 100;
+
+    .mdl-layout-title__background {
+      background: lighten($black, 5%) repeat;
+    }
 
     .mdl-layout-title {
       margin: 30px auto;
-      background: url("../img/logo-secondary.svg") no-repeat;
-      width: 50%;
+      background: url("../img/logo-10.svg") no-repeat;
+      width: 75%;
       height: 100px;
     }
+
   }
   .mdl-layout__title {
-    margin-top: 30px;
+    margin-top: 0px;
     background: url("../img/logo-12.svg") no-repeat;
     color: $text-on-primary;
     width: 50%;
     height: 100px;
   }
-  .mdl-layout__title .lastname {
-    color: $white;
-  }
+
   .mdl-layout__subtitle {
     text-align: right;
   }

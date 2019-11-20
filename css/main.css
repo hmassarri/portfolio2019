@@ -282,7 +282,10 @@ textarea {
   .theme-primary main {
     background: #e0e0e0; }
   .theme-primary h2 {
-    font-weight: 100; }
+    font-weight: 100;
+    margin-top: 0px; }
+  .theme-primary p {
+    margin-bottom: 16px; }
   .theme-primary .mdl-grid {
     background-color: none; }
   .theme-primary .mdl-layout__header {
@@ -293,21 +296,22 @@ textarea {
   .theme-primary .mdl-layout__drawer {
     background-color: #ffa0c3;
     color: #333333;
-    border-right: 5px solid #000000;
+    border-right: 5px solid transparent;
+    border-image: url("../img/checkerboard-pink-small.png") 50;
     font-weight: 100; }
+    .theme-primary .mdl-layout__drawer .mdl-layout-title__background {
+      background: #0d0d0d repeat; }
     .theme-primary .mdl-layout__drawer .mdl-layout-title {
       margin: 30px auto;
-      background: url("../img/logo-secondary.svg") no-repeat;
-      width: 50%;
+      background: url("../img/logo-10.svg") no-repeat;
+      width: 75%;
       height: 100px; }
   .theme-primary .mdl-layout__title {
-    margin-top: 30px;
+    margin-top: 0px;
     background: url("../img/logo-12.svg") no-repeat;
     color: #FF77A9;
     width: 50%;
     height: 100px; }
-  .theme-primary .mdl-layout__title .lastname {
-    color: #FFFFFF; }
   .theme-primary .mdl-layout__subtitle {
     text-align: right; }
   .theme-primary .mdl-layout__drawer .mdl-navigation .mdl-navigation__link {
@@ -1233,7 +1237,10 @@ textarea {
   .theme-primary main {
     background: #e0e0e0; }
   .theme-primary h2 {
-    font-weight: 100; }
+    font-weight: 100;
+    margin-top: 0px; }
+  .theme-primary p {
+    margin-bottom: 16px; }
   .theme-primary .mdl-grid {
     background-color: none; }
   .theme-primary .mdl-layout__header {
@@ -1244,21 +1251,22 @@ textarea {
   .theme-primary .mdl-layout__drawer {
     background-color: #ffa0c3;
     color: #333333;
-    border-right: 5px solid #000000;
+    border-right: 5px solid transparent;
+    border-image: url("../img/checkerboard-pink-small.png") 50;
     font-weight: 100; }
+    .theme-primary .mdl-layout__drawer .mdl-layout-title__background {
+      background: #0d0d0d repeat; }
     .theme-primary .mdl-layout__drawer .mdl-layout-title {
       margin: 30px auto;
-      background: url("../img/logo-secondary.svg") no-repeat;
-      width: 50%;
+      background: url("../img/logo-10.svg") no-repeat;
+      width: 75%;
       height: 100px; }
   .theme-primary .mdl-layout__title {
-    margin-top: 30px;
+    margin-top: 0px;
     background: url("../img/logo-12.svg") no-repeat;
     color: #FF77A9;
     width: 50%;
     height: 100px; }
-  .theme-primary .mdl-layout__title .lastname {
-    color: #FFFFFF; }
   .theme-primary .mdl-layout__subtitle {
     text-align: right; }
   .theme-primary .mdl-layout__drawer .mdl-navigation .mdl-navigation__link {
