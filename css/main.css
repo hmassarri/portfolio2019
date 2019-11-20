@@ -296,8 +296,7 @@ textarea {
   .theme-primary .mdl-layout__drawer {
     background-color: #ffa0c3;
     color: #333333;
-    border-right: 5px solid transparent;
-    border-image: url("../img/checkerboard-pink-small.png") 50;
+    border-right: 5px dashed #000000;
     font-weight: 100; }
     .theme-primary .mdl-layout__drawer .mdl-layout-title__background {
       background: #0d0d0d repeat; }
@@ -1251,8 +1250,7 @@ textarea {
   .theme-primary .mdl-layout__drawer {
     background-color: #ffa0c3;
     color: #333333;
-    border-right: 5px solid transparent;
-    border-image: url("../img/checkerboard-pink-small.png") 50;
+    border-right: 5px dashed #000000;
     font-weight: 100; }
     .theme-primary .mdl-layout__drawer .mdl-layout-title__background {
       background: #0d0d0d repeat; }

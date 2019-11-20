@@ -87,8 +87,7 @@ $text-on-error: $white;
   .mdl-layout__drawer {
     background-color: lighten($text-on-primary, 8%);
     color: lighten($primary, 20%);
-    border-right: 5px solid transparent;
-    border-image: url("../img/checkerboard-pink-small.png") 50;
+    border-right: 5px dashed $black;
     font-weight: 100;
 
     .mdl-layout-title__background {
