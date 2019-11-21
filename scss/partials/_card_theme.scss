@@ -29,7 +29,7 @@
     color: $primary;
   }
   .mdl-card__image {
-    background: url('../img/welcome_card.jpg') center / cover;
+    background: url('../img/welcome_card1.jpg') $black center / cover;
   }
   .mdl-button:hover {
     background-color: darken($teal, 20%);

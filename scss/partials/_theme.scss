@@ -93,14 +93,23 @@ $text-on-error: $white;
     .mdl-layout-title__background {
       background: lighten($black, 5%) repeat;
     }
-
     .mdl-layout-title {
       margin: 30px auto;
       background: url("../img/logo-10.svg") no-repeat;
       width: 75%;
       height: 100px;
     }
-
+    .mdl-navigation {
+      padding-top: 0px;
+    }
+    .mdl-navigation .mdl-navigation__link {
+      color: $primary;
+      font-size: 1rem;
+    }
+    .mdl-navigation .mdl-navigation__link:hover {
+      background-color: $primary;
+      color: $white;
+    }
   }
   .mdl-layout__title {
     margin-top: 0px;
@@ -109,17 +118,8 @@ $text-on-error: $white;
     width: 50%;
     height: 100px;
   }
-
   .mdl-layout__subtitle {
     text-align: right;
-  }
-  .mdl-layout__drawer .mdl-navigation .mdl-navigation__link {
-    color: $primary;
-    font-size: 1rem;
-  }
-  .mdl-layout__drawer .mdl-navigation .mdl-navigation__link:hover {
-    background-color: $primary;
-    color: $white;
   }
   .mdl-mini-footer {
     background-color: $black;
@@ -141,12 +141,11 @@ $text-on-error: $white;
       color: $pink;
     }
   }
-
-
   /* Card Theme Styles
   ------------------------------ */
   @import "card_theme.scss";
 }
+
 
 .theme-secondary {
 
