@@ -96,7 +96,7 @@ $text-on-error: $white;
 
     .mdl-layout-title {
       margin: 30px auto;
-      background: url("../img/logo-10.svg") no-repeat;
+      background: url("../img/logo/logo-10.svg") no-repeat;
       width: 75%;
       height: 100px;
     }
@@ -104,7 +104,7 @@ $text-on-error: $white;
   }
   .mdl-layout__title {
     margin-top: 0px;
-    background: url("../img/logo-12.svg") no-repeat;
+    background: url("../img/logo/logo-12.svg") no-repeat;
     color: $text-on-primary;
     width: 50%;
     height: 100px;
@@ -133,7 +133,7 @@ $text-on-error: $white;
       padding: 0;
     }
     .mdl-logo {
-      background: url("../img/logo-footer.png") no-repeat center;
+      background: url("../img/logo/logo-footer.png") no-repeat center;
       margin: 0;
       width: 100%;
       height: 20px;
@@ -164,30 +164,33 @@ $text-on-error: $white;
   .mdl-layout__drawer {
     background-color: $primary;
     color: $text-on-primary;
-    border-right: 5px solid $text-on-primary;
+    border-right: 5px dashed $text-on-primary;
 
     .mdl-layout-title {
       margin: 30px auto;
-      background: url("../img/logo-primary.svg") no-repeat;
+      background: url("../img/logo/logo-10.svg") no-repeat center;
       width: 100%;
       height: 50px;
     }
+    .mdl-layout-title__background {
+      background: $pink repeat;
+    }
+    .mdl-navigation .mdl-navigation__link {
+      color: $text-on-primary;
+      font-size: 1rem;
+    }
+    .mdl-navigation .mdl-navigation__link:hover {
+      background-color: $text-on-primary;
+      color: $primary;
+    }
   }
   .mdl-layout__title {
-    background: url("../img/round-logo-7.svg") no-repeat;
+    background: url("../img/logo/logo-10.svg") no-repeat;
     color: $primary;
     height: 80px;
   }
   .mdl-layout__subtitle {
     text-align: right;
-  }
-  .mdl-layout__drawer .mdl-navigation .mdl-navigation__link {
-    color: $text-on-primary;
-    font-size: 1rem;
-  }
-  .mdl-layout__drawer .mdl-navigation .mdl-navigation__link:hover {
-    background-color: $text-on-primary;
-    color: $primary;
   }
   .mdl-mini-footer {
     background-color: $primary;
@@ -203,16 +206,14 @@ $text-on-error: $white;
     .mdl-grid {
       padding: 0;
     }
-  }
-  .mdl-logo {
-    background: url("../img/footer-1.svg") no-repeat center;
-    margin: 0;
-    height: 25px;
-    line-height: 25px;
-    color: $pink;
-  }
-  .mdl-mini-footer__link-list li {
-    color: $pink;
+    .mdl-logo {
+      background: url("../img/logo/") no-repeat center;
+      margin: 0;
+      width: 100%;
+      height: 20px;
+      line-height: 25px;
+      color: $pink;
+    }
   }
   /* Card Theme Styles
   ------------------------------ */
@@ -234,18 +235,29 @@ $text-on-error: $white;
   .mdl-layout__drawer {
     background-color: $buttercream;
     color: $blue-purple;
-    border-right: 5px solid $blue-purple;
+    border-right: 5px dashed $blue-purple;
 
     .mdl-layout-title {
       margin: 30px auto;
-      background: url("../img/logo-quad.svg") no-repeat;
+      background: url("../img/logo/logo-quad.svg") no-repeat;
       width: 50%;
       height: 100px;
+    }
+    .mdl-layout-title__background {
+      background: darken($buttercream, 5%) repeat;
+    }
+    .mdl-navigation .mdl-navigation__link {
+      color: $blue-purple;
+      font-size: 1rem;
+    }
+    .mdl-navigation .mdl-navigation__link:hover {
+      background-color: $blue-purple;
+      color: $pink;
     }
   }
   .mdl-layout__title {
     margin-top: 30px;
-    background: url("../img/logo-tertiary.svg") no-repeat;
+    background: url("../img/logo/logo-tertiary.svg") no-repeat;
     color: $white;
     width: 50%;
     height: 100px;
@@ -254,14 +266,7 @@ $text-on-error: $white;
     text-align: right;
     color: $buttercream;
   }
-  .mdl-layout__drawer .mdl-navigation .mdl-navigation__link {
-    color: $blue-purple;
-    font-size: 1rem;
-  }
-  .mdl-layout__drawer .mdl-navigation .mdl-navigation__link:hover {
-    background-color: $blue-purple;
-    color: $pink;
-  }
+
   /* Card Theme Styles
   ------------------------------ */
   @import "card_theme.scss";
