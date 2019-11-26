@@ -22,7 +22,7 @@
             <div class="mdl-card__image"><img src="img/work/pyke-1.png" class="img-responsive" alt=""></div>
             <div class="mdl-card__supporting-text">UI | UX | web design | responsive | feature research</div>
             <div class="mdl-card__actions mdl-card--border">
-              <a href="work/web/pykescorner.html" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">Learn More</a>
+              <a href="work/web/pykescorner.php" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">Learn More</a>
               <a href="http://www.pykescorner.com" target="_blank" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">Go to the Site</a>
             </div>
           </div>

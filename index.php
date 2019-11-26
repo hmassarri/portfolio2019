@@ -9,12 +9,12 @@
     <![endif]-->
 
   <?php include 'includes/banner_drawer.php'; ?>
-
   <!-- Content -->
-  <?php include 'content/content-home.php'; ?>
+
 
 
   <?php
+    include 'content/content-index.php';
     include 'includes/footer.php';
     include 'includes/js.php';
   ?>

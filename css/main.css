@@ -341,7 +341,7 @@ textarea {
     .theme-primary .card-teal .mdl-card {
       background: #00cae3 !important; }
     .theme-primary .card-teal .mdl-card__menu .material-icons {
-      color: #FF77A9;
+      color: #000000;
       font-size: 25px; }
     .theme-primary .card-teal .mdl-button {
       color: #000000;
@@ -370,7 +370,7 @@ textarea {
     .theme-primary .card-pink .mdl-card {
       background: #FF77A9 !important; }
     .theme-primary .card-pink .mdl-card__menu .material-icons {
-      color: #00cae3;
+      color: #000000;
       font-size: 25px; }
     .theme-primary .card-pink .mdl-button {
       color: #000000;
@@ -457,7 +457,7 @@ textarea {
     .theme-primary .card-black .mdl-card {
       background: #000000 !important; }
     .theme-primary .card-black .mdl-card__menu .material-icons {
-      color: #FF77A9;
+      color: #FFFFFF;
       font-size: 25px; }
     .theme-primary .card-black .mdl-button {
       color: #FFFFFF;
@@ -486,7 +486,7 @@ textarea {
     .theme-primary .card-blue .mdl-card {
       background: #0091FF !important; }
     .theme-primary .card-blue .mdl-card__menu .material-icons {
-      color: #FF77A9;
+      color: #000000;
       font-size: 25px; }
     .theme-primary .card-blue .mdl-button {
       color: #000000;
@@ -576,7 +576,7 @@ textarea {
     .theme-secondary .card-teal .mdl-card {
       background: #00cae3 !important; }
     .theme-secondary .card-teal .mdl-card__menu .material-icons {
-      color: #FF77A9;
+      color: #000000;
       font-size: 25px; }
     .theme-secondary .card-teal .mdl-button {
       color: #000000;
@@ -605,7 +605,7 @@ textarea {
     .theme-secondary .card-pink .mdl-card {
       background: #FF77A9 !important; }
     .theme-secondary .card-pink .mdl-card__menu .material-icons {
-      color: #00cae3;
+      color: #000000;
       font-size: 25px; }
     .theme-secondary .card-pink .mdl-button {
       color: #000000;
@@ -692,7 +692,7 @@ textarea {
     .theme-secondary .card-black .mdl-card {
       background: #000000 !important; }
     .theme-secondary .card-black .mdl-card__menu .material-icons {
-      color: #FF77A9;
+      color: #FFFFFF;
       font-size: 25px; }
     .theme-secondary .card-black .mdl-button {
       color: #FFFFFF;
@@ -721,7 +721,7 @@ textarea {
     .theme-secondary .card-blue .mdl-card {
       background: #0091FF !important; }
     .theme-secondary .card-blue .mdl-card__menu .material-icons {
-      color: #FF77A9;
+      color: #000000;
       font-size: 25px; }
     .theme-secondary .card-blue .mdl-button {
       color: #000000;
@@ -810,7 +810,7 @@ textarea {
     .theme-tertiary .card-teal .mdl-card {
       background: #00cae3 !important; }
     .theme-tertiary .card-teal .mdl-card__menu .material-icons {
-      color: #FF77A9;
+      color: #000000;
       font-size: 25px; }
     .theme-tertiary .card-teal .mdl-button {
       color: #000000;
@@ -839,7 +839,7 @@ textarea {
     .theme-tertiary .card-pink .mdl-card {
       background: #FF77A9 !important; }
     .theme-tertiary .card-pink .mdl-card__menu .material-icons {
-      color: #00cae3;
+      color: #000000;
       font-size: 25px; }
     .theme-tertiary .card-pink .mdl-button {
       color: #000000;
@@ -926,7 +926,7 @@ textarea {
     .theme-tertiary .card-black .mdl-card {
       background: #000000 !important; }
     .theme-tertiary .card-black .mdl-card__menu .material-icons {
-      color: #FF77A9;
+      color: #FFFFFF;
       font-size: 25px; }
     .theme-tertiary .card-black .mdl-button {
       color: #FFFFFF;
@@ -955,7 +955,7 @@ textarea {
     .theme-tertiary .card-blue .mdl-card {
       background: #0091FF !important; }
     .theme-tertiary .card-blue .mdl-card__menu .material-icons {
-      color: #FF77A9;
+      color: #000000;
       font-size: 25px; }
     .theme-tertiary .card-blue .mdl-button {
       color: #000000;
@@ -1333,7 +1333,7 @@ textarea {
     .theme-primary .card-teal .mdl-card {
       background: #00cae3 !important; }
     .theme-primary .card-teal .mdl-card__menu .material-icons {
-      color: #FF77A9;
+      color: #000000;
       font-size: 25px; }
     .theme-primary .card-teal .mdl-button {
       color: #000000;
@@ -1362,7 +1362,7 @@ textarea {
     .theme-primary .card-pink .mdl-card {
       background: #FF77A9 !important; }
     .theme-primary .card-pink .mdl-card__menu .material-icons {
-      color: #00cae3;
+      color: #000000;
       font-size: 25px; }
     .theme-primary .card-pink .mdl-button {
       color: #000000;
@@ -1449,7 +1449,7 @@ textarea {
     .theme-primary .card-black .mdl-card {
       background: #000000 !important; }
     .theme-primary .card-black .mdl-card__menu .material-icons {
-      color: #FF77A9;
+      color: #FFFFFF;
       font-size: 25px; }
     .theme-primary .card-black .mdl-button {
       color: #FFFFFF;
@@ -1478,7 +1478,7 @@ textarea {
     .theme-primary .card-blue .mdl-card {
       background: #0091FF !important; }
     .theme-primary .card-blue .mdl-card__menu .material-icons {
-      color: #FF77A9;
+      color: #000000;
       font-size: 25px; }
     .theme-primary .card-blue .mdl-button {
       color: #000000;
@@ -1568,7 +1568,7 @@ textarea {
     .theme-secondary .card-teal .mdl-card {
       background: #00cae3 !important; }
     .theme-secondary .card-teal .mdl-card__menu .material-icons {
-      color: #FF77A9;
+      color: #000000;
       font-size: 25px; }
     .theme-secondary .card-teal .mdl-button {
       color: #000000;
@@ -1597,7 +1597,7 @@ textarea {
     .theme-secondary .card-pink .mdl-card {
       background: #FF77A9 !important; }
     .theme-secondary .card-pink .mdl-card__menu .material-icons {
-      color: #00cae3;
+      color: #000000;
       font-size: 25px; }
     .theme-secondary .card-pink .mdl-button {
       color: #000000;
@@ -1684,7 +1684,7 @@ textarea {
     .theme-secondary .card-black .mdl-card {
       background: #000000 !important; }
     .theme-secondary .card-black .mdl-card__menu .material-icons {
-      color: #FF77A9;
+      color: #FFFFFF;
       font-size: 25px; }
     .theme-secondary .card-black .mdl-button {
       color: #FFFFFF;
@@ -1713,7 +1713,7 @@ textarea {
     .theme-secondary .card-blue .mdl-card {
       background: #0091FF !important; }
     .theme-secondary .card-blue .mdl-card__menu .material-icons {
-      color: #FF77A9;
+      color: #000000;
       font-size: 25px; }
     .theme-secondary .card-blue .mdl-button {
       color: #000000;
@@ -1802,7 +1802,7 @@ textarea {
     .theme-tertiary .card-teal .mdl-card {
       background: #00cae3 !important; }
     .theme-tertiary .card-teal .mdl-card__menu .material-icons {
-      color: #FF77A9;
+      color: #000000;
       font-size: 25px; }
     .theme-tertiary .card-teal .mdl-button {
       color: #000000;
@@ -1831,7 +1831,7 @@ textarea {
     .theme-tertiary .card-pink .mdl-card {
       background: #FF77A9 !important; }
     .theme-tertiary .card-pink .mdl-card__menu .material-icons {
-      color: #00cae3;
+      color: #000000;
       font-size: 25px; }
     .theme-tertiary .card-pink .mdl-button {
       color: #000000;
@@ -1918,7 +1918,7 @@ textarea {
     .theme-tertiary .card-black .mdl-card {
       background: #000000 !important; }
     .theme-tertiary .card-black .mdl-card__menu .material-icons {
-      color: #FF77A9;
+      color: #FFFFFF;
       font-size: 25px; }
     .theme-tertiary .card-black .mdl-button {
       color: #FFFFFF;
@@ -1947,7 +1947,7 @@ textarea {
     .theme-tertiary .card-blue .mdl-card {
       background: #0091FF !important; }
     .theme-tertiary .card-blue .mdl-card__menu .material-icons {
-      color: #FF77A9;
+      color: #000000;
       font-size: 25px; }
     .theme-tertiary .card-blue .mdl-button {
       color: #000000;
