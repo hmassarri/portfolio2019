@@ -149,9 +149,21 @@ $text-on-error: $white;
 
 .theme-secondary {
 
+  main {
+    background: lighten($black, 88%);
+  }
+
   h2 {
     font-weight: 100;
-    margin-top: 10px;
+    margin-top: 0px;
+  }
+
+  p {
+    margin-bottom: 16px;
+  }
+
+  .mdl-grid {
+    background-color: none;
   }
   .mdl-layout__header {
   background-color: $text-on-primary;
@@ -164,15 +176,19 @@ $text-on-error: $white;
     background-color: $primary;
     color: $text-on-primary;
     border-right: 5px dashed $text-on-primary;
+    font-weight: 100;
 
+    .mdl-layout-title__background {
+      background: $pink repeat;
+    }
     .mdl-layout-title {
       margin: 30px auto;
       background: url("../img/logo/logo-10.svg") no-repeat center;
       width: 100%;
       height: 50px;
     }
-    .mdl-layout-title__background {
-      background: $pink repeat;
+    .mdl-navigation {
+      padding-top: 0px;
     }
     .mdl-navigation .mdl-navigation__link {
       color: $text-on-primary;
@@ -221,8 +237,20 @@ $text-on-error: $white;
 
 .theme-tertiary {
 
+  main {
+    background: lighten($black, 88%);
+  }
+
   h2 {
     font-weight: 100;
+  }
+
+  p {
+    margin-bottom: 16px;
+  }
+
+  .mdl-grid {
+    background-color: none;
   }
   .mdl-layout__header {
   background-color: $blue-purple;
@@ -236,14 +264,17 @@ $text-on-error: $white;
     color: $blue-purple;
     border-right: 5px dashed $blue-purple;
 
+    .mdl-layout-title__background {
+      background: darken($buttercream, 5%) repeat;
+    }
     .mdl-layout-title {
       margin: 30px auto;
       background: url("../img/logo/logo-quad.svg") no-repeat;
       width: 50%;
-      height: 100px;
+      height: 50px;
     }
-    .mdl-layout-title__background {
-      background: darken($buttercream, 5%) repeat;
+    .mdl-navigation {
+      padding-top: 0px;
     }
     .mdl-navigation .mdl-navigation__link {
       color: $blue-purple;
@@ -264,6 +295,26 @@ $text-on-error: $white;
   .mdl-layout__subtitle {
     text-align: right;
     color: $buttercream;
+  }
+  .mdl-mini-footer {
+    backgroujnd-color: $primary;
+  }
+  .mdl-mini-footer {
+    display: inline;
+    padding: 0;
+    color: lighten($black, 65%);
+
+    .mdl-grid {
+      padding: 0;
+    }
+    .mdl-logo {
+      background: url("../img/logo/") no-repeat center;
+      margin: 0;
+      width: 100%;
+      height: 20px;
+      line-height: 25px;
+      color: $pink;
+    }
   }
 
   /* Card Theme Styles

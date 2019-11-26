@@ -19,9 +19,9 @@
       <span class="mdl-layout-title"></span>
     </div>
     <nav class="mdl-navigation">
-      <a href="<?php echo $root.'home.php'; ?>" class="mdl-navigation__link mdl--theme-primary is-active">Home</a>
-      <a href="<?php echo $root; ?>" class="mdl-navigation__link mdl--theme-primary">Work</a>
-      <a href="<?php echo $root; ?>" class="mdl-navigation__link mdl--theme-primary">Contact</a>
+      <a href="<?php echo $root.'index.php'; ?>" class="mdl-navigation__link mdl--theme-primary is-active">Home</a>
+      <a href="<?php echo $root.'work.php'; ?>" class="mdl-navigation__link mdl--theme-primary">Work</a>
+      <a href="<?php echo $root.'contact.php'; ?>" class="mdl-navigation__link mdl--theme-primary">Contact</a>
     </nav>
     <div class="mdl-layout-spacer"></div>
   </div>

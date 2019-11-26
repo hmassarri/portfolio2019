@@ -514,9 +514,15 @@ textarea {
 .theme-secondary {
   /* Card Theme Styles
   ------------------------------ */ }
+  .theme-secondary main {
+    background: #e0e0e0; }
   .theme-secondary h2 {
     font-weight: 100;
-    margin-top: 10px; }
+    margin-top: 0px; }
+  .theme-secondary p {
+    margin-bottom: 16px; }
+  .theme-secondary .mdl-grid {
+    background-color: none; }
   .theme-secondary .mdl-layout__header {
     background-color: #FF77A9;
     color: #000000; }
@@ -525,14 +531,17 @@ textarea {
   .theme-secondary .mdl-layout__drawer {
     background-color: #000000;
     color: #FF77A9;
-    border-right: 5px dashed #FF77A9; }
+    border-right: 5px dashed #FF77A9;
+    font-weight: 100; }
+    .theme-secondary .mdl-layout__drawer .mdl-layout-title__background {
+      background: #FF77A9 repeat; }
     .theme-secondary .mdl-layout__drawer .mdl-layout-title {
       margin: 30px auto;
       background: url("../img/logo/logo-10.svg") no-repeat center;
       width: 100%;
       height: 50px; }
-    .theme-secondary .mdl-layout__drawer .mdl-layout-title__background {
-      background: #FF77A9 repeat; }
+    .theme-secondary .mdl-layout__drawer .mdl-navigation {
+      padding-top: 0px; }
     .theme-secondary .mdl-layout__drawer .mdl-navigation .mdl-navigation__link {
       color: #FF77A9;
       font-size: 1rem; }
@@ -740,8 +749,14 @@ textarea {
 .theme-tertiary {
   /* Card Theme Styles
   ------------------------------ */ }
+  .theme-tertiary main {
+    background: #e0e0e0; }
   .theme-tertiary h2 {
     font-weight: 100; }
+  .theme-tertiary p {
+    margin-bottom: 16px; }
+  .theme-tertiary .mdl-grid {
+    background-color: none; }
   .theme-tertiary .mdl-layout__header {
     background-color: #3F51B5;
     color: #FFFFFF; }
@@ -751,13 +766,15 @@ textarea {
     background-color: #FFEDBA;
     color: #3F51B5;
     border-right: 5px dashed #3F51B5; }
+    .theme-tertiary .mdl-layout__drawer .mdl-layout-title__background {
+      background: #ffe6a1 repeat; }
     .theme-tertiary .mdl-layout__drawer .mdl-layout-title {
       margin: 30px auto;
       background: url("../img/logo/logo-quad.svg") no-repeat;
       width: 50%;
-      height: 100px; }
-    .theme-tertiary .mdl-layout__drawer .mdl-layout-title__background {
-      background: #ffe6a1 repeat; }
+      height: 50px; }
+    .theme-tertiary .mdl-layout__drawer .mdl-navigation {
+      padding-top: 0px; }
     .theme-tertiary .mdl-layout__drawer .mdl-navigation .mdl-navigation__link {
       color: #3F51B5;
       font-size: 1rem; }
@@ -773,6 +790,21 @@ textarea {
   .theme-tertiary .mdl-layout__subtitle {
     text-align: right;
     color: #FFEDBA; }
+  .theme-tertiary .mdl-mini-footer {
+    backgroujnd-color: #000000; }
+  .theme-tertiary .mdl-mini-footer {
+    display: inline;
+    padding: 0;
+    color: #a6a6a6; }
+    .theme-tertiary .mdl-mini-footer .mdl-grid {
+      padding: 0; }
+    .theme-tertiary .mdl-mini-footer .mdl-logo {
+      background: url("../img/logo/") no-repeat center;
+      margin: 0;
+      width: 100%;
+      height: 20px;
+      line-height: 25px;
+      color: #FF77A9; }
   .theme-tertiary .card-teal {
     background-color: #00cae3; }
     .theme-tertiary .card-teal .mdl-card {
@@ -1474,9 +1506,15 @@ textarea {
 .theme-secondary {
   /* Card Theme Styles
   ------------------------------ */ }
+  .theme-secondary main {
+    background: #e0e0e0; }
   .theme-secondary h2 {
     font-weight: 100;
-    margin-top: 10px; }
+    margin-top: 0px; }
+  .theme-secondary p {
+    margin-bottom: 16px; }
+  .theme-secondary .mdl-grid {
+    background-color: none; }
   .theme-secondary .mdl-layout__header {
     background-color: #FF77A9;
     color: #000000; }
@@ -1485,14 +1523,17 @@ textarea {
   .theme-secondary .mdl-layout__drawer {
     background-color: #000000;
     color: #FF77A9;
-    border-right: 5px dashed #FF77A9; }
+    border-right: 5px dashed #FF77A9;
+    font-weight: 100; }
+    .theme-secondary .mdl-layout__drawer .mdl-layout-title__background {
+      background: #FF77A9 repeat; }
     .theme-secondary .mdl-layout__drawer .mdl-layout-title {
       margin: 30px auto;
       background: url("../img/logo/logo-10.svg") no-repeat center;
       width: 100%;
       height: 50px; }
-    .theme-secondary .mdl-layout__drawer .mdl-layout-title__background {
-      background: #FF77A9 repeat; }
+    .theme-secondary .mdl-layout__drawer .mdl-navigation {
+      padding-top: 0px; }
     .theme-secondary .mdl-layout__drawer .mdl-navigation .mdl-navigation__link {
       color: #FF77A9;
       font-size: 1rem; }
@@ -1700,8 +1741,14 @@ textarea {
 .theme-tertiary {
   /* Card Theme Styles
   ------------------------------ */ }
+  .theme-tertiary main {
+    background: #e0e0e0; }
   .theme-tertiary h2 {
     font-weight: 100; }
+  .theme-tertiary p {
+    margin-bottom: 16px; }
+  .theme-tertiary .mdl-grid {
+    background-color: none; }
   .theme-tertiary .mdl-layout__header {
     background-color: #3F51B5;
     color: #FFFFFF; }
@@ -1711,13 +1758,15 @@ textarea {
     background-color: #FFEDBA;
     color: #3F51B5;
     border-right: 5px dashed #3F51B5; }
+    .theme-tertiary .mdl-layout__drawer .mdl-layout-title__background {
+      background: #ffe6a1 repeat; }
     .theme-tertiary .mdl-layout__drawer .mdl-layout-title {
       margin: 30px auto;
       background: url("../img/logo/logo-quad.svg") no-repeat;
       width: 50%;
-      height: 100px; }
-    .theme-tertiary .mdl-layout__drawer .mdl-layout-title__background {
-      background: #ffe6a1 repeat; }
+      height: 50px; }
+    .theme-tertiary .mdl-layout__drawer .mdl-navigation {
+      padding-top: 0px; }
     .theme-tertiary .mdl-layout__drawer .mdl-navigation .mdl-navigation__link {
       color: #3F51B5;
       font-size: 1rem; }
@@ -1733,6 +1782,21 @@ textarea {
   .theme-tertiary .mdl-layout__subtitle {
     text-align: right;
     color: #FFEDBA; }
+  .theme-tertiary .mdl-mini-footer {
+    backgroujnd-color: #000000; }
+  .theme-tertiary .mdl-mini-footer {
+    display: inline;
+    padding: 0;
+    color: #a6a6a6; }
+    .theme-tertiary .mdl-mini-footer .mdl-grid {
+      padding: 0; }
+    .theme-tertiary .mdl-mini-footer .mdl-logo {
+      background: url("../img/logo/") no-repeat center;
+      margin: 0;
+      width: 100%;
+      height: 20px;
+      line-height: 25px;
+      color: #FF77A9; }
   .theme-tertiary .card-teal {
     background-color: #00cae3; }
     .theme-tertiary .card-teal .mdl-card {
