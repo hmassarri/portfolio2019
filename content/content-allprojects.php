@@ -5,9 +5,9 @@
     <div class="mdl-grid">
 
       <!-- Card 1 -->
-      <div class="mdl-cell mdl-cell--12-col-phone mdl-cell--12-col-tablet mdl-cell--4-col-desktop">
+      <div class="mdl-cell mdl-cell--12-col-phone mdl-cell--12-col-tablet mdl-cell--3-col-desktop">
         <div class="hm-card">
-          <div class="mdl-card mdl-shadow--2dp center card-teal">
+          <div class="mdl-card mdl-shadow--2dp center card-white">
             <div class="mdl-card__menu">
               <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
                 <i class="material-icons">web</i>
@@ -30,9 +30,9 @@
       </div>
 
       <!-- Card 2 -->
-      <div class="mdl-cell mdl-cell--12-col-phone mdl-cell--12-col-tablet mdl-cell--4-col-desktop">
+      <div class="mdl-cell mdl-cell--12-col-phone mdl-cell--12-col-tablet mdl-cell--3-col-desktop">
         <div class="hm-card">
-          <div class="mdl-card mdl-shadow--2dp center card-pink">
+          <div class="mdl-card mdl-shadow--2dp center card-white">
             <div class="mdl-card__menu">
               <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
                 <i class="material-icons">web</i>
@@ -55,10 +55,10 @@
       </div>
 
       <!-- Card 3 -->
-      <div class="mdl-cell mdl-cell--12-col-phone mdl-cell--12-col-tablet mdl-cell--4-col-desktop">
+      <div class="mdl-cell mdl-cell--12-col-phone mdl-cell--12-col-tablet mdl-cell--3-col-desktop">
         <div class="hm-card">
 
-          <div class="mdl-card mdl-shadow--2dp center card-purple">
+          <div class="mdl-card mdl-shadow--2dp center card-white">
             <div class="mdl-card__menu">
               <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
                 <i class="material-icons">web</i>
@@ -81,9 +81,9 @@
       </div>
 
       <!-- Card 4 -->
-      <div class="mdl-cell mdl-cell--12-col-phone mdl-cell--12-col-tablet mdl-cell--4-col-desktop">
+      <div class="mdl-cell mdl-cell--12-col-phone mdl-cell--12-col-tablet mdl-cell--3-col-desktop">
         <div class="hm-card">
-          <div class="mdl-card mdl-shadow--2dp center card-buttercream">
+          <div class="mdl-card mdl-shadow--2dp center card-white">
             <div class="mdl-card__menu">
               <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
                 <i class="material-icons">web</i>
@@ -106,9 +106,9 @@
       </div>
 
       <!-- Card 5 -->
-      <div class="mdl-cell mdl-cell--12-col-phone mdl-cell--12-col-tablet mdl-cell--4-col-desktop">
+      <div class="mdl-cell mdl-cell--12-col-phone mdl-cell--12-col-tablet mdl-cell--3-col-desktop">
         <div class="hm-card">
-          <div class="mdl-card mdl-shadow--2dp center card-black">
+          <div class="mdl-card mdl-shadow--2dp center card-white">
             <div class="mdl-card__menu">
               <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
                 <i class="material-icons">web</i>
@@ -131,10 +131,10 @@
       </div>
 
       <!-- Card 6 -->
-      <div class="mdl-cell mdl-cell--12-col-phone mdl-cell--12-col-tablet mdl-cell--4-col-desktop">
+      <div class="mdl-cell mdl-cell--12-col-phone mdl-cell--12-col-tablet mdl-cell--3-col-desktop">
         <div class="hm-card">
 
-          <div class="mdl-card mdl-shadow--2dp center card-blue">
+          <div class="mdl-card mdl-shadow--2dp center card-white">
             <div class="mdl-card__menu">
               <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
                 <i class="material-icons">web</i>
@@ -157,9 +157,9 @@
       </div>
 
       <!-- Card 1 -->
-      <div class="mdl-cell mdl-cell--12-col-phone mdl-cell--12-col-tablet mdl-cell--4-col-desktop">
+      <div class="mdl-cell mdl-cell--12-col-phone mdl-cell--12-col-tablet mdl-cell--3-col-desktop">
         <div class="hm-card">
-          <div class="mdl-card mdl-shadow--2dp center card-teal">
+          <div class="mdl-card mdl-shadow--2dp center card-white">
             <div class="mdl-card__menu">
               <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
                 <i class="material-icons">web</i>
@@ -182,9 +182,9 @@
       </div>
 
       <!-- Card 2 -->
-      <div class="mdl-cell mdl-cell--12-col-phone mdl-cell--12-col-tablet mdl-cell--4-col-desktop">
+      <div class="mdl-cell mdl-cell--12-col-phone mdl-cell--12-col-tablet mdl-cell--3-col-desktop">
         <div class="hm-card">
-          <div class="mdl-card mdl-shadow--2dp center card-pink">
+          <div class="mdl-card mdl-shadow--2dp center card-white">
             <div class="mdl-card__menu">
               <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
                 <i class="material-icons">web</i>
@@ -207,10 +207,10 @@
       </div>
 
       <!-- Card 3 -->
-      <div class="mdl-cell mdl-cell--12-col-phone mdl-cell--12-col-tablet mdl-cell--4-col-desktop">
+      <div class="mdl-cell mdl-cell--12-col-phone mdl-cell--12-col-tablet mdl-cell--3-col-desktop">
         <div class="hm-card">
 
-          <div class="mdl-card mdl-shadow--2dp center card-purple">
+          <div class="mdl-card mdl-shadow--2dp center card-white">
             <div class="mdl-card__menu">
               <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
                 <i class="material-icons">web</i>
@@ -233,9 +233,9 @@
       </div>
 
       <!-- Card 4 -->
-      <div class="mdl-cell mdl-cell--12-col-phone mdl-cell--12-col-tablet mdl-cell--4-col-desktop">
+      <div class="mdl-cell mdl-cell--12-col-phone mdl-cell--12-col-tablet mdl-cell--3-col-desktop">
         <div class="hm-card">
-          <div class="mdl-card mdl-shadow--2dp center card-buttercream">
+          <div class="mdl-card mdl-shadow--2dp center card-white">
             <div class="mdl-card__menu">
               <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
                 <i class="material-icons">web</i>
@@ -258,9 +258,9 @@
       </div>
 
       <!-- Card 5 -->
-      <div class="mdl-cell mdl-cell--12-col-phone mdl-cell--12-col-tablet mdl-cell--4-col-desktop">
+      <div class="mdl-cell mdl-cell--12-col-phone mdl-cell--12-col-tablet mdl-cell--3-col-desktop">
         <div class="hm-card">
-          <div class="mdl-card mdl-shadow--2dp center card-black">
+          <div class="mdl-card mdl-shadow--2dp center card-white">
             <div class="mdl-card__menu">
               <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
                 <i class="material-icons">web</i>
@@ -283,10 +283,10 @@
       </div>
 
       <!-- Card 6 -->
-      <div class="mdl-cell mdl-cell--12-col-phone mdl-cell--12-col-tablet mdl-cell--4-col-desktop">
+      <div class="mdl-cell mdl-cell--12-col-phone mdl-cell--12-col-tablet mdl-cell--3-col-desktop">
         <div class="hm-card">
 
-          <div class="mdl-card mdl-shadow--2dp center card-blue">
+          <div class="mdl-card mdl-shadow--2dp center card-white">
             <div class="mdl-card__menu">
               <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
                 <i class="material-icons">web</i>

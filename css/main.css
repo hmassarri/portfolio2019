@@ -337,6 +337,37 @@ textarea {
       height: 20px;
       line-height: 25px;
       color: #FF77A9; }
+  .theme-primary .card-white {
+    background-color: #FFFFFF; }
+    .theme-primary .card-white .mdl-card {
+      background: #FFFFFF !important; }
+    .theme-primary .card-white .mdl-card__menu .material-icons {
+      color: #000000;
+      font-size: 25px; }
+    .theme-primary .card-white .mdl-card__menu .material-icons:hover {
+      color: #FFFFFF; }
+    .theme-primary .card-white .mdl-button {
+      color: #000000;
+      background-color: #e6e6e6;
+      font-weight: 500; }
+    .theme-primary .card-white .mdl-card__title-text {
+      color: #000000;
+      font-size: 30px;
+      font-weight: 300;
+      margin: 0; }
+    .theme-primary .card-white .mdl-card__subtitle p {
+      color: #000000;
+      font-size: 14px;
+      font-weight: 900; }
+    .theme-primary .card-white .mdl-card__supporting-text {
+      font-size: 14px;
+      font-weight: 300;
+      color: #000000; }
+    .theme-primary .card-white .mdl-card__image {
+      background: url("../img/welcome_card1.jpg") #000000 center/cover; }
+    .theme-primary .card-white .mdl-button:hover {
+      background-color: #000000;
+      color: #FFFFFF !important; }
   .theme-primary .card-teal {
     background-color: #00cae3; }
     .theme-primary .card-teal .mdl-card {
@@ -346,7 +377,7 @@ textarea {
       font-size: 25px; }
     .theme-primary .card-teal .mdl-button {
       color: #000000;
-      background-color: #1ce5ff;
+      background-color: #caf9ff;
       font-weight: 500; }
     .theme-primary .card-teal .mdl-card__title-text {
       color: #000000;
@@ -364,8 +395,8 @@ textarea {
     .theme-primary .card-teal .mdl-card__image {
       background: url("../img/welcome_card1.jpg") #000000 center/cover; }
     .theme-primary .card-teal .mdl-button:hover {
-      background-color: #006f7d;
-      color: #000000; }
+      background-color: #000000;
+      color: #FFFFFF; }
   .theme-primary .card-pink {
     background-color: #FF77A9; }
     .theme-primary .card-pink .mdl-card {
@@ -572,6 +603,37 @@ textarea {
       height: 20px;
       line-height: 25px;
       color: #FF77A9; }
+  .theme-secondary .card-white {
+    background-color: #FFFFFF; }
+    .theme-secondary .card-white .mdl-card {
+      background: #FFFFFF !important; }
+    .theme-secondary .card-white .mdl-card__menu .material-icons {
+      color: #000000;
+      font-size: 25px; }
+    .theme-secondary .card-white .mdl-card__menu .material-icons:hover {
+      color: #FFFFFF; }
+    .theme-secondary .card-white .mdl-button {
+      color: #000000;
+      background-color: #e6e6e6;
+      font-weight: 500; }
+    .theme-secondary .card-white .mdl-card__title-text {
+      color: #000000;
+      font-size: 30px;
+      font-weight: 300;
+      margin: 0; }
+    .theme-secondary .card-white .mdl-card__subtitle p {
+      color: #000000;
+      font-size: 14px;
+      font-weight: 900; }
+    .theme-secondary .card-white .mdl-card__supporting-text {
+      font-size: 14px;
+      font-weight: 300;
+      color: #000000; }
+    .theme-secondary .card-white .mdl-card__image {
+      background: url("../img/welcome_card1.jpg") #000000 center/cover; }
+    .theme-secondary .card-white .mdl-button:hover {
+      background-color: #000000;
+      color: #FFFFFF !important; }
   .theme-secondary .card-teal {
     background-color: #00cae3; }
     .theme-secondary .card-teal .mdl-card {
@@ -581,7 +643,7 @@ textarea {
       font-size: 25px; }
     .theme-secondary .card-teal .mdl-button {
       color: #000000;
-      background-color: #1ce5ff;
+      background-color: #caf9ff;
       font-weight: 500; }
     .theme-secondary .card-teal .mdl-card__title-text {
       color: #000000;
@@ -599,8 +661,8 @@ textarea {
     .theme-secondary .card-teal .mdl-card__image {
       background: url("../img/welcome_card1.jpg") #000000 center/cover; }
     .theme-secondary .card-teal .mdl-button:hover {
-      background-color: #006f7d;
-      color: #000000; }
+      background-color: #000000;
+      color: #FFFFFF; }
   .theme-secondary .card-pink {
     background-color: #FF77A9; }
     .theme-secondary .card-pink .mdl-card {
@@ -806,6 +868,37 @@ textarea {
       height: 20px;
       line-height: 25px;
       color: #FF77A9; }
+  .theme-tertiary .card-white {
+    background-color: #FFFFFF; }
+    .theme-tertiary .card-white .mdl-card {
+      background: #FFFFFF !important; }
+    .theme-tertiary .card-white .mdl-card__menu .material-icons {
+      color: #000000;
+      font-size: 25px; }
+    .theme-tertiary .card-white .mdl-card__menu .material-icons:hover {
+      color: #FFFFFF; }
+    .theme-tertiary .card-white .mdl-button {
+      color: #000000;
+      background-color: #e6e6e6;
+      font-weight: 500; }
+    .theme-tertiary .card-white .mdl-card__title-text {
+      color: #000000;
+      font-size: 30px;
+      font-weight: 300;
+      margin: 0; }
+    .theme-tertiary .card-white .mdl-card__subtitle p {
+      color: #000000;
+      font-size: 14px;
+      font-weight: 900; }
+    .theme-tertiary .card-white .mdl-card__supporting-text {
+      font-size: 14px;
+      font-weight: 300;
+      color: #000000; }
+    .theme-tertiary .card-white .mdl-card__image {
+      background: url("../img/welcome_card1.jpg") #000000 center/cover; }
+    .theme-tertiary .card-white .mdl-button:hover {
+      background-color: #000000;
+      color: #FFFFFF !important; }
   .theme-tertiary .card-teal {
     background-color: #00cae3; }
     .theme-tertiary .card-teal .mdl-card {
@@ -815,7 +908,7 @@ textarea {
       font-size: 25px; }
     .theme-tertiary .card-teal .mdl-button {
       color: #000000;
-      background-color: #1ce5ff;
+      background-color: #caf9ff;
       font-weight: 500; }
     .theme-tertiary .card-teal .mdl-card__title-text {
       color: #000000;
@@ -833,8 +926,8 @@ textarea {
     .theme-tertiary .card-teal .mdl-card__image {
       background: url("../img/welcome_card1.jpg") #000000 center/cover; }
     .theme-tertiary .card-teal .mdl-button:hover {
-      background-color: #006f7d;
-      color: #000000; }
+      background-color: #000000;
+      color: #FFFFFF; }
   .theme-tertiary .card-pink {
     background-color: #FF77A9; }
     .theme-tertiary .card-pink .mdl-card {
@@ -1330,6 +1423,37 @@ textarea {
       height: 20px;
       line-height: 25px;
       color: #FF77A9; }
+  .theme-primary .card-white {
+    background-color: #FFFFFF; }
+    .theme-primary .card-white .mdl-card {
+      background: #FFFFFF !important; }
+    .theme-primary .card-white .mdl-card__menu .material-icons {
+      color: #000000;
+      font-size: 25px; }
+    .theme-primary .card-white .mdl-card__menu .material-icons:hover {
+      color: #FFFFFF; }
+    .theme-primary .card-white .mdl-button {
+      color: #000000;
+      background-color: #e6e6e6;
+      font-weight: 500; }
+    .theme-primary .card-white .mdl-card__title-text {
+      color: #000000;
+      font-size: 30px;
+      font-weight: 300;
+      margin: 0; }
+    .theme-primary .card-white .mdl-card__subtitle p {
+      color: #000000;
+      font-size: 14px;
+      font-weight: 900; }
+    .theme-primary .card-white .mdl-card__supporting-text {
+      font-size: 14px;
+      font-weight: 300;
+      color: #000000; }
+    .theme-primary .card-white .mdl-card__image {
+      background: url("../img/welcome_card1.jpg") #000000 center/cover; }
+    .theme-primary .card-white .mdl-button:hover {
+      background-color: #000000;
+      color: #FFFFFF !important; }
   .theme-primary .card-teal {
     background-color: #00cae3; }
     .theme-primary .card-teal .mdl-card {
@@ -1339,7 +1463,7 @@ textarea {
       font-size: 25px; }
     .theme-primary .card-teal .mdl-button {
       color: #000000;
-      background-color: #1ce5ff;
+      background-color: #caf9ff;
       font-weight: 500; }
     .theme-primary .card-teal .mdl-card__title-text {
       color: #000000;
@@ -1357,8 +1481,8 @@ textarea {
     .theme-primary .card-teal .mdl-card__image {
       background: url("../img/welcome_card1.jpg") #000000 center/cover; }
     .theme-primary .card-teal .mdl-button:hover {
-      background-color: #006f7d;
-      color: #000000; }
+      background-color: #000000;
+      color: #FFFFFF; }
   .theme-primary .card-pink {
     background-color: #FF77A9; }
     .theme-primary .card-pink .mdl-card {
@@ -1565,6 +1689,37 @@ textarea {
       height: 20px;
       line-height: 25px;
       color: #FF77A9; }
+  .theme-secondary .card-white {
+    background-color: #FFFFFF; }
+    .theme-secondary .card-white .mdl-card {
+      background: #FFFFFF !important; }
+    .theme-secondary .card-white .mdl-card__menu .material-icons {
+      color: #000000;
+      font-size: 25px; }
+    .theme-secondary .card-white .mdl-card__menu .material-icons:hover {
+      color: #FFFFFF; }
+    .theme-secondary .card-white .mdl-button {
+      color: #000000;
+      background-color: #e6e6e6;
+      font-weight: 500; }
+    .theme-secondary .card-white .mdl-card__title-text {
+      color: #000000;
+      font-size: 30px;
+      font-weight: 300;
+      margin: 0; }
+    .theme-secondary .card-white .mdl-card__subtitle p {
+      color: #000000;
+      font-size: 14px;
+      font-weight: 900; }
+    .theme-secondary .card-white .mdl-card__supporting-text {
+      font-size: 14px;
+      font-weight: 300;
+      color: #000000; }
+    .theme-secondary .card-white .mdl-card__image {
+      background: url("../img/welcome_card1.jpg") #000000 center/cover; }
+    .theme-secondary .card-white .mdl-button:hover {
+      background-color: #000000;
+      color: #FFFFFF !important; }
   .theme-secondary .card-teal {
     background-color: #00cae3; }
     .theme-secondary .card-teal .mdl-card {
@@ -1574,7 +1729,7 @@ textarea {
       font-size: 25px; }
     .theme-secondary .card-teal .mdl-button {
       color: #000000;
-      background-color: #1ce5ff;
+      background-color: #caf9ff;
       font-weight: 500; }
     .theme-secondary .card-teal .mdl-card__title-text {
       color: #000000;
@@ -1592,8 +1747,8 @@ textarea {
     .theme-secondary .card-teal .mdl-card__image {
       background: url("../img/welcome_card1.jpg") #000000 center/cover; }
     .theme-secondary .card-teal .mdl-button:hover {
-      background-color: #006f7d;
-      color: #000000; }
+      background-color: #000000;
+      color: #FFFFFF; }
   .theme-secondary .card-pink {
     background-color: #FF77A9; }
     .theme-secondary .card-pink .mdl-card {
@@ -1799,6 +1954,37 @@ textarea {
       height: 20px;
       line-height: 25px;
       color: #FF77A9; }
+  .theme-tertiary .card-white {
+    background-color: #FFFFFF; }
+    .theme-tertiary .card-white .mdl-card {
+      background: #FFFFFF !important; }
+    .theme-tertiary .card-white .mdl-card__menu .material-icons {
+      color: #000000;
+      font-size: 25px; }
+    .theme-tertiary .card-white .mdl-card__menu .material-icons:hover {
+      color: #FFFFFF; }
+    .theme-tertiary .card-white .mdl-button {
+      color: #000000;
+      background-color: #e6e6e6;
+      font-weight: 500; }
+    .theme-tertiary .card-white .mdl-card__title-text {
+      color: #000000;
+      font-size: 30px;
+      font-weight: 300;
+      margin: 0; }
+    .theme-tertiary .card-white .mdl-card__subtitle p {
+      color: #000000;
+      font-size: 14px;
+      font-weight: 900; }
+    .theme-tertiary .card-white .mdl-card__supporting-text {
+      font-size: 14px;
+      font-weight: 300;
+      color: #000000; }
+    .theme-tertiary .card-white .mdl-card__image {
+      background: url("../img/welcome_card1.jpg") #000000 center/cover; }
+    .theme-tertiary .card-white .mdl-button:hover {
+      background-color: #000000;
+      color: #FFFFFF !important; }
   .theme-tertiary .card-teal {
     background-color: #00cae3; }
     .theme-tertiary .card-teal .mdl-card {
@@ -1808,7 +1994,7 @@ textarea {
       font-size: 25px; }
     .theme-tertiary .card-teal .mdl-button {
       color: #000000;
-      background-color: #1ce5ff;
+      background-color: #caf9ff;
       font-weight: 500; }
     .theme-tertiary .card-teal .mdl-card__title-text {
       color: #000000;
@@ -1826,8 +2012,8 @@ textarea {
     .theme-tertiary .card-teal .mdl-card__image {
       background: url("../img/welcome_card1.jpg") #000000 center/cover; }
     .theme-tertiary .card-teal .mdl-button:hover {
-      background-color: #006f7d;
-      color: #000000; }
+      background-color: #000000;
+      color: #FFFFFF; }
   .theme-tertiary .card-pink {
     background-color: #FF77A9; }
     .theme-tertiary .card-pink .mdl-card {

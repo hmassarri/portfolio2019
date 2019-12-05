@@ -1,15 +1,18 @@
-.card-teal {
-  background-color: $teal;
+.card-white {
+  background-color: $white;
   .mdl-card {
-    background: $teal !important;
+    background: $white !important;
   }
   .mdl-card__menu .material-icons {
     color: $black;
     font-size: 25px;
   }
+  .mdl-card__menu .material-icons:hover {
+    color: $white;
+  }
   .mdl-button {
     color: $black;
-    background-color: lighten($teal, 11%);
+    background-color: lighten($black, 90%);
     font-weight: 500;
   }
   .mdl-card__title-text {
@@ -32,8 +35,47 @@
     background: url('../img/welcome_card1.jpg') $black center / cover;
   }
   .mdl-button:hover {
-    background-color: darken($teal, 20%);
+    background-color: $black;
+    color: $white !important;
+  }
+}
+
+.card-teal {
+  background-color: $teal;
+  .mdl-card {
+    background: $teal !important;
+  }
+  .mdl-card__menu .material-icons {
     color: $black;
+    font-size: 25px;
+  }
+  .mdl-button {
+    color: $black;
+    background-color: lighten($teal, 45%);
+    font-weight: 500;
+  }
+  .mdl-card__title-text {
+    color: $black;
+    font-size: 30px;
+    font-weight: 300;
+    margin: 0;
+  }
+  .mdl-card__subtitle p {
+    color: $black;
+    font-size: 14px;
+    font-weight: 900;
+  }
+  .mdl-card__supporting-text {
+    font-size: 14px;
+    font-weight: 300;
+    color: $primary;
+  }
+  .mdl-card__image {
+    background: url('../img/welcome_card1.jpg') $black center / cover;
+  }
+  .mdl-button:hover {
+    background-color: $black;
+    color: $white;
   }
 }
 
