@@ -95,7 +95,7 @@ $text-on-error: $white;
     }
     .mdl-layout-title {
       margin: 30px auto;
-      background: url("../img/logo/logo-10.svg") no-repeat;
+      background: url("img/logo/") no-repeat;
       width: 75%;
       height: 100px;
     }
@@ -113,9 +113,9 @@ $text-on-error: $white;
   }
   .mdl-layout__title {
     margin-top: 0px;
-    background: url("../img/logo/logo-pink-white.svg") no-repeat;
+    background: url("../img/logo/") no-repeat;
     color: $text-on-primary;
-    width: 80%;
+    /* width: 80%; */ /*This was causing the h2 title to move to far to the right */
     height: 75px;
     margin-top: 0px;
   }
