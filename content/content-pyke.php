@@ -4,7 +4,7 @@
 
     <div class="mdl-grid">
       <div class="mdl-cell mdl-cell--12-col-phone mdl-cell--12-col-tablet mdl-cell--12-col-desktop">
-        <div class="primary-group center"><img src="../../img/work/pyke-1.png" class="img-responsive" /></div>
+        <div class="primary-group center"><img src="<?php echo $root . 'img/work/pyke/pyke-1.png'; ?>" class="img-responsive" /></div>
       </div>
       <div class="mdl-cell mdl-cell--12-phone mdl-cell--12-tablet mdl-cell--3-col-desktop">&nbsp;</div>
       <div class="mdl-cell mdl-cell--12-col-phone mdl-cell--12-col-tablet mdl-cell--6-col-desktop">
@@ -35,7 +35,7 @@
     <div class="mdl-grid">
       <div class="mdl-cell--12-col-phone mdl-cell--12-tablet mdl-cell--3-col-desktop">&nbsp;</div>
       <div class="mdl-cell mdl-cell--12-col-phone mdl-cell--12-col-tablet mdl-cell--6-col-desktop">
-        <img src="../../img/work/pyke-1.png" class="img-responsive" />
+        <img src="<?php echo $root . 'img/work/pyke/pyke-1.png'; ?>" class="img-responsive" />
         <div class="center-text my-4">
           <p>Friend and author requested an email list submission
             form to be placed in the footer of his site. I was required to
@@ -56,7 +56,7 @@
     <div class="mdl-grid">
       <div class="mdl-cell--12-col-phone mdl-cell--12-tablet mdl-cell--3-col-desktop">&nbsp;</div>
       <div class="mdl-cell mdl-cell--12-col-phone mdl-cell--12-col-tablet mdl-cell--6-col-desktop">
-        <img src="../../img/work/pyke-2.png" class="img-responsive" />
+        <img src="<?php echo $root . 'img/work/pyke/pyke-2.png'; ?>" class="img-responsive" />
         <div class="center-text my-4">
           <p>Friend and author requested an email list submission
             form to be placed in the footer of his site. I was required to
@@ -77,7 +77,7 @@
     <div class="mdl-grid">
       <div class="mdl-cell--12-col-phone mdl-cell--12-tablet mdl-cell--3-col-desktop">&nbsp;</div>
       <div class="mdl-cell mdl-cell--12-col-phone mdl-cell--12-col-tablet mdl-cell--6-col-desktop">
-        <img src="../../img/work/pyke-3.png" class="img-responsive" />
+        <img src="<?php echo $root . 'img/work/pyke/pyke-3.png'; ?>" class="img-responsive" />
         <div class="center-text my-4">
           <p>Friend and author requested an email list submission
             form to be placed in the footer of his site. I was required to

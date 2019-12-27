@@ -10,7 +10,7 @@
           <div class="mdl-card mdl-shadow--2dp center card-white">
             <div class="mdl-card__menu">
             </div>
-            <div class="mdl-card__image"><img src="img/work/pyke-1.png" class="img-responsive" alt=""></div>
+            <div class="mdl-card__image"><img src="<?php echo $root . 'img/work/pyke/pyke-3.png'; ?>" class="img-responsive" alt=""></div>
             <div class="mdl-card__title">
               <h4 class="mdl-card__title-text">SUBMISSION FORM</h4>
             </div>

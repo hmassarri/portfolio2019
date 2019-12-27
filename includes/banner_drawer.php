@@ -25,13 +25,13 @@
 
     <!-- Tabs -->
     <div class="mdl-layout__tab-bar mdl-js-ripple-effect mdl-layout--large-screen-only" style="background-color: #000000 !important;">
-      <a href="<?php echo $root.'index.php'; ?>" class="mdl-layout__tab <?php echo $currentPage == 'index.php' ? 'is-active':NULL ?>">Home</a>
-      <a href="<?php echo $root.'work.php'; ?>" class="mdl-layout__tab <?php
-        if ($currentPage == 'work.php' || $currentPage == 'pykescorner.php') {
+      <a href="<?php echo $root . 'index.php'; ?>" class="mdl-layout__tab <?php echo $currentPage == 'index.php' ? 'is-active':NULL ?>">Home</a>
+      <a href="<?php echo $root . 'work.php'; ?>" class="mdl-layout__tab <?php
+        if ($currentPage == 'work.php' || $currentPage == 'workdetails-template.php' || $currentPage == 'pykescorner.php') {
           echo 'is-active';
         }
         else { echo NULL; } ?>">Work</a>
-      <a href="#fixed-tab-3" class="mdl-layout__tab">Process</a>
+      <a href="<?php echo $root . 'process.php'; ?>" class="mdl-layout__tab <?php echo $currentPage == 'process.php' ? 'is-active':NULL ?>">Process</a>
       <a href="#fixed-tab-4" class="mdl-layout__tab">Blog</a>
       <a href="#fixed-tab-5" class="mdl-layout__tab">Contact</a>
     </div>
