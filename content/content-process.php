@@ -18,9 +18,10 @@
           <div class="mdl-cell mdl-cell--12-col">&nbsp;</div>
         </div>
 
-        <!-- Mental Model -->
+
         <div class="mdl-grid">
-          <div class="mdl-cell--12-col-phone mdl-cell--12-tablet mdl-cell--4-col-desktop">&nbsp;</div>
+
+          <!-- Mental Model -->
           <div class="mdl-cell mdl-cell--12-col-phone mdl-cell--12-col-tablet mdl-cell--4-col-desktop">
             <img src="img/process/1-DanielEizans-mentalmodel.png" class="img-responsive" />
             <div class="center-text my-4">
@@ -28,16 +29,20 @@
               <p>Capture user behavior, pain points, motivations, and needs from contextual inquiries. Group into logical pillars. Map out product features for each pillar to identify gaps, opportunities, and feature bloat.</p>
             </div>
           </div>
-          <div class="mdl-cell--12-col-phone mdl-cell--12-tablet mdl-cell--4-col-desktop">&nbsp;</div>
-        </div>
 
-        <div class="mdl-grid center-text">
-          <div class="mdl-cell mdl-cell--12-col">&nbsp;</div>
-          <div class="mdl-cell mdl-cell--12-col-phone mdl-cell--12-col-tablet mdl-cell--12-col-desktop">
-            <button class="mdl-button mdl-js-button mdl-button--raised primary-group">Go to the Site</button>
+          <!-- Personas -->
+          <div class="mdl-cell mdl-cell--12-col-phone mdl-cell--12-col-tablet mdl-cell--4-col-desktop">
+            <img src="img/process/2-SmashingMag-personas.jpg" class="img-responsive" />
+            <div class="center-text my-4">
+              <h3>Personas</h3>
+              <p>Summarize the research data from your mental model into personas. This will help your team keep the user’s motivations, frustrrations, and goals in mind when evaluate design solutions.</p>
+            </div>
           </div>
-          <div class="mdl-cell mdl-cell--12-col">&nbsp;</div>
-        </div>
+
+      </div>
+      <!--/end grid -->
+
+
 
       </div>
       <!--/page-content -->
