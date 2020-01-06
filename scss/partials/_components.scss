@@ -8,6 +8,14 @@
 }
 
 
+/* =Navigation (Navbar)
+------------------------------ */
+.mdl-layout.is-upgraded .mdl-layout__tab.is-active {
+  color: $black;
+  background-color: $pink !important;
+}
+
+
 /* =Cards
 ------------------------------ */
 .hm-card {

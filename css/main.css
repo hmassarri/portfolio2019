@@ -1081,6 +1081,12 @@ textarea {
   padding-top: 15px;
   min-height: 85px; }
 
+/* =Navigation (Navbar)
+------------------------------ */
+.mdl-layout.is-upgraded .mdl-layout__tab.is-active {
+  color: #000000;
+  background-color: #FF77A9 !important; }
+
 /* =Cards
 ------------------------------ */
 .hm-card .mdl-card {
