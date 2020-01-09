@@ -1075,6 +1075,277 @@ textarea {
       background-color: #cce9ff;
       color: #000000; }
 
+.theme-white {
+  /* Card Theme Styles
+  ------------------------------ */ }
+  .theme-white main {
+    background: #FFFFFF; }
+  .theme-white h2 {
+    font-weight: 100; }
+  .theme-white p {
+    margin-bottom: 16px; }
+  .theme-white .mdl-grid {
+    background-color: none; }
+  .theme-white .mdl-layout__header {
+    background-color: #FFFFFF;
+    color: #000000; }
+  .theme-white .mdl-layout__drawer-button {
+    color: #FFFFFF; }
+  .theme-white .mdl-layout__drawer {
+    background-color: #FFEDBA;
+    color: #3F51B5;
+    border-right: 5px dashed #3F51B5; }
+    .theme-white .mdl-layout__drawer .mdl-layout-title__background {
+      background: #ffe6a1 repeat; }
+    .theme-white .mdl-layout__drawer .mdl-layout-title {
+      margin: 30px auto;
+      background: url("") no-repeat;
+      width: 50%;
+      height: 50px; }
+    .theme-white .mdl-layout__drawer .mdl-navigation {
+      padding-top: 0px; }
+    .theme-white .mdl-layout__drawer .mdl-navigation .mdl-navigation__link {
+      color: #3F51B5;
+      font-size: 1rem; }
+    .theme-white .mdl-layout__drawer .mdl-navigation .mdl-navigation__link:hover {
+      background-color: #3F51B5;
+      color: #FF77A9; }
+  .theme-white .mdl-layout__tab {
+    color: #FF77A9; }
+  .theme-white .mdl-layout__tab:hover {
+    background-color: #000000; }
+  .theme-white .mdl-layout__tab-bar {
+    background-color: #FFFFFF; }
+  .theme-white .mdl-layout__title {
+    margin-top: 30px;
+    background: url("") no-repeat;
+    color: #FFFFFF;
+    width: 50%;
+    height: 100px; }
+  .theme-white .mdl-layout__subtitle {
+    text-align: right;
+    color: #FFEDBA; }
+  .theme-white .mdl-mini-footer {
+    backgroujnd-color: #000000; }
+  .theme-white .mdl-mini-footer {
+    display: inline;
+    padding: 0;
+    color: #a6a6a6; }
+    .theme-white .mdl-mini-footer .mdl-grid {
+      padding: 0; }
+    .theme-white .mdl-mini-footer .mdl-logo {
+      background: url("../img/logo/") no-repeat center;
+      margin: 0;
+      width: 100%;
+      height: 20px;
+      line-height: 25px;
+      color: #FF77A9; }
+  .theme-white .card-white {
+    background-color: #FFFFFF; }
+    .theme-white .card-white .mdl-card {
+      background: #FFFFFF !important; }
+    .theme-white .card-white .mdl-card__menu .material-icons {
+      color: #000000;
+      font-size: 25px; }
+    .theme-white .card-white .mdl-card__menu .material-icons:hover {
+      color: #FFFFFF; }
+    .theme-white .card-white .mdl-button {
+      color: #000000;
+      background-color: #e6e6e6;
+      font-weight: 500; }
+    .theme-white .card-white .mdl-card__title-text {
+      color: #000000;
+      font-size: 30px;
+      font-weight: 300;
+      margin: 0; }
+    .theme-white .card-white .mdl-card__subtitle p {
+      color: #000000;
+      font-size: 14px;
+      font-weight: 900; }
+    .theme-white .card-white .mdl-card__supporting-text {
+      font-size: 14px;
+      font-weight: 300;
+      color: #000000; }
+    .theme-white .card-white .mdl-card__image {
+      background: url("../img/welcome_card1.jpg") #000000 center/cover; }
+    .theme-white .card-white .mdl-button:hover {
+      background-color: #000000;
+      color: #FFFFFF !important; }
+  .theme-white .card-teal {
+    background-color: #00cae3; }
+    .theme-white .card-teal .mdl-card {
+      background: #00cae3 !important; }
+    .theme-white .card-teal .mdl-card__menu .material-icons {
+      color: #000000;
+      font-size: 25px; }
+    .theme-white .card-teal .mdl-button {
+      color: #000000;
+      background-color: #caf9ff;
+      font-weight: 500; }
+    .theme-white .card-teal .mdl-card__title-text {
+      color: #000000;
+      font-size: 30px;
+      font-weight: 300;
+      margin: 0; }
+    .theme-white .card-teal .mdl-card__subtitle p {
+      color: #000000;
+      font-size: 14px;
+      font-weight: 900; }
+    .theme-white .card-teal .mdl-card__supporting-text {
+      font-size: 14px;
+      font-weight: 300;
+      color: #000000; }
+    .theme-white .card-teal .mdl-card__image {
+      background: url("../img/welcome_card1.jpg") #000000 center/cover; }
+    .theme-white .card-teal .mdl-button:hover {
+      background-color: #000000;
+      color: #FFFFFF; }
+  .theme-white .card-pink {
+    background-color: #FF77A9; }
+    .theme-white .card-pink .mdl-card {
+      background: #FF77A9 !important; }
+    .theme-white .card-pink .mdl-card__menu .material-icons {
+      color: #000000;
+      font-size: 25px; }
+    .theme-white .card-pink .mdl-button {
+      color: #000000;
+      background-color: #ffa0c3;
+      font-weight: 500; }
+    .theme-white .card-pink .mdl-card__title-text {
+      color: #000000;
+      font-size: 30px;
+      font-weight: 300;
+      margin: 0; }
+    .theme-white .card-pink .mdl-card__subtitle p {
+      color: #000000;
+      font-size: 14px;
+      font-weight: 900; }
+    .theme-white .card-pink .mdl-card__supporting-text {
+      font-size: 14px;
+      font-weight: 300;
+      color: #000000; }
+    .theme-white .card-pink .mdl-card__image {
+      background: url("../img/welcome_card.jpg") center/cover; }
+    .theme-white .card-pink .mdl-button:hover {
+      background-color: #ffddea;
+      color: inherit; }
+  .theme-white .card-purple {
+    background-color: #5627ff; }
+    .theme-white .card-purple .mdl-card {
+      background: #5627ff !important; }
+    .theme-white .card-purple .mdl-card__menu .material-icons {
+      color: #FFFFFF;
+      font-size: 25px; }
+    .theme-white .card-purple .mdl-button {
+      color: #FFFFFF;
+      background-color: #7650ff;
+      font-weight: 500; }
+    .theme-white .card-purple .mdl-card__title-text {
+      color: #FFFFFF;
+      font-size: 30px;
+      font-weight: 300;
+      margin: 0; }
+    .theme-white .card-purple .mdl-card__subtitle p {
+      color: #FFFFFF;
+      font-size: 14px;
+      font-weight: 900; }
+    .theme-white .card-purple .mdl-card__supporting-text {
+      font-size: 14px;
+      font-weight: 300;
+      color: #FFFFFF; }
+    .theme-white .card-purple .mdl-card__image {
+      background: url("../img/welcome_card.jpg") center/cover; }
+    .theme-white .card-purple .mdl-button:hover {
+      background-color: #a68dff;
+      color: inherit; }
+  .theme-white .card-buttercream {
+    background-color: #FFEDBA; }
+    .theme-white .card-buttercream .mdl-card {
+      background: #FFEDBA !important; }
+    .theme-white .card-buttercream .mdl-card__menu .material-icons {
+      color: #000000;
+      font-size: 25px; }
+    .theme-white .card-buttercream .mdl-button {
+      color: #000000;
+      background-color: #ffa0c3;
+      font-weight: 500; }
+    .theme-white .card-buttercream .mdl-card__title-text {
+      color: #000000;
+      font-size: 30px;
+      font-weight: 300;
+      margin: 0; }
+    .theme-white .card-buttercream .mdl-card__subtitle p {
+      color: #000000;
+      font-size: 14px;
+      font-weight: 900; }
+    .theme-white .card-buttercream .mdl-card__supporting-text {
+      font-size: 14px;
+      font-weight: 300;
+      color: #000000; }
+    .theme-white .card-buttercream .mdl-card__image {
+      background: url("../img/welcome_card.jpg") center/cover; }
+    .theme-white .card-buttercream .mdl-button:hover {
+      background-color: #fff8e3;
+      color: inherit; }
+  .theme-white .card-black {
+    background-color: #212121; }
+    .theme-white .card-black .mdl-card {
+      background: #000000 !important; }
+    .theme-white .card-black .mdl-card__menu .material-icons {
+      color: #FFFFFF;
+      font-size: 25px; }
+    .theme-white .card-black .mdl-button {
+      color: #FFFFFF;
+      background-color: #000000;
+      font-weight: 500; }
+    .theme-white .card-black .mdl-card__title-text {
+      color: #FFFFFF;
+      font-size: 30px;
+      font-weight: 300;
+      margin: 0; }
+    .theme-white .card-black .mdl-card__subtitle p {
+      color: #FFFFFF;
+      font-size: 14px;
+      font-weight: 900; }
+    .theme-white .card-black .mdl-card__supporting-text {
+      font-size: 14px;
+      font-weight: 300;
+      color: #FFFFFF; }
+    .theme-white .card-black .mdl-card__image {
+      background: url("../img/welcome_card.jpg") center/cover; }
+    .theme-white .card-black .mdl-button:hover {
+      background-color: #2b2b2b;
+      color: #FF77A9; }
+  .theme-white .card-blue {
+    background-color: #38a9ff; }
+    .theme-white .card-blue .mdl-card {
+      background: #0091FF !important; }
+    .theme-white .card-blue .mdl-card__menu .material-icons {
+      color: #000000;
+      font-size: 25px; }
+    .theme-white .card-blue .mdl-button {
+      color: #000000;
+      background-color: #80c8ff;
+      font-weight: 500; }
+    .theme-white .card-blue .mdl-card__title-text {
+      color: #000000;
+      font-size: 30px;
+      font-weight: 300;
+      margin: 0; }
+    .theme-white .card-blue .mdl-card__subtitle p {
+      color: #000000;
+      font-size: 14px;
+      font-weight: 900; }
+    .theme-white .card-blue .mdl-card__supporting-text {
+      font-size: 14px;
+      font-weight: 300;
+      color: #000000; }
+    .theme-white .card-blue .mdl-card__image {
+      background: url("../img/welcome_card.jpg") center/cover; }
+    .theme-white .card-blue .mdl-button:hover {
+      background-color: #cce9ff;
+      color: #000000; }
+
 /* =Header
 ------------------------------ */
 .mdl-layout__header {
@@ -1093,8 +1364,8 @@ textarea {
   /* width: 100%;
   height: 420px;
   */
-  width: 400px;
-  height: 400px;
+  width: 350px;
+  height: 350px;
   margin-bottom: 40px !important; }
 .hm-card .mdl-card__title {
   align-self: center;
@@ -2169,6 +2440,277 @@ textarea {
     .theme-tertiary .card-blue .mdl-card__image {
       background: url("../img/welcome_card.jpg") center/cover; }
     .theme-tertiary .card-blue .mdl-button:hover {
+      background-color: #cce9ff;
+      color: #000000; }
+
+.theme-white {
+  /* Card Theme Styles
+  ------------------------------ */ }
+  .theme-white main {
+    background: #FFFFFF; }
+  .theme-white h2 {
+    font-weight: 100; }
+  .theme-white p {
+    margin-bottom: 16px; }
+  .theme-white .mdl-grid {
+    background-color: none; }
+  .theme-white .mdl-layout__header {
+    background-color: #FFFFFF;
+    color: #000000; }
+  .theme-white .mdl-layout__drawer-button {
+    color: #FFFFFF; }
+  .theme-white .mdl-layout__drawer {
+    background-color: #FFEDBA;
+    color: #3F51B5;
+    border-right: 5px dashed #3F51B5; }
+    .theme-white .mdl-layout__drawer .mdl-layout-title__background {
+      background: #ffe6a1 repeat; }
+    .theme-white .mdl-layout__drawer .mdl-layout-title {
+      margin: 30px auto;
+      background: url("") no-repeat;
+      width: 50%;
+      height: 50px; }
+    .theme-white .mdl-layout__drawer .mdl-navigation {
+      padding-top: 0px; }
+    .theme-white .mdl-layout__drawer .mdl-navigation .mdl-navigation__link {
+      color: #3F51B5;
+      font-size: 1rem; }
+    .theme-white .mdl-layout__drawer .mdl-navigation .mdl-navigation__link:hover {
+      background-color: #3F51B5;
+      color: #FF77A9; }
+  .theme-white .mdl-layout__tab {
+    color: #FF77A9; }
+  .theme-white .mdl-layout__tab:hover {
+    background-color: #000000; }
+  .theme-white .mdl-layout__tab-bar {
+    background-color: #FFFFFF; }
+  .theme-white .mdl-layout__title {
+    margin-top: 30px;
+    background: url("") no-repeat;
+    color: #FFFFFF;
+    width: 50%;
+    height: 100px; }
+  .theme-white .mdl-layout__subtitle {
+    text-align: right;
+    color: #FFEDBA; }
+  .theme-white .mdl-mini-footer {
+    backgroujnd-color: #000000; }
+  .theme-white .mdl-mini-footer {
+    display: inline;
+    padding: 0;
+    color: #a6a6a6; }
+    .theme-white .mdl-mini-footer .mdl-grid {
+      padding: 0; }
+    .theme-white .mdl-mini-footer .mdl-logo {
+      background: url("../img/logo/") no-repeat center;
+      margin: 0;
+      width: 100%;
+      height: 20px;
+      line-height: 25px;
+      color: #FF77A9; }
+  .theme-white .card-white {
+    background-color: #FFFFFF; }
+    .theme-white .card-white .mdl-card {
+      background: #FFFFFF !important; }
+    .theme-white .card-white .mdl-card__menu .material-icons {
+      color: #000000;
+      font-size: 25px; }
+    .theme-white .card-white .mdl-card__menu .material-icons:hover {
+      color: #FFFFFF; }
+    .theme-white .card-white .mdl-button {
+      color: #000000;
+      background-color: #e6e6e6;
+      font-weight: 500; }
+    .theme-white .card-white .mdl-card__title-text {
+      color: #000000;
+      font-size: 30px;
+      font-weight: 300;
+      margin: 0; }
+    .theme-white .card-white .mdl-card__subtitle p {
+      color: #000000;
+      font-size: 14px;
+      font-weight: 900; }
+    .theme-white .card-white .mdl-card__supporting-text {
+      font-size: 14px;
+      font-weight: 300;
+      color: #000000; }
+    .theme-white .card-white .mdl-card__image {
+      background: url("../img/welcome_card1.jpg") #000000 center/cover; }
+    .theme-white .card-white .mdl-button:hover {
+      background-color: #000000;
+      color: #FFFFFF !important; }
+  .theme-white .card-teal {
+    background-color: #00cae3; }
+    .theme-white .card-teal .mdl-card {
+      background: #00cae3 !important; }
+    .theme-white .card-teal .mdl-card__menu .material-icons {
+      color: #000000;
+      font-size: 25px; }
+    .theme-white .card-teal .mdl-button {
+      color: #000000;
+      background-color: #caf9ff;
+      font-weight: 500; }
+    .theme-white .card-teal .mdl-card__title-text {
+      color: #000000;
+      font-size: 30px;
+      font-weight: 300;
+      margin: 0; }
+    .theme-white .card-teal .mdl-card__subtitle p {
+      color: #000000;
+      font-size: 14px;
+      font-weight: 900; }
+    .theme-white .card-teal .mdl-card__supporting-text {
+      font-size: 14px;
+      font-weight: 300;
+      color: #000000; }
+    .theme-white .card-teal .mdl-card__image {
+      background: url("../img/welcome_card1.jpg") #000000 center/cover; }
+    .theme-white .card-teal .mdl-button:hover {
+      background-color: #000000;
+      color: #FFFFFF; }
+  .theme-white .card-pink {
+    background-color: #FF77A9; }
+    .theme-white .card-pink .mdl-card {
+      background: #FF77A9 !important; }
+    .theme-white .card-pink .mdl-card__menu .material-icons {
+      color: #000000;
+      font-size: 25px; }
+    .theme-white .card-pink .mdl-button {
+      color: #000000;
+      background-color: #ffa0c3;
+      font-weight: 500; }
+    .theme-white .card-pink .mdl-card__title-text {
+      color: #000000;
+      font-size: 30px;
+      font-weight: 300;
+      margin: 0; }
+    .theme-white .card-pink .mdl-card__subtitle p {
+      color: #000000;
+      font-size: 14px;
+      font-weight: 900; }
+    .theme-white .card-pink .mdl-card__supporting-text {
+      font-size: 14px;
+      font-weight: 300;
+      color: #000000; }
+    .theme-white .card-pink .mdl-card__image {
+      background: url("../img/welcome_card.jpg") center/cover; }
+    .theme-white .card-pink .mdl-button:hover {
+      background-color: #ffddea;
+      color: inherit; }
+  .theme-white .card-purple {
+    background-color: #5627ff; }
+    .theme-white .card-purple .mdl-card {
+      background: #5627ff !important; }
+    .theme-white .card-purple .mdl-card__menu .material-icons {
+      color: #FFFFFF;
+      font-size: 25px; }
+    .theme-white .card-purple .mdl-button {
+      color: #FFFFFF;
+      background-color: #7650ff;
+      font-weight: 500; }
+    .theme-white .card-purple .mdl-card__title-text {
+      color: #FFFFFF;
+      font-size: 30px;
+      font-weight: 300;
+      margin: 0; }
+    .theme-white .card-purple .mdl-card__subtitle p {
+      color: #FFFFFF;
+      font-size: 14px;
+      font-weight: 900; }
+    .theme-white .card-purple .mdl-card__supporting-text {
+      font-size: 14px;
+      font-weight: 300;
+      color: #FFFFFF; }
+    .theme-white .card-purple .mdl-card__image {
+      background: url("../img/welcome_card.jpg") center/cover; }
+    .theme-white .card-purple .mdl-button:hover {
+      background-color: #a68dff;
+      color: inherit; }
+  .theme-white .card-buttercream {
+    background-color: #FFEDBA; }
+    .theme-white .card-buttercream .mdl-card {
+      background: #FFEDBA !important; }
+    .theme-white .card-buttercream .mdl-card__menu .material-icons {
+      color: #000000;
+      font-size: 25px; }
+    .theme-white .card-buttercream .mdl-button {
+      color: #000000;
+      background-color: #ffa0c3;
+      font-weight: 500; }
+    .theme-white .card-buttercream .mdl-card__title-text {
+      color: #000000;
+      font-size: 30px;
+      font-weight: 300;
+      margin: 0; }
+    .theme-white .card-buttercream .mdl-card__subtitle p {
+      color: #000000;
+      font-size: 14px;
+      font-weight: 900; }
+    .theme-white .card-buttercream .mdl-card__supporting-text {
+      font-size: 14px;
+      font-weight: 300;
+      color: #000000; }
+    .theme-white .card-buttercream .mdl-card__image {
+      background: url("../img/welcome_card.jpg") center/cover; }
+    .theme-white .card-buttercream .mdl-button:hover {
+      background-color: #fff8e3;
+      color: inherit; }
+  .theme-white .card-black {
+    background-color: #212121; }
+    .theme-white .card-black .mdl-card {
+      background: #000000 !important; }
+    .theme-white .card-black .mdl-card__menu .material-icons {
+      color: #FFFFFF;
+      font-size: 25px; }
+    .theme-white .card-black .mdl-button {
+      color: #FFFFFF;
+      background-color: #000000;
+      font-weight: 500; }
+    .theme-white .card-black .mdl-card__title-text {
+      color: #FFFFFF;
+      font-size: 30px;
+      font-weight: 300;
+      margin: 0; }
+    .theme-white .card-black .mdl-card__subtitle p {
+      color: #FFFFFF;
+      font-size: 14px;
+      font-weight: 900; }
+    .theme-white .card-black .mdl-card__supporting-text {
+      font-size: 14px;
+      font-weight: 300;
+      color: #FFFFFF; }
+    .theme-white .card-black .mdl-card__image {
+      background: url("../img/welcome_card.jpg") center/cover; }
+    .theme-white .card-black .mdl-button:hover {
+      background-color: #2b2b2b;
+      color: #FF77A9; }
+  .theme-white .card-blue {
+    background-color: #38a9ff; }
+    .theme-white .card-blue .mdl-card {
+      background: #0091FF !important; }
+    .theme-white .card-blue .mdl-card__menu .material-icons {
+      color: #000000;
+      font-size: 25px; }
+    .theme-white .card-blue .mdl-button {
+      color: #000000;
+      background-color: #80c8ff;
+      font-weight: 500; }
+    .theme-white .card-blue .mdl-card__title-text {
+      color: #000000;
+      font-size: 30px;
+      font-weight: 300;
+      margin: 0; }
+    .theme-white .card-blue .mdl-card__subtitle p {
+      color: #000000;
+      font-size: 14px;
+      font-weight: 900; }
+    .theme-white .card-blue .mdl-card__supporting-text {
+      font-size: 14px;
+      font-weight: 300;
+      color: #000000; }
+    .theme-white .card-blue .mdl-card__image {
+      background: url("../img/welcome_card.jpg") center/cover; }
+    .theme-white .card-blue .mdl-button:hover {
       background-color: #cce9ff;
       color: #000000; }
 

@@ -322,3 +322,102 @@ $text-on-error: $white;
   ------------------------------ */
   @import "card_theme.scss";
 }
+
+
+
+
+.theme-white {
+
+  main {
+    background: $white;
+  }
+
+  h2 {
+    font-weight: 100;
+  }
+
+  p {
+    margin-bottom: 16px;
+  }
+
+  .mdl-grid {
+    background-color: none;
+  }
+  .mdl-layout__header {
+  background-color: $white;
+  color: $black;
+  }
+  .mdl-layout__drawer-button {
+    color: $white;
+  }
+  .mdl-layout__drawer {
+    background-color: $buttercream;
+    color: $blue-purple;
+    border-right: 5px dashed $blue-purple;
+
+    .mdl-layout-title__background {
+      background: darken($buttercream, 5%) repeat;
+    }
+    .mdl-layout-title {
+      margin: 30px auto;
+      background: url("") no-repeat;
+      width: 50%;
+      height: 50px;
+    }
+    .mdl-navigation {
+      padding-top: 0px;
+    }
+    .mdl-navigation .mdl-navigation__link {
+      color: $blue-purple;
+      font-size: 1rem;
+    }
+    .mdl-navigation .mdl-navigation__link:hover {
+      background-color: $blue-purple;
+      color: $pink;
+    }
+  }
+  .mdl-layout__tab {
+    color: $pink;
+  }
+  .mdl-layout__tab:hover {
+    background-color: $black;
+  }
+  .mdl-layout__tab-bar {
+    background-color: $white;
+  }
+  .mdl-layout__title {
+    margin-top: 30px;
+    background: url("") no-repeat;
+    color: $white;
+    width: 50%;
+    height: 100px;
+  }
+  .mdl-layout__subtitle {
+    text-align: right;
+    color: $buttercream;
+  }
+  .mdl-mini-footer {
+    backgroujnd-color: $primary;
+  }
+  .mdl-mini-footer {
+    display: inline;
+    padding: 0;
+    color: lighten($black, 65%);
+
+    .mdl-grid {
+      padding: 0;
+    }
+    .mdl-logo {
+      background: url("../img/logo/") no-repeat center;
+      margin: 0;
+      width: 100%;
+      height: 20px;
+      line-height: 25px;
+      color: $pink;
+    }
+  }
+
+  /* Card Theme Styles
+  ------------------------------ */
+  @import "card_theme.scss";
+}

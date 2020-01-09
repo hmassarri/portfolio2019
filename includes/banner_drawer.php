@@ -6,13 +6,14 @@
       <span class="mdl-layout__title mdl-layout-spacer"></span>
       <h2>UIX & web</h2>
     </div>
+    <!--
     <div class="mdl-layout__header-row mdl-layout--large-screen-only">
       <div class="mdl-layout-spacer">
         <p class="mdl-layout__subtitle">UI.UX, wireframing & user testing, compositions, UX documentation,</br>
           fluid responsive design, HTML5 & CSS3/SASS, JavaScript & jQuery, PHP</p>
       </div>
     </div>
-
+    -->
 
     <!-- Active Page -->
     <?php
@@ -24,7 +25,7 @@
     ?>
 
     <!-- Tabs -->
-    <div class="mdl-layout__tab-bar mdl-js-ripple-effect mdl-layout--large-screen-only" style="background-color: #000000 !important;">
+    <div class="mdl-layout__tab-bar mdl-js-ripple-effect mdl-layout--large-screen-only">
       <a href="<?php echo $root . 'index.php'; ?>" class="mdl-layout__tab <?php echo $currentPage == 'index.php' ? 'is-active':NULL ?>">Home</a>
       <a href="<?php echo $root . 'work.php'; ?>" class="mdl-layout__tab <?php
         if ($currentPage == 'work.php' || $currentPage == 'workdetails-template.php' || $currentPage == 'pykescorner.php') {
