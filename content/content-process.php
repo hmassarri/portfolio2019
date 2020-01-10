@@ -1,7 +1,7 @@
     <main class="mdl-layout__content">
       <div class="page-content">
 
-
+        <!--
         <div class="mdl-grid">
           <div class="mdl-cell mdl-cell--12-col-phone mdl-cell--12-col-tablet mdl-cell--12-col-desktop">&nbsp;</div>
           <div class="mdl-cell mdl-cell--12-phone mdl-cell--12-tablet mdl-cell--3-col-desktop">&nbsp;</div>
@@ -17,13 +17,23 @@
         <div class="mdl-grid">
           <div class="mdl-cell mdl-cell--12-col">&nbsp;</div>
         </div>
-
+        -->
 
         <div class="mdl-grid">
 
           <!-- Mental Model -->
           <div class="mdl-cell mdl-cell--12-col-phone mdl-cell--12-col-tablet mdl-cell--4-col-desktop">
-            <img src="img/process/1-DanielEizans-mentalmodel.png" class="img-responsive" />
+            <a href="#" class="show-modal"><img src="img/process/1-DanielEizans-mentalmodel.png" class="img-responsive" /></a>
+
+            <dialog class="mdl-dialog">
+              <div class="mdl-dialog__content">
+                <img src="img/process/1-DanielEizans-mentalmodel.png" />
+              </div>
+              <div class="mdl-dialog__actions mdl-dialog__actions--full-width">
+                <button type="button" class="mdl-button close">Close</button>
+              </div>
+            </dialog>
+
             <div class="center-text">
               <h4>Mental Model</h4>
               <p>Capture user behavior, pain points, motivations, and needs from contextual inquiries. Group into logical pillars. Map out product features for each pillar to identify gaps, opportunities, and feature bloat.</p>

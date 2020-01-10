@@ -4,7 +4,7 @@
 
     <div class="mdl-grid">
       <div class="mdl-cell mdl-cell--12-col-phone mdl-cell--12-col-tablet mdl-cell--12-col-desktop">
-        <div class="primary-group center"><img src="img/welcome_card.jpg" class="img-responsive" /></div>
+        <div class="primary-group center"><img src="" class="img-responsive" /></div>
       </div>
       <div class="mdl-cell mdl-cell--12-phone mdl-cell--12-tablet mdl-cell--3-col-desktop">&nbsp;</div>
       <div class="mdl-cell mdl-cell--12-col-phone mdl-cell--12-col-tablet mdl-cell--6-col-desktop">

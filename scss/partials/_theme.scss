@@ -28,8 +28,8 @@ $text-on-error: $white;
   color: $text-on-primary;
 }
 .primary-group {
-  background-color: $primary !important;
-  color: $text-on-primary !important;
+  background-color: $white !important;
+  color: $black!important;
 }
 .text-on-secondary {
   color: $text-on-secondary;
@@ -397,12 +397,12 @@ $text-on-error: $white;
     color: $buttercream;
   }
   .mdl-mini-footer {
-    backgroujnd-color: $primary;
+    background-color: $primary;
   }
   .mdl-mini-footer {
     display: inline;
     padding: 0;
-    color: lighten($black, 65%);
+    color: $pink;
 
     .mdl-grid {
       padding: 0;
